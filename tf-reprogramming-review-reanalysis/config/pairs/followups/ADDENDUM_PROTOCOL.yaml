@@ -1,0 +1,49 @@
+analysis: retrospective_addendum
+previous_results_known: true
+prior_run: section4_pair_rank_20261119_234442
+source_utility_run: tsunemoto_pair_utility_20261119_224530
+physical_slots: 598
+identities: all_nine_frozen_interpretations
+primary_identity: main
+endpoints: [GSE53951, GSE114809]
+budgets: [10, 20]
+fixed_scope: [210, 220]
+score_order: descending
+ties: 'Exact fractions for count/exact historical inputs; otherwise old 1e-12 quantization. Old SHA256 tie key then pair_id. Preserve midrank, ranges, and boundary uncertainty.'
+nulls: 'Analytic uniform and fixed-bHLH mean expectations; AP at grouped thresholds and tie-half AUROC.'
+scoring_inputs: 'Explicit whitelist per branch: unlabeled design, frozen old blind scores and blocks, frozen external expression and networks, verified public raw resources. No experimental label files or prior evaluation paths.'
+score_lock: 'Hash all blinded scores and eligibility before evaluation reads labels. No threshold updates after joining.'
+taiji:
+  atac: GSE101397
+  rna: GSE43916
+  rna_transform: linear_RPKM_to_TPM
+  runs: [SRR5822253, SRR5822288, SRR5822289, SRR5822290, SRR5822291]
+  atac_peak_q: 0.01
+  tool: Taiji_v1.3.0
+  author_reprogram_commit: 0b6337aae2bebdcb5f1db35031ecc38e8b49179a
+  model: 'Double OE and positive finite PageRank both states. Product of max(PR_t/PR_s,PR_s/PR_t). No pseudo-counts or candidate pre-cut.'
+imcell_compare:
+  prior: TRRUST_MOUSE_SIGNED
+  data: frozen_integer_blocks
+  probabilities: [0.10, 0.05, 0.20]
+  n_replicates: 3
+  trials_per_replicate: 1000
+  contrast: 'J, A=sum member scores, J-A, midrank_A-midrank_J'
+imcell_weights:
+  prior: TRRUST_MOUSE_SIGNED
+  conditions: [constant_0.10, native_in_degree, constant_mean_in_degree]
+  in_degree: {multiplier: 1, pmax: 0.8, edge_weight: 1, include_existing_loops: true}
+  seed_design: 'Deterministic candidate order and separately seeded reproducible L’Ecuyer-CMRG streams. Independent native checks before production.'
+  precision_rule: '3x1000 first. If near boundary <=1.96 combined MC SE or replicate budget identity changes in any unlabeled comparison, then re-evaluate the whole endpoint for all three weights at 3x5000.'
+prior:
+  baseline: mouse_TRRUST_v2_support_through_2015_12_31
+  alternative: CollecTRI_Zenodo_8192729_v2.0
+  required_md5: {CollecTRI_regulons.csv: cee4a3943c059e6dd8796ced6dec44f6, CollecTRI_source.tsv: c8622a46a49e21e955182f000cf1c067}
+  edge_semantics: 'Mouse 1:1 orthology, signed unit edges, no splitting complexes, log conflicts/mapping loss. Historical signed layer needs edge-level dated directional support.'
+  methods: [network_add, network_union, two_add, two_union, msviper, msviper_both_positive]
+  msviper: {member_minsize: 5, joint_minsize: 5, level: 2, processAll: true, nullmodel: null, likelihood: 1}
+execution:
+  shared_cpu_cap: 32
+  initial_cpu_budget: {taiji: 12, imcell_weights: 12, prior: 8}
+  gpu: 'Only officially supported and CPU parity verified; selected scorer paths CPU.'
+

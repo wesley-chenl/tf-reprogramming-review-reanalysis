@@ -1,0 +1,7 @@
+path	url	bytes	sha256	md5	stamp
+inputs/annotation/gencode.vM24.annotation.gtf.gz	https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M24/gencode.vM24.annotation.gtf.gz	28499422	20abc839a79b81c1e00c82baf28fa043f32b81bb57b7794bc4af60ffede74dde		
+inputs/annotation/gencode.vM24.transcripts.fa.gz	https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M24/gencode.vM24.transcripts.fa.gz	54542685	c4657981b620f41fe1ce55a5e812c147b94d2e86901bab93455b7bbc8790a903		
+inputs/annotation/GRCm38.p6.genome.fa.gz	https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M24/GRCm38.p6.genome.fa.gz	780639335	85771ca05764d4625e2a80af6e56d1b3963f7e2311091026af87fc199b3d89d9		
+environments/bin/taiji	https://github.com/Taiji-pipeline/Taiji/releases/download/v1.3.0/taiji-CentOS-x86_64	74747448	b0a86b92cd5a9f73646fdf348f6ee8b3a13c4deb6575f4e573c8122ce83a97a0		
+sources/Taiji_documentation/documentation-master/data/motifs/cisBP_mouse.meme	https://raw.githubusercontent.com/Taiji-pipeline/documentation/master/data/motifs/cisBP_mouse.meme	671708	baa8b5d2f21315840214f51d07bfa19bdc0eec8072f1546abcaf158bbe62e115		
+environments/sratoolkit.tar.gz	https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/3.4.1/sratoolkit.3.4.1-ubuntu64.tar.gz	89143120	b950362c054765a4184af41947f022f040e94e964862017c0ecb0b0273db3596		

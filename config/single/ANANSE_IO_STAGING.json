@@ -1,0 +1,69 @@
+{
+  "created_at_Singapore": "2026-11-18T23:57:39.873189+08:00",
+  "frozen_data_bytes_identical": true,
+  "root": "scratch/verified_ananse_io",
+  "copies": {
+    "hammelman_round2_20261118_225515/toolchain/input_ref/mm10_GRCm38.p6.fa": {
+      "path": "scratch/verified_ananse_io/mm10_GRCm38.p6.fa",
+      "sha256": "9da8aa80b8ba97ad0250122891cd652c19e7032ab5f2bb26d9ee3917f3eba9c0",
+      "bytes": 2801442277
+    },
+    "hammelman_round2_20261118_225515/toolchain/input_ref/mm10_GRCm38.p6.fa.fai": {
+      "path": "scratch/verified_ananse_io/mm10_GRCm38.p6.fa.fai",
+      "sha256": "61f7069016ad86e8633f5313e1b1fc571913b3d317c024451dab087911bad1d7",
+      "bytes": 4759
+    },
+    "hammelman_toy_benchmark_20261117_214025/inputs/atac/GSM1867737/filtered.bam": {
+      "path": "scratch/verified_ananse_io/GSM1867737/filtered.bam",
+      "sha256": "339e137356882a9cceff5f028fc0b527a21a41271fb5f202d7c9321018eacd6c",
+      "bytes": 1416959641
+    },
+    "hammelman_toy_benchmark_20261117_214025/inputs/atac/GSM1867737/filtered.bam.bai": {
+      "path": "scratch/verified_ananse_io/GSM1867737/filtered.bam.bai",
+      "sha256": "dfed768d642e9f62c3e7b2e2723bfe5307653484a58ff1a256314bb0cca340d6",
+      "bytes": 2226296
+    },
+    "hammelman_toy_benchmark_20261117_214025/inputs/atac/GSM1867738/filtered.bam": {
+      "path": "scratch/verified_ananse_io/GSM1867738/filtered.bam",
+      "sha256": "1a47f224d8452e021a2270c18452dc829aa1d8be7b2dbf39ae18abe86bb51338",
+      "bytes": 1359258982
+    },
+    "hammelman_toy_benchmark_20261117_214025/inputs/atac/GSM1867738/filtered.bam.bai": {
+      "path": "scratch/verified_ananse_io/GSM1867738/filtered.bam.bai",
+      "sha256": "48a1e80ef8813975c8d1ea0380350bc2ce75be617a65e377ac22fffa2afccda3",
+      "bytes": 2242336
+    },
+    "hammelman_toy_benchmark_20261117_214025/inputs/atac/ENCSR609OHJ_bio1/filtered.bam": {
+      "path": "scratch/verified_ananse_io/ENCSR609OHJ_bio1/filtered.bam",
+      "sha256": "cb3076d589248960e1da22ce41dff46ee4e7f36dd4d12c0776ec62e36cce86df",
+      "bytes": 3406007223
+    },
+    "hammelman_toy_benchmark_20261117_214025/inputs/atac/ENCSR609OHJ_bio1/filtered.bam.bai": {
+      "path": "scratch/verified_ananse_io/ENCSR609OHJ_bio1/filtered.bam.bai",
+      "sha256": "b300e7b0741a990d8fa5bb7c7970e9db8a3fb01b61fecea21a6d2189c20da3c8",
+      "bytes": 2456992
+    },
+    "hammelman_toy_benchmark_20261117_214025/inputs/atac/GSM2525591/filtered.bam": {
+      "path": "scratch/verified_ananse_io/GSM2525591/filtered.bam",
+      "sha256": "32f8bf9ccd5d52d4072fc84e063a1b45b7f0d0afccf6fd437f141bc1c549376a",
+      "bytes": 2209887694
+    },
+    "hammelman_toy_benchmark_20261117_214025/inputs/atac/GSM2525591/filtered.bam.bai": {
+      "path": "scratch/verified_ananse_io/GSM2525591/filtered.bam.bai",
+      "sha256": "ed35d937e3f398b90536989bc513a2e710761e944273b00a88a3d86b86855bee",
+      "bytes": 2058336
+    },
+    "hammelman_toy_benchmark_20261117_214025/inputs/atac/GSM2666437/filtered.bam": {
+      "path": "scratch/verified_ananse_io/GSM2666437/filtered.bam",
+      "sha256": "3ed86a049c5acb003d62e331215a11b34af8c3e9eabfb5b7bed475357fca3d6f",
+      "bytes": 1889605885
+    },
+    "hammelman_toy_benchmark_20261117_214025/inputs/atac/GSM2666437/filtered.bam.bai": {
+      "path": "scratch/verified_ananse_io/GSM2666437/filtered.bam.bai",
+      "sha256": "ec268a07eb55cfa9170438d987c31ebfb084950311ac2534deb07e183b5fc003",
+      "bytes": 2096600
+    }
+  },
+  "scientific_changes": false,
+  "purpose": "Read the same indexed FASTA and BAM bytes on WSL ext4 during GC calculation and BAM random access"
+}

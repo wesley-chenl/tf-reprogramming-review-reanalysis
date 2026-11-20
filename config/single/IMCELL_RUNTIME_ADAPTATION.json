@@ -1,0 +1,28 @@
+{
+  "date_Singapore": "2026-11-18T23:48:25.249361+08:00",
+  "config_sha256": "0fe579c596bb8b5662e5f7e50233d1de54ed5c7e0f4c5ca85c8faeb835373cfc",
+  "indexed_code_sha256": "965a80c1209e290635929f33b0751ade174b2aa38f3bb0c69db3566fe402b61f",
+  "change": "Execution-only index lookup and integer bookkeeping inside the archived native rank_by_spread MC evaluator. Identical edge/vertex order, R uniform/permutation RNG, signs, target assignments, finished stream output, unmodified function arguments and full graph.",
+  "initial_production_intervention": "17 workers exceeded memory allowance; old completed rows remain and can be reproduced from job RNG streams.",
+  "proof_before_resuming": [
+    {
+      "path": "hammelman_round2_20261118_225515/validation/IMCELL_INDEXED_quick_PARITY.json",
+      "role": "native and CPU-indexed full object/RNG equality",
+      "bytes": 4660,
+      "mtime_ns": 1795016569993260900,
+      "sha256": "f5b24a3696002383e68bbb863aadb92308beec16c190a6fa7191ecba9d83a2bc"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/validation/IMCELL_INDEXED_liver_PARITY.json",
+      "role": "native and CPU-indexed full object/RNG equality",
+      "bytes": 494,
+      "mtime_ns": 1795016641966935400,
+      "sha256": "c76d0e231696e85aa7000b84188648ced0ef5fcb0c98b815feca167456e8c559"
+    }
+  ],
+  "further_full_parity": "Run one highest-out-degree fixed seed at niter=1000 on each remaining real program before validation completes.",
+  "original_runner_sha256": "d1de847c9b592f90487ec47e5ee00866c9c43250f4dacbcf3a3a7468e39b7d11",
+  "new_runner_sha256": "c8a4eccd7d2984cc6644b17cf509d2b7e8da09ac934d1f4558603fad21d5a68b",
+  "diff_sha256": "37a7926db1706278a831393edc7e4400d9bfb85f38de80978d48f13fcec4d96b",
+  "scientific_freeze_preserved": true
+}

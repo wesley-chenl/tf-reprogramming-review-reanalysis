@@ -1,0 +1,19 @@
+{
+  "mode": "betapanc",
+  "algorithm": "archive rank_by_spread and stock MC summary; ordered integer endpoint lookup only",
+  "calls": [
+    {
+      "target": "betapanc",
+      "gene": "ENSMUSG00000001280",
+      "niter": 1000,
+      "replicate": 1,
+      "native_spread": 168.31799999999998,
+      "native_seconds": 88.000000000000014,
+      "indexed_seconds": 1.3819999999999908,
+      "bit_identical_full_rank_result_and_rng": true
+    }
+  ],
+  "pass": true,
+  "R": "4.4.3",
+  "igraph": "2.3.4"
+}

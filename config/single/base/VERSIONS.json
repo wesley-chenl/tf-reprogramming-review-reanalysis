@@ -1,0 +1,12 @@
+{
+  "UTC": "2026-11-17T17:02:11.116539+00:00",
+  "platform": "Linux-6.18.40.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "python": "3.11.18 (main, Oct 26 2026, 11:35:17) [GCC 15.3.0]",
+  "numpy": "2.2.6",
+  "pandas": "3.0.6",
+  "scipy": "1.15.2",
+  "sklearn": "1.6.1",
+  "Salmon": "salmon 2.11.0",
+  "max_blas_threads": 4,
+  "seed_policy": "deterministic algorithms; R set.seed1729 for any native stochastic calls"
+}

@@ -1,0 +1,33 @@
+name	value
+DBSCHEMAVERSION	2.1
+Db type	ChipDb
+Supporting package	AnnotationDbi
+DBSCHEMA	MOUSECHIP_DB
+ORGANISM	Mus musculus
+SPECIES	Mouse
+MANUFACTURER	Affymetrix
+CHIPNAME	Affymetrix Mouse430_2 Array
+MANUFACTURERURL	http://www.affymetrix.com
+EGSOURCEDATE	2021-Apr14
+EGSOURCENAME	Entrez Gene
+EGSOURCEURL	ftp://ftp.ncbi.nlm.nih.gov/gene/DATA
+CENTRALID	ENTREZID
+TAXID	10090
+GOSOURCENAME	Gene Ontology
+GOSOURCEURL	http://current.geneontology.org/ontology/go-basic.obo
+GOSOURCEDATE	2021-02-01
+GOEGSOURCEDATE	2021-Apr14
+GOEGSOURCENAME	Entrez Gene
+GOEGSOURCEURL	ftp://ftp.ncbi.nlm.nih.gov/gene/DATA
+KEGGSOURCENAME	KEGG GENOME
+KEGGSOURCEURL	ftp://ftp.genome.jp/pub/kegg/genomes
+KEGGSOURCEDATE	2011-Mar15
+GPSOURCENAME	UCSC Genome Bioinformatics (Mus musculus)
+GPSOURCEURL	
+GPSOURCEDATE	2021-Feb16
+ENSOURCEDATE	2021-Feb16
+ENSOURCENAME	Ensembl
+ENSOURCEURL	ftp://ftp.ensembl.org/pub/current_fasta
+UPSOURCENAME	Uniprot
+UPSOURCEURL	http://www.UniProt.org/
+UPSOURCEDATE	Mon Apr 26 22:20:09 2021

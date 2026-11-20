@@ -1,0 +1,7 @@
+--- CellNet/NAMESPACE (archive)
++++ CellNet/NAMESPACE (working copy)
+@@ -77,4 +77,3 @@
+ import(reshape2)
+ import(tibble)
+ import(tidyr)
+-importFrom(AnnotationDbi,as.list)

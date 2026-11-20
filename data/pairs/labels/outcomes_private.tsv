@@ -1,0 +1,599 @@
+pair_slot_id	source_version	binary_call	q_gated	raw_s1_pct	raw_s1_pct_s1_thesis	fig1b_pct_printed	call_basis	measurement_status	denominator	day	source_cell_or_bbox	raw_s1_cell	raw_s1_cell_s1_thesis	notes
+B01-P01	nature2018	1	5.7	6.06	6.06	5.7	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3c col=Ascl1 bbox=66,293,127,329	D23	D23	
+B01-P02	nature2018	1	3.2	3.59	3.59	3.2	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3a col=Ascl1 bbox=66,329,127,364	D24	D24	
+B01-P03	nature2018	1	2.8	3.23	3.23	2.8	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3b col=Ascl1 bbox=66,364,127,400	D25	D25	
+B01-P04	nature2018	1	1.6	2.02	2.02	1.6	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn2 col=Ascl1 bbox=66,400,127,435	D26	D26	
+B01-P05	nature2018	1	0.20	0.59	0.59	0.20	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn4 col=Ascl1 bbox=66,435,127,471	D27	D27	
+B01-P06	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn1 col=Ascl1 bbox=66,471,127,506	D33	D33	
+B01-P07	nature2018	1	0.03	0.07	0.07	0.03	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Oct6 col=Ascl1 bbox=66,506,127,542	D34	D34	
+B01-P08	nature2018	1	0.13	0.52	0.52	0.13	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Pit1 col=Ascl1 bbox=66,542,127,577	D29	D29	
+B01-P09	nature2018	1	1.1	1.52	1.52	1.1	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Oct4 col=Ascl1 bbox=66,577,127,613	D28	D28	
+B01-P10	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct1 col=Ascl1 bbox=66,613,127,648	D36	D36	
+B01-P11	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=RPF col=Ascl1 bbox=66,648,127,684	D35	D35	
+B01-P12	nature2018	0	0	0.35	0.35		negative_fig1b_blank	empty_figure_with_nonzero_raw_s1	initial plated MEFs	14	Fig1b row=Brn5 col=Ascl1 bbox=66,684,127,719	D30	D30	
+B01-P13	nature2018	1	0.05	0.09	0.09	0.05	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Nurr1 col=Ascl1 bbox=66,719,127,755	D38	D38	
+B02-P01	nature2018	1	3.0	3.1	3.1	3.0	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3c col=Ascl2 bbox=127,293,189,329	E23	E23	
+B02-P02	nature2018	1	1.8	1.88	1.88	1.8	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3a col=Ascl2 bbox=127,329,189,364	E24	E24	
+B02-P03	nature2018	1	2.7	2.73	2.73	2.7	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3b col=Ascl2 bbox=127,364,189,400	E25	E25	
+B02-P04	nature2018	1	1.4	1.49	1.49	1.4	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn2 col=Ascl2 bbox=127,400,189,435	E26	E26	
+B02-P05	nature2018	1	0.15	0.22	0.22	0.15	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn4 col=Ascl2 bbox=127,435,189,471	E27	E27	
+B02-P06	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn1 col=Ascl2 bbox=127,471,189,506	E33	E33	
+B02-P07	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct6 col=Ascl2 bbox=127,506,189,542	E34	E34	
+B02-P08	nature2018	1	0.25	0.32	0.32	0.25	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Pit1 col=Ascl2 bbox=127,542,189,577	E29	E29	
+B02-P09	nature2018	1	0.55	0.62	0.62	0.55	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Oct4 col=Ascl2 bbox=127,577,189,613	E28	E28	
+B02-P10	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct1 col=Ascl2 bbox=127,613,189,648	E36	E36	
+B02-P11	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=RPF col=Ascl2 bbox=127,648,189,684	E35	E35	
+B02-P12	nature2018	0	0	0.06	0.06		negative_fig1b_blank	empty_figure_with_nonzero_raw_s1	initial plated MEFs	14	Fig1b row=Brn5 col=Ascl2 bbox=127,684,189,719	E30	E30	
+B02-P13	nature2018	1	0.03	0.03	0.03	0.03	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Nurr1 col=Ascl2 bbox=127,719,189,755	E38	E38	
+B03-P01	nature2018	1	0.02	0.02	0.02	0.02	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3c col=Ascl3 bbox=189,293,250,329	F23	F23	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B03-P02	nature2018	1	0.02	0.02	0.02	0.02	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3a col=Ascl3 bbox=189,329,250,364	F24	F24	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B03-P03	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn3b col=Ascl3 bbox=189,364,250,400	F25	F25	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B03-P04	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn2 col=Ascl3 bbox=189,400,250,435	F26	F26	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B03-P05	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn4 col=Ascl3 bbox=189,435,250,471	F27	F27	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B03-P06	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn1 col=Ascl3 bbox=189,471,250,506	F33	F33	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B03-P07	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct6 col=Ascl3 bbox=189,506,250,542	F34	F34	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B03-P08	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Pit1 col=Ascl3 bbox=189,542,250,577	F29	F29	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B03-P09	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct4 col=Ascl3 bbox=189,577,250,613	F28	F28	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B03-P10	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct1 col=Ascl3 bbox=189,613,250,648	F36	F36	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B03-P11	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=RPF col=Ascl3 bbox=189,648,250,684	F35	F35	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B03-P12	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn5 col=Ascl3 bbox=189,684,250,719	F30	F30	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B03-P13	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Nurr1 col=Ascl3 bbox=189,719,250,755	F38	F38	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B04-P01	nature2018	1	0.95	0.95	0.95	0.95	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3c col=Ascl5 bbox=250,293,311,329	G23	G23	
+B04-P02	nature2018	1	0.29	0.29	0.29	0.29	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3a col=Ascl5 bbox=250,329,311,364	G24	G24	
+B04-P03	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn3b col=Ascl5 bbox=250,364,311,400	G25	G25	
+B04-P04	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn2 col=Ascl5 bbox=250,400,311,435	G26	G26	
+B04-P05	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn4 col=Ascl5 bbox=250,435,311,471	G27	G27	
+B04-P06	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn1 col=Ascl5 bbox=250,471,311,506	G33	G33	
+B04-P07	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct6 col=Ascl5 bbox=250,506,311,542	G34	G34	
+B04-P08	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Pit1 col=Ascl5 bbox=250,542,311,577	G29	G29	
+B04-P09	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct4 col=Ascl5 bbox=250,577,311,613	G28	G28	
+B04-P10	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct1 col=Ascl5 bbox=250,613,311,648	G36	G36	
+B04-P11	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=RPF col=Ascl5 bbox=250,648,311,684	G35	G35	
+B04-P12	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn5 col=Ascl5 bbox=250,684,311,719	G30	G30	
+B04-P13	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Nurr1 col=Ascl5 bbox=250,719,311,755	G38	G38	
+B05-P01	nature2018	1	0.42	0.43	0.43	0.42	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3c col=Ngn1 bbox=311,293,373,329	H23	H23	
+B05-P02	nature2018	1	0.33	0.34	0.34	0.33	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3a col=Ngn1 bbox=311,329,373,364	H24	H24	
+B05-P03	nature2018	1	0.21	0.21	0.21	0.21	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3b col=Ngn1 bbox=311,364,373,400	H25	H25	
+B05-P04	nature2018	1	0.76	0.77	0.77	0.76	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn2 col=Ngn1 bbox=311,400,373,435	H26	H26	
+B05-P05	nature2018	1	0.36	0.37	0.37	0.36	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn4 col=Ngn1 bbox=311,435,373,471	H27	H27	
+B05-P06	nature2018	1	0.66	0.66	0.66	0.66	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn1 col=Ngn1 bbox=311,471,373,506	H33	H33	
+B05-P07	nature2018	1	0.13	0.13	0.13	0.13	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Oct6 col=Ngn1 bbox=311,506,373,542	H34	H34	
+B05-P08	nature2018	1	0.02	0.03	0.03	0.02	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Pit1 col=Ngn1 bbox=311,542,373,577	H29	H29	
+B05-P09	nature2018	1	0.06	0.07	0.07	0.06	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Oct4 col=Ngn1 bbox=311,577,373,613	H28	H28	
+B05-P10	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct1 col=Ngn1 bbox=311,613,373,648	H36	H36	
+B05-P11	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=RPF col=Ngn1 bbox=311,648,373,684	H35	H35	
+B05-P12	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn5 col=Ngn1 bbox=311,684,373,719	H30	H30	
+B05-P13	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Nurr1 col=Ngn1 bbox=311,719,373,755	H38	H38	
+B06-P01	nature2018	1	0.29	0.29	0.29	0.29	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3c col=Ngn2 bbox=373,293,434,329	I23	I23	
+B06-P02	nature2018	1	0.32	0.32	0.32	0.32	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3a col=Ngn2 bbox=373,329,434,364	I24	I24	
+B06-P03	nature2018	1	0.28	0.28	0.28	0.28	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3b col=Ngn2 bbox=373,364,434,400	I25	I25	
+B06-P04	nature2018	1	0.56	0.56	0.56	0.56	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn2 col=Ngn2 bbox=373,400,434,435	I26	I26	
+B06-P05	nature2018	1	0.13	0.13	0.13	0.13	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn4 col=Ngn2 bbox=373,435,434,471	I27	I27	
+B06-P06	nature2018	1	0.09	0.09	0.09	0.09	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn1 col=Ngn2 bbox=373,471,434,506	I33	I33	
+B06-P07	nature2018	1	0.02	0.02	0.02	0.02	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Oct6 col=Ngn2 bbox=373,506,434,542	I34	I34	
+B06-P08	nature2018	1	0.03	0.03	0.03	0.03	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Pit1 col=Ngn2 bbox=373,542,434,577	I29	I29	
+B06-P09	nature2018	1	0.05	0.05	0.05	0.05	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Oct4 col=Ngn2 bbox=373,577,434,613	I28	I28	
+B06-P10	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct1 col=Ngn2 bbox=373,613,434,648	I36	I36	
+B06-P11	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=RPF col=Ngn2 bbox=373,648,434,684	I35	I35	
+B06-P12	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn5 col=Ngn2 bbox=373,684,434,719	I30	I30	
+B06-P13	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Nurr1 col=Ngn2 bbox=373,719,434,755	I38	I38	
+B07-P01	nature2018	1	2.0	2.14	2.14	2.0	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3c col=Ngn3 bbox=434,293,495,329	J23	J23	
+B07-P02	nature2018	1	0.82	1.02	1.02	0.82	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3a col=Ngn3 bbox=434,329,495,364	J24	J24	
+B07-P03	nature2018	1	0.97	1.16	1.16	0.97	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3b col=Ngn3 bbox=434,364,495,400	J25	J25	
+B07-P04	nature2018	1	1.8	1.95	1.95	1.8	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn2 col=Ngn3 bbox=434,400,495,435	J26	J26	
+B07-P05	nature2018	1	3.0	3.18	3.18	3.0	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn4 col=Ngn3 bbox=434,435,495,471	J27	J27	
+B07-P06	nature2018	1	0.15	0.15	0.15	0.15	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn1 col=Ngn3 bbox=434,471,495,506	J33	J33	
+B07-P07	nature2018	1	0.11	0.11	0.11	0.11	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Oct6 col=Ngn3 bbox=434,506,495,542	J34	J34	
+B07-P08	nature2018	1	0.34	0.53	0.53	0.34	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Pit1 col=Ngn3 bbox=434,542,495,577	J29	J29	
+B07-P09	nature2018	1	0.84	1.03	1.03	0.84	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Oct4 col=Ngn3 bbox=434,577,495,613	J28	J28	
+B07-P10	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct1 col=Ngn3 bbox=434,613,495,648	J36	J36	
+B07-P11	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=RPF col=Ngn3 bbox=434,648,495,684	J35	J35	
+B07-P12	nature2018	0	0	0.17	0.17		negative_fig1b_blank	empty_figure_with_nonzero_raw_s1	initial plated MEFs	14	Fig1b row=Brn5 col=Ngn3 bbox=434,684,495,719	J30	J30	
+B07-P13	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Nurr1 col=Ngn3 bbox=434,719,495,755	J38	J38	
+B08-P01	nature2018	1	0.16	0.16	0.16	0.16	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3c col=ND1 bbox=495,293,556,329	K23	K23	
+B08-P02	nature2018	1	0.03	0.03	0.03	0.03	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3a col=ND1 bbox=495,329,556,364	K24	K24	
+B08-P03	nature2018	1	0.20	0.2	0.2	0.20	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3b col=ND1 bbox=495,364,556,400	K25	K25	
+B08-P04	nature2018	1	0.07	0.07	0.07	0.07	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn2 col=ND1 bbox=495,400,556,435	K26	K26	
+B08-P05	nature2018	1	0.04	0.04	0.04	0.04	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn4 col=ND1 bbox=495,435,556,471	K27	K27	
+B08-P06	nature2018	1	0.02	0.02	0.02	0.02	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn1 col=ND1 bbox=495,471,556,506	K33	K33	
+B08-P07	nature2018	1	0.01	0.01	0.01	0.01	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Oct6 col=ND1 bbox=495,506,556,542	K34	K34	
+B08-P08	nature2018	1	0.06	0.06	0.06	0.06	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Pit1 col=ND1 bbox=495,542,556,577	K29	K29	
+B08-P09	nature2018	1	0.07	0.07	0.07	0.07	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Oct4 col=ND1 bbox=495,577,556,613	K28	K28	
+B08-P10	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct1 col=ND1 bbox=495,613,556,648	K36	K36	
+B08-P11	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=RPF col=ND1 bbox=495,648,556,684	K35	K35	
+B08-P12	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn5 col=ND1 bbox=495,684,556,719	K30	K30	
+B08-P13	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Nurr1 col=ND1 bbox=495,719,556,755	K38	K38	
+B09-P01	nature2018	1	0.31	0.31	0.31	0.31	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3c col=ND2 bbox=556,293,618,329	L23	L23	
+B09-P02	nature2018	1	0.63	0.63	0.63	0.63	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3a col=ND2 bbox=556,329,618,364	L24	L24	
+B09-P03	nature2018	1	0.33	0.33	0.33	0.33	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3b col=ND2 bbox=556,364,618,400	L25	L25	
+B09-P04	nature2018	1	0.02	0.02	0.02	0.02	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn2 col=ND2 bbox=556,400,618,435	L26	L26	
+B09-P05	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn4 col=ND2 bbox=556,435,618,471	L27	L27	
+B09-P06	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn1 col=ND2 bbox=556,471,618,506	L33	L33	
+B09-P07	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct6 col=ND2 bbox=556,506,618,542	L34	L34	
+B09-P08	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Pit1 col=ND2 bbox=556,542,618,577	L29	L29	
+B09-P09	nature2018	1	0.01	0.01	0.01	0.01	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Oct4 col=ND2 bbox=556,577,618,613	L28	L28	
+B09-P10	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct1 col=ND2 bbox=556,613,618,648	L36	L36	
+B09-P11	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=RPF col=ND2 bbox=556,648,618,684	L35	L35	
+B09-P12	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn5 col=ND2 bbox=556,684,618,719	L30	L30	
+B09-P13	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Nurr1 col=ND2 bbox=556,719,618,755	L38	L38	
+B10-P01	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn3c col=ND4 bbox=618,293,679,329	M23	M23	
+B10-P02	nature2018	1	0.06	0.06	0.06	0.06	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3a col=ND4 bbox=618,329,679,364	M24	M24	
+B10-P03	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn3b col=ND4 bbox=618,364,679,400	M25	M25	
+B10-P04	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn2 col=ND4 bbox=618,400,679,435	M26	M26	
+B10-P05	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn4 col=ND4 bbox=618,435,679,471	M27	M27	
+B10-P06	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn1 col=ND4 bbox=618,471,679,506	M33	M33	
+B10-P07	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct6 col=ND4 bbox=618,506,679,542	M34	M34	
+B10-P08	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Pit1 col=ND4 bbox=618,542,679,577	M29	M29	
+B10-P09	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct4 col=ND4 bbox=618,577,679,613	M28	M28	
+B10-P10	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct1 col=ND4 bbox=618,613,679,648	M36	M36	
+B10-P11	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=RPF col=ND4 bbox=618,648,679,684	M35	M35	
+B10-P12	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn5 col=ND4 bbox=618,684,679,719	M30	M30	
+B10-P13	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Nurr1 col=ND4 bbox=618,719,679,755	M38	M38	
+B11-P01	nature2018	1	0.02	0.02	0.02	0.02	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3c col=ND6 bbox=679,293,740,329	N23	N23	
+B11-P02	nature2018	1	0.02	0.02	0.02	0.02	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3a col=ND6 bbox=679,329,740,364	N24	N24	
+B11-P03	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn3b col=ND6 bbox=679,364,740,400	N25	N25	
+B11-P04	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn2 col=ND6 bbox=679,400,740,435	N26	N26	
+B11-P05	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn4 col=ND6 bbox=679,435,740,471	N27	N27	
+B11-P06	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn1 col=ND6 bbox=679,471,740,506	N33	N33	
+B11-P07	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct6 col=ND6 bbox=679,506,740,542	N34	N34	
+B11-P08	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Pit1 col=ND6 bbox=679,542,740,577	N29	N29	
+B11-P09	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct4 col=ND6 bbox=679,577,740,613	N28	N28	
+B11-P10	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct1 col=ND6 bbox=679,613,740,648	N36	N36	
+B11-P11	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=RPF col=ND6 bbox=679,648,740,684	N35	N35	
+B11-P12	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn5 col=ND6 bbox=679,684,740,719	N30	N30	
+B11-P13	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Nurr1 col=ND6 bbox=679,719,740,755	N38	N38	
+B12-P01	nature2018	1	0.30	0.3	0.3	0.30	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3c col=Atoh1 bbox=740,293,802,329	O23	O23	
+B12-P02	nature2018	1	0.26	0.26	0.26	0.26	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3a col=Atoh1 bbox=740,329,802,364	O24	O24	
+B12-P03	nature2018	1	0.05	0.05	0.05	0.05	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3b col=Atoh1 bbox=740,364,802,400	O25	O25	
+B12-P04	nature2018	1	0.01	0.01	0.01	0.01	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn2 col=Atoh1 bbox=740,400,802,435	O26	O26	
+B12-P05	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn4 col=Atoh1 bbox=740,435,802,471	O27	O27	
+B12-P06	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn1 col=Atoh1 bbox=740,471,802,506	O33	O33	
+B12-P07	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct6 col=Atoh1 bbox=740,506,802,542	O34	O34	
+B12-P08	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Pit1 col=Atoh1 bbox=740,542,802,577	O29	O29	
+B12-P09	nature2018	1	0.02	0.02	0.02	0.02	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Oct4 col=Atoh1 bbox=740,577,802,613	O28	O28	
+B12-P10	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct1 col=Atoh1 bbox=740,613,802,648	O36	O36	
+B12-P11	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=RPF col=Atoh1 bbox=740,648,802,684	O35	O35	
+B12-P12	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn5 col=Atoh1 bbox=740,684,802,719	O30	O30	
+B12-P13	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Nurr1 col=Atoh1 bbox=740,719,802,755	O38	O38	
+B13-P01	nature2018	1	0.04	0.04	0.04	0.04	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3c col=Atoh7 bbox=802,293,863,329	P23	P23	
+B13-P02	nature2018	1	0.11	0.11	0.11	0.11	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3a col=Atoh7 bbox=802,329,863,364	P24	P24	
+B13-P03	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn3b col=Atoh7 bbox=802,364,863,400	P25	P25	
+B13-P04	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn2 col=Atoh7 bbox=802,400,863,435	P26	P26	
+B13-P05	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn4 col=Atoh7 bbox=802,435,863,471	P27	P27	
+B13-P06	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn1 col=Atoh7 bbox=802,471,863,506	P33	P33	
+B13-P07	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct6 col=Atoh7 bbox=802,506,863,542	P34	P34	
+B13-P08	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Pit1 col=Atoh7 bbox=802,542,863,577	P29	P29	
+B13-P09	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct4 col=Atoh7 bbox=802,577,863,613	P28	P28	
+B13-P10	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct1 col=Atoh7 bbox=802,613,863,648	P36	P36	
+B13-P11	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=RPF col=Atoh7 bbox=802,648,863,684	P35	P35	
+B13-P12	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn5 col=Atoh7 bbox=802,684,863,719	P30	P30	
+B13-P13	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Nurr1 col=Atoh7 bbox=802,719,863,755	P38	P38	
+B14-P01	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn3c col=Atoh8 bbox=863,293,924,329	Q23	Q23	
+B14-P02	nature2018	1	0.01	0.01	0.01	0.01	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3a col=Atoh8 bbox=863,329,924,364	Q24	Q24	
+B14-P03	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn3b col=Atoh8 bbox=863,364,924,400	Q25	Q25	
+B14-P04	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn2 col=Atoh8 bbox=863,400,924,435	Q26	Q26	
+B14-P05	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn4 col=Atoh8 bbox=863,435,924,471	Q27	Q27	
+B14-P06	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn1 col=Atoh8 bbox=863,471,924,506	Q33	Q33	
+B14-P07	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct6 col=Atoh8 bbox=863,506,924,542	Q34	Q34	
+B14-P08	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Pit1 col=Atoh8 bbox=863,542,924,577	Q29	Q29	
+B14-P09	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct4 col=Atoh8 bbox=863,577,924,613	Q28	Q28	
+B14-P10	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct1 col=Atoh8 bbox=863,613,924,648	Q36	Q36	
+B14-P11	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=RPF col=Atoh8 bbox=863,648,924,684	Q35	Q35	
+B14-P12	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn5 col=Atoh8 bbox=863,684,924,719	Q30	Q30	
+B14-P13	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Nurr1 col=Atoh8 bbox=863,719,924,755	Q38	Q38	
+B15-P01	nature2018	1	0.05	0	0.05	0.05	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3c col=Myf5 bbox=924,293,986,329	R23	S23	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B15-P02	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn3a col=Myf5 bbox=924,329,986,364	R24	S24	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B15-P03	nature2018	1	0.04	0.01	0.04	0.04	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3b col=Myf5 bbox=924,364,986,400	R25	S25	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B15-P04	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn2 col=Myf5 bbox=924,400,986,435	R26	S26	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B15-P05	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn4 col=Myf5 bbox=924,435,986,471	R27	S27	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B15-P06	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn1 col=Myf5 bbox=924,471,986,506	R33	S33	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B15-P07	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct6 col=Myf5 bbox=924,506,986,542	R34	S34	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B15-P08	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Pit1 col=Myf5 bbox=924,542,986,577	R29	S29	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B15-P09	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct4 col=Myf5 bbox=924,577,986,613	R28	S28	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B15-P10	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct1 col=Myf5 bbox=924,613,986,648	R36	S36	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B15-P11	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=RPF col=Myf5 bbox=924,648,986,684	R35	S35	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B15-P12	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn5 col=Myf5 bbox=924,684,986,719	R30	S30	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B15-P13	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Nurr1 col=Myf5 bbox=924,719,986,755	R38	S38	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B16-P01	nature2018	0	0	0.05	0		negative_fig1b_blank	empty_figure_with_nonzero_raw_s1	initial plated MEFs	14	Fig1b row=Brn3c col=Ptf1a bbox=986,293,1047,329	S23	R23	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B16-P02	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn3a col=Ptf1a bbox=986,329,1047,364	S24	R24	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B16-P03	nature2018	1	0.01	0.04	0.01	0.01	positive_fig1b_green_and_printed	printed_corrected_and_raw_s1	initial plated MEFs	14	Fig1b row=Brn3b col=Ptf1a bbox=986,364,1047,400	S25	R25	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B16-P04	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn2 col=Ptf1a bbox=986,400,1047,435	S26	R26	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B16-P05	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn4 col=Ptf1a bbox=986,435,1047,471	S27	R27	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B16-P06	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn1 col=Ptf1a bbox=986,471,1047,506	S33	R33	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B16-P07	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct6 col=Ptf1a bbox=986,506,1047,542	S34	R34	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B16-P08	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Pit1 col=Ptf1a bbox=986,542,1047,577	S29	R29	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B16-P09	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct4 col=Ptf1a bbox=986,577,1047,613	S28	R28	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B16-P10	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Oct1 col=Ptf1a bbox=986,613,1047,648	S36	R36	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B16-P11	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=RPF col=Ptf1a bbox=986,648,1047,684	S35	R35	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B16-P12	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Brn5 col=Ptf1a bbox=986,684,1047,719	S30	R30	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B16-P13	nature2018	0	0	0	0		negative_fig1b_blank	empty_figure_with_explicit_raw_zero	initial plated MEFs	14	Fig1b row=Nurr1 col=Ptf1a bbox=986,719,1047,755	S38	R38	Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B17-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D7			
+B17-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D7			
+B17-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D7			
+B17-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D7			
+B17-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D7			
+B17-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D7			
+B17-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D7			
+B17-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D7			
+B17-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D7			
+B17-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D7			
+B17-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D7			
+B17-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D7			
+B17-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D7			
+B18-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E7			
+B18-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E7			
+B18-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E7			
+B18-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E7			
+B18-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E7			
+B18-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E7			
+B18-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E7			
+B18-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E7			
+B18-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E7			
+B18-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E7			
+B18-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E7			
+B18-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E7			
+B18-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E7			
+B19-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D8			
+B19-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D8			
+B19-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D8			
+B19-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D8			
+B19-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D8			
+B19-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D8			
+B19-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D8			
+B19-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D8			
+B19-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D8			
+B19-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D8			
+B19-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D8			
+B19-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D8			
+B19-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D8			
+B20-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E8			
+B20-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E8			
+B20-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E8			
+B20-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E8			
+B20-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E8			
+B20-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E8			
+B20-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E8			
+B20-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E8			
+B20-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E8			
+B20-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E8			
+B20-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E8			
+B20-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E8			
+B20-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E8			
+B21-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D9			
+B21-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D9			
+B21-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D9			
+B21-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D9			
+B21-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D9			
+B21-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D9			
+B21-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D9			
+B21-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D9			
+B21-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D9			
+B21-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D9			
+B21-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D9			
+B21-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D9			
+B21-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D9			
+B22-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E9			
+B22-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E9			
+B22-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E9			
+B22-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E9			
+B22-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E9			
+B22-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E9			
+B22-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E9			
+B22-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E9			
+B22-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E9			
+B22-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E9			
+B22-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E9			
+B22-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E9			
+B22-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E9			
+B23-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C10			
+B23-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C10			
+B23-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C10			
+B23-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C10			
+B23-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C10			
+B23-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C10			
+B23-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C10			
+B23-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C10			
+B23-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C10			
+B23-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C10			
+B23-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C10			
+B23-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C10			
+B23-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C10			
+B24-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D10,C18			
+B24-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D10,C18			
+B24-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D10,C18			
+B24-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D10,C18			
+B24-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D10,C18			
+B24-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D10,C18			
+B24-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D10,C18			
+B24-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D10,C18			
+B24-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D10,C18			
+B24-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D10,C18			
+B24-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D10,C18			
+B24-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D10,C18			
+B24-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D10,C18			
+B25-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E10			
+B25-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E10			
+B25-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E10			
+B25-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E10			
+B25-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E10			
+B25-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E10			
+B25-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E10			
+B25-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E10			
+B25-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E10			
+B25-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E10			
+B25-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E10			
+B25-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E10			
+B25-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E10			
+B26-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C11			
+B26-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C11			
+B26-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C11			
+B26-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C11			
+B26-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C11			
+B26-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C11			
+B26-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C11			
+B26-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C11			
+B26-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C11			
+B26-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C11			
+B26-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C11			
+B26-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C11			
+B26-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C11			
+B27-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D11			
+B27-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D11			
+B27-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D11			
+B27-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D11			
+B27-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D11			
+B27-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D11			
+B27-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D11			
+B27-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D11			
+B27-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D11			
+B27-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D11			
+B27-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D11			
+B27-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D11			
+B27-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D11			
+B28-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E11			
+B28-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E11			
+B28-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E11			
+B28-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E11			
+B28-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E11			
+B28-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E11			
+B28-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E11			
+B28-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E11			
+B28-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E11			
+B28-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E11			
+B28-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E11			
+B28-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E11			
+B28-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E11			
+B29-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C12			Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B29-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C12			Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B29-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C12			Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B29-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C12			Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B29-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C12			Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B29-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C12			Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B29-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C12			Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B29-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C12			Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B29-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C12			Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B29-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C12			Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B29-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C12			Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B29-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C12			Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B29-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C12			Identity ambiguity is kept in design_pairs. Negative zero is gate-defined.
+B30-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D12			
+B30-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D12			
+B30-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D12			
+B30-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D12			
+B30-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D12			
+B30-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D12			
+B30-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D12			
+B30-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D12			
+B30-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D12			
+B30-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D12			
+B30-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D12			
+B30-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D12			
+B30-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D12			
+B31-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E12			
+B31-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E12			
+B31-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E12			
+B31-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E12			
+B31-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E12			
+B31-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E12			
+B31-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E12			
+B31-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E12			
+B31-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E12			
+B31-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E12			
+B31-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E12			
+B31-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E12			
+B31-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E12			
+B32-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C13			
+B32-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C13			
+B32-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C13			
+B32-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C13			
+B32-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C13			
+B32-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C13			
+B32-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C13			
+B32-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C13			
+B32-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C13			
+B32-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C13			
+B32-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C13			
+B32-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C13			
+B32-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C13			
+B33-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D13			
+B33-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D13			
+B33-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D13			
+B33-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D13			
+B33-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D13			
+B33-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D13			
+B33-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D13			
+B33-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D13			
+B33-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D13			
+B33-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D13			
+B33-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D13			
+B33-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D13			
+B33-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D13			
+B34-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E13			
+B34-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E13			
+B34-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E13			
+B34-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E13			
+B34-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E13			
+B34-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E13			
+B34-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E13			
+B34-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E13			
+B34-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E13			
+B34-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E13			
+B34-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E13			
+B34-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E13			
+B34-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E13			
+B35-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C14			
+B35-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C14			
+B35-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C14			
+B35-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C14			
+B35-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C14			
+B35-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C14			
+B35-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C14			
+B35-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C14			
+B35-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C14			
+B35-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C14			
+B35-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C14			
+B35-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C14			
+B35-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C14			
+B36-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D14			
+B36-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D14			
+B36-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D14			
+B36-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D14			
+B36-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D14			
+B36-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D14			
+B36-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D14			
+B36-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D14			
+B36-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D14			
+B36-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D14			
+B36-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D14			
+B36-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D14			
+B36-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D14			
+B37-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E14			
+B37-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E14			
+B37-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E14			
+B37-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E14			
+B37-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E14			
+B37-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E14			
+B37-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E14			
+B37-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E14			
+B37-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E14			
+B37-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E14			
+B37-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E14			
+B37-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E14			
+B37-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E14			
+B38-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C15			
+B38-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C15			
+B38-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C15			
+B38-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C15			
+B38-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C15			
+B38-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C15			
+B38-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C15			
+B38-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C15			
+B38-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C15			
+B38-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C15			
+B38-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C15			
+B38-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C15			
+B38-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C15			
+B39-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D15			
+B39-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D15			
+B39-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D15			
+B39-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D15			
+B39-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D15			
+B39-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D15			
+B39-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D15			
+B39-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D15			
+B39-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D15			
+B39-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D15			
+B39-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D15			
+B39-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D15			
+B39-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D15			
+B40-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E15			
+B40-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E15			
+B40-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E15			
+B40-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E15			
+B40-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E15			
+B40-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E15			
+B40-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E15			
+B40-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E15			
+B40-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E15			
+B40-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E15			
+B40-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E15			
+B40-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E15			
+B40-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E15			
+B41-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C16			
+B41-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C16			
+B41-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C16			
+B41-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C16			
+B41-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C16			
+B41-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C16			
+B41-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C16			
+B41-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C16			
+B41-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C16			
+B41-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C16			
+B41-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C16			
+B41-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C16			
+B41-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C16			
+B42-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D16			
+B42-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D16			
+B42-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D16			
+B42-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D16			
+B42-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D16			
+B42-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D16			
+B42-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D16			
+B42-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D16			
+B42-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D16			
+B42-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D16			
+B42-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D16			
+B42-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D16			
+B42-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D16			
+B43-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E16			
+B43-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E16			
+B43-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E16			
+B43-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E16			
+B43-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E16			
+B43-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E16			
+B43-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E16			
+B43-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E16			
+B43-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E16			
+B43-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E16			
+B43-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E16			
+B43-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E16			
+B43-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster E16			
+B44-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C17			
+B44-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C17			
+B44-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C17			
+B44-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C17			
+B44-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C17			
+B44-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C17			
+B44-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C17			
+B44-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C17			
+B44-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C17			
+B44-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C17			
+B44-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C17			
+B44-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C17			
+B44-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster C17			
+B45-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D17			
+B45-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D17			
+B45-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D17			
+B45-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D17			
+B45-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D17			
+B45-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D17			
+B45-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D17			
+B45-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D17			
+B45-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D17			
+B45-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D17			
+B45-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D17			
+B45-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D17			
+B45-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D17			
+B46-P01	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D18			
+B46-P02	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D18			
+B46-P03	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D18			
+B46-P04	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D18			
+B46-P05	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D18			
+B46-P06	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D18			
+B46-P07	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D18			
+B46-P08	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D18			
+B46-P09	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D18			
+B46-P10	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D18			
+B46-P11	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D18			
+B46-P12	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D18			
+B46-P13	nature2018	0	0				group_negative_figure_caption	not_shown_raw_unknown	initial plated MEFs	14	Fig1b caption 30 omitted bHLH; S1 roster D18			

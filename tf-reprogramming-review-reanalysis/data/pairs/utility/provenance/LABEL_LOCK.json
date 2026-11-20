@@ -1,0 +1,18 @@
+{
+  "sealed_utc": "2026-11-19T15:00:47.402373+00:00",
+  "side": "LABEL",
+  "files": {
+    "protocol.yaml": "48c00d214e4cad9ea522c518ed07f91a225a94cf1b9a09d4319ecbd4523e232e",
+    "sources_private/design_pairs.tsv": "b9f7c89445724322af2b04ac48eb9294cb19b39851198bfe7d8485d40a16fb32",
+    "sources_private/outcomes_private.tsv": "f3cd47b59539167d56a15b0e5090921ab9df6263fe7f9ee5a1c01bbb1041b59c",
+    "sources_private/mapping_conflicts.tsv": "9d57a1140c5c1050042d59fb33ff16118925553c946421bfd10a7f2410aa026a",
+    "sources_private/constructs.tsv": "4de8db18fe724cd4da6162b65e1f75d3302756addd2c83b0a949387d7c3feb29",
+    "sources_private/SOURCE_OUTCOMES.tsv": "672513e577bb153fe7d99e8e4d4560d575db6630cc8582eb927ab89be47afe6a",
+    "sources_private/OUTCOME_AUDIT.json": "e58423cb911dfedc47079f2c6a067f36065bc9a312a7129c4433c2949d88e607",
+    "sources_private/figure_grid_audit.tsv": "0bcff98728057f68917de0ed7ee16aa6cde15f75da1f2a3bcc4ed83f451a67d3",
+    "sources_private/figure_ocr_audit.tsv": "f74ed6f6348ce7aaffbeeb3d61f965f7fcccc76293bf9d63fd7826508165a8c0",
+    "sources_private/s1_control_cells.tsv": "e0c2e55fdff04406adf29d9e4c476137560d244b211f291eaf85b0753f88cb7d",
+    "sources_private/s1_raw_outcomes.tsv": "33a448c272a1e77455891fc3d23b9f760b4f47216158949f987ec2c234fe6eb6",
+    "sources_private/ORTHOLOGY.tsv": "584b46b2d55de88658ef1768183adabf0d97ecb321ae6f2c5f22735da7750527"
+  }
+}

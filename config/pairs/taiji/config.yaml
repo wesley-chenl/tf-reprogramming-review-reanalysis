@@ -1,0 +1,10 @@
+input: /work/input.tsv
+output_dir: /work/output
+assembly: mm10
+genome: /input/mm10.fa
+annotation: /input/mm10.gtf
+motif_file: /input/cisBP_mouse.meme
+genome_index: /input/mm10.genome_index
+tmp_dir: /work/tmp
+callpeak_fdr: 0.01
+callpeak_genome_size: mm

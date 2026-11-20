@@ -1,0 +1,73 @@
+--- archive/ananse/network.py::create_expression_network
++++ working/ananse/network.py::create_expression_network
+@@ -1,43 +1,13 @@
+ def create_expression_network(self, expression, tfs, column="tpm"):
+-    """Create a gene expression based network.
+-
+-    Based on file(s) with gene expression levels (a TPM column), a
+-    dask DataFrame is generated with the combined expression levels
+-    of the tf and the target gene. By default, the expression levels
+-    are ranked and subsequently scaled between 0 and 1.
+-
+-    Parameters
+-    ----------
+-    expression : pd.DataFrame
+-        gene expression data.
+-        First column should contain the gene names.
+-
+-    tfs : list
+-        List of TF gene names. All TFs will be used by default.
+-
+-    column : str, optional
+-        Column name that contains gene expression, 'tpm' by default (case insensitive).
+-
+-    Returns
+-    -------
+-        Dask DataFrame with gene expression based values.
+-    """
+-    # log transform expression values
++    # These are the archive's full-rank transforms. Only their Cartesian product is split.
+     expression[column] = np.log2(expression[column] + 1e-5, dtype=np.float32)
+-
+     tf_expr = expression[expression.index.isin(tfs)]
+     tf_fname = self._save_temp_expression(tf_expr, "tf", column)
+     target_fname = self._save_temp_expression(expression, "target", column)
+-    # Read files (delayed) and merge on 'key' to create a Cartesian product
+-    # combining all TFs with all target genes.
+-    tf_df = dd.read_parquet(tf_fname)
+-    target_df = dd.read_parquet(target_fname)
+-    network = tf_df.merge(target_df, how="outer")
+-
+-    # Use one-column index that contains TF and target genes.
+-    # This is necessary for dask, as dask cannot merge on a MultiIndex.
+-    # Otherwise, this would be an inefficient and unnecessary step.
+-    network["tf_target"] = network["tf"] + SEPARATOR + network["target"]
+-    network = network[["tf", "tf_expression", "target_expression", "tf_target"]]
+-
+-    return network
++    regulators = pd.read_parquet(tf_fname)
++    targets = pd.read_parquet(target_fname)
++    max_regulators = int(os.getenv("R2_ANANSE_CARTESIAN_REGULATORS_PER_PARTITION", "24"))
++    count = max(1, math.ceil(len(regulators)/max_regulators))
++    meta = cartesian_rows(regulators.head(1), targets.head(1)).iloc[:0]
++    partitions = dd.from_pandas(regulators, npartitions=count, sort=False)
++    return partitions.map_partitions(cartesian_rows, targets, meta=meta, align_dataframes=False).clear_divisions()
+--- archive/ananse/network.py::run_network
++++ working/ananse/network.py::run_network
+@@ -118,7 +118,6 @@
+             ).fillna(0.0)
+ 
+     # This is where the heavy lifting of all delayed computations gets done
+-    result = result.compute()
+ 
+     columns = [
+         "tf_expression",
+@@ -147,6 +146,6 @@
+         logger.info("Writing network")
+         out_dir = os.path.abspath(os.path.dirname(outfile))
+         os.makedirs(out_dir, exist_ok=True)
+-        result[output_cols].to_csv(outfile, sep="\t", index=False)
++        r2_materialize_network(result, output_cols, outfile)
+     else:
+-        return result[output_cols]
++        return result[output_cols].compute()

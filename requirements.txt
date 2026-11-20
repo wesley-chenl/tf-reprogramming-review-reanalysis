@@ -1,0 +1,4 @@
+# Quick reproduction environment, tested on CPython 3.12.
+matplotlib==3.11.2
+numpy==2.4.4
+pillow==13.0.0

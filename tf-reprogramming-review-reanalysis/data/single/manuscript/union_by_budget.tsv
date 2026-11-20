@@ -1,0 +1,10 @@
+target	budget_per_method	methods	distinct_nominations	distinct_reference_genes	reference_total_n	exact_hit_symbols
+liver	5	6	23	5	11	Cebpa,Foxa3,Gata2,Hnf1a,Hnf4a
+liver	10	6	44	8	11	Cebpa,Cebpb,Foxa2,Foxa3,Gata2,Hnf1a,Hnf4a,Sox17
+liver	20	6	87	9	11	Cebpa,Cebpb,Foxa2,Foxa3,Gata2,Gata3,Hnf1a,Hnf4a,Sox17
+cardiomyocyte	5	6	23	3	6	Gata4,Mef2c,Tbx5
+cardiomyocyte	10	6	46	4	6	Gata4,Isl1,Mef2c,Tbx5
+cardiomyocyte	20	6	95	5	6	Esrrg,Gata4,Isl1,Mef2c,Tbx5
+betapanc	5	6	24	2	5	Nkx2-2,Pdx1
+betapanc	10	6	43	3	5	Nkx2-2,Nkx6-1,Pdx1
+betapanc	20	6	79	3	5	Nkx2-2,Nkx6-1,Pdx1

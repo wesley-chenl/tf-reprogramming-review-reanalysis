@@ -1,0 +1,4 @@
+target	archived_status	logCP100k_status	archived_nonempty_component_n	sensitivity_nonempty_component_n	four_other_components_bytes_verified	top10_identity_changed	top10_identity_intersection_n	archived_only_recommendations	logCP100k_only_recommendations	archived_Hits_at_10	logCP100k_Hits_at_10	archived_reference_hits	logCP100k_reference_hits
+liver	completed	completed	5	5	True	True	8	Nr1h3;Spib	Onecut2;Pdx1	0	0		
+cardiomyocyte	completed	completed	5	5	True	True	3	Ctcfl;Esrrb;Nkx2-5;Nr3c2;Satb1;Tbx20;Zfp457	Ash1l;Cux2;Klf15;Ppara;Tbx5;Zfp292;Zfp488	1	2	Gata4	Gata4;Tbx5
+betapanc	completed	completed	5	5	True	True	8	Neurod1;Pdx1	Bhlha15;Elf3	1	0	Pdx1	

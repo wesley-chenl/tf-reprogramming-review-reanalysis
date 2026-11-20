@@ -1,0 +1,32 @@
+run_id: tsunemoto_pair_utility_20261119_224530
+purpose: "Retrospective rule-frozen recovery of effective MEF-to-neuron bHLH/partner placements for manuscript Section 5.2"
+budget_primary: 10
+budget_sensitivity: 20
+sources:
+  screen: "Tsunemoto et al., Nature 2018, 10.1038/s41586-018-0103-5, Figure 1b and supplements"
+  cross_version: "Tsunemoto thesis 2016, UCSD 59k3t2xt, chapter 3, same historical experiment"
+  known_counts_for_crosscheck_only: [598, 76, 522]
+  primary_expression: GSE53951
+  independent_expression: GSE114809
+  scoring_excluded_accession: GSE112381
+  network: "Mouse TRRUST v2, official signed edges, independently verifiable pre-2016 support only"
+configuration:
+  network_evidence_cutoff: "2015-12-31"
+  expression: "Mean of target log2 values minus mean of source log2 values. Role percentiles of all measured mapped design members. Pair mean of two percentiles."
+  network_add: "Sum member direction-matched target-program coverages / target program size"
+  network_union: "Union of the two matched sets / same target program size"
+  target_program: "Up to 250 largest positive plus 250 largest-magnitude negative effects after excluding all design and alternate-mapping TF identities. Exact effects tied by stable gene ID."
+  tie_salt: "mef-neuron-pair-screen-20261119-v1"
+  ties: "Descending exact rational score then ascending SHA256('salt|role-stable-ID|partner-stable-ID'). If two design slots have the same identities and hash, order by a score-blind hashed slot ID and flag duplicate identity at evaluation."
+  mapping: "Freeze all defensible source interpretations together. Main gene-level panel masks entire unresolved conflict axes before evaluation."
+utility:
+  primary: "Published screen call by position, including documented grouped negatives"
+  secondary: "Hit-gated reported yield in percentage points. Published corrected value for confirmed positive, zero utility for confirmed negative, NA for unknown."
+  raw: "S1 printed uncorrected measurements retained separately. No full-design q_raw inference from selectively reported region."
+  comparisons: "Native and common scoring eligibility recompute same-panel oracle and nulls. Do not promote mapping or endpoint based on result."
+randomization:
+  seed: 20261119
+  uniform_without_replacement_draws: 100000
+  conditional_partner_draws: 100000
+  tie_draws: 10000
+comment: "Scores use clean identity and external inputs only. Hash both sides before first join. Computational use only; manuscript LaTeX stays untouched."

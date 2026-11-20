@@ -1,0 +1,23 @@
+args<-commandArgs(TRUE);root<-normalizePath(args[1]);task<-args[2]
+library(tximport);library(DESeq2);library(jsonlite)
+st<-read.delim(file.path(root,'manifests/RNA_SAMPLES_PREPROCESSING.tsv'),stringsAsFactors=FALSE,check.names=FALSE)
+st<-st[st$group %in% c('source',task),];rownames(st)<-st$sample_id
+files<-file.path(root,'inputs/salmon_quant',st$sample_id,'quant.sf');names(files)<-st$sample_id
+stopifnot(all(file.exists(files)),!anyDuplicated(st$sample_id))
+tx2g<-read.delim(file.path(root,'inputs/annotation/TX2GENE.tsv'),stringsAsFactors=FALSE)
+txi<-tximport(files,type='salmon',tx2gene=tx2g,ignoreAfterBar=TRUE,countsFromAbundance='lengthScaledTPM')
+st$condition<-factor(ifelse(st$group=='source','source','target'),levels=c('source','target'))
+stopifnot(sum(st$condition=='source')>=2,sum(st$condition=='target')>=2)
+dds<-DESeqDataSetFromTximport(txi,colData=st,design=~condition)
+dds<-dds[rowSums(counts(dds))>0,]
+dds<-DESeq(dds,quiet=FALSE,parallel=FALSE)
+res<-as.data.frame(results(dds,contrast=c('condition','target','source'),independentFiltering=TRUE,alpha=0.1))
+res$gene_id<-rownames(res);res<-res[,c('gene_id',setdiff(colnames(res),'gene_id'))]
+dir<-file.path(root,'inputs/rna',task);dir.create(dir,recursive=TRUE,showWarnings=FALSE)
+wr<-function(x,n)write.table(x,file.path(dir,n),sep='\t',quote=FALSE,row.names=TRUE,col.names=NA)
+wr(txi$abundance,'TPM.tsv');wr(txi$counts,'LENGTH_SCALED_TPM_ESTIMATED_COUNTS.tsv');wr(round(txi$counts),'ROUNDED_COUNTS.tsv');wr(counts(dds,normalized=TRUE),'NORMALIZED_COUNTS.tsv')
+wr(txi$abundance[,st$condition=='target',drop=FALSE],'TARGET_TPM.tsv')
+write.table(res,file.path(dir,'DESEQ2_TARGET_V_SOURCE.tsv'),sep='\t',quote=FALSE,row.names=FALSE,na='NA')
+write.table(st,file.path(dir,'SAMPLE_METADATA.tsv'),sep='\t',quote=FALSE,row.names=FALSE)
+capture.output(sessionInfo(),file=file.path(dir,'R_SESSION.txt'))
+write_json(list(task=task,source_sample_ids=st$sample_id[st$condition=='source'],target_sample_ids=st$sample_id[st$condition=='target'],n_genes_tpm=nrow(txi$abundance),n_genes_DE=nrow(res),finite_wald_stat=sum(is.finite(res$stat)),finite_log2FC=sum(is.finite(res$log2FoldChange)),tximport_countsFromAbundance='lengthScaledTPM',estimated_counts=TRUE,DESeq2_contrast=c('condition','target','source'),DESeq2_version=as.character(packageVersion('DESeq2')),tximport_version=as.character(packageVersion('tximport')),batch_correction=FALSE,study_state_confounding=TRUE,size_factors=as.list(sizeFactors(dds))),file.path(dir,'PREPROCESSING_COMPLETE.json'),pretty=TRUE,auto_unbox=TRUE)

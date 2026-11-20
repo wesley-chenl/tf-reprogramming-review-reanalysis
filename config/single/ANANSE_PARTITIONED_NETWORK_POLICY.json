@@ -1,0 +1,26 @@
+{
+  "date_Singapore": "2026-11-19T01:12:10.678501+08:00",
+  "config_sha256": "0fe579c596bb8b5662e5f7e50233d1de54ed5c7e0f4c5ca85c8faeb835373cfc",
+  "adapter_sha256": "b6ebec992c3bc11fcf3fa09f953cc0f9f875dd04f3755b47340d5312a0ebb859",
+  "parity_evidence_sha256": "64acc795b2cdb66320a792a98c02c1794f74b171587269ee42d56c0a3a33ba79",
+  "parity_real_rows": 22040,
+  "stock_row_order_equals_partitioned_on_parity": true,
+  "archived_full_run_memory_evidence": "hammelman_round2_20261118_225515/results/liver/ANANSE/network_source_attempt2.log",
+  "regulator_partition_max": 24,
+  "description": "Only split the full expression Cartesian product and export output rows by partition. Retain the original network terms, all native input genes, full binding weights, probability scores and stock influence filter.",
+  "completed_ranked_binding_checkpoints": {
+    "liver/source": "hammelman_round2_20261118_225515/validation/ANANSE_LIVER_RANKED_BINDING_CHECKPOINT.json"
+  },
+  "compact_rank_enabled_Singapore": "2026-11-19T02:56:50.119368+08:00",
+  "compact_archive_binding_rank_for_targets": [
+    "betapanc"
+  ],
+  "compact_rank_code_sha256": "6b8e269d54df6731443adc9c5c5f6afc390e03d776ca42d05175377d995ef686",
+  "compact_binding_parity_sha256": "ed780c99121a2cf20d2aa313138f479eb33d6635d580597d9e7b150c0b657f92",
+  "completed_chromosome_checkpoints": {
+    "betapanc/source": "hammelman_round2_20261118_225515/validation/ANANSE_BETAPANC_NATIVE_CHROMOSOME_CHECKPOINT.json"
+  },
+  "stock_binding_aggregation_memory_log": "hammelman_round2_20261118_225515/results/betapanc/ANANSE/network_source_attempt1.log",
+  "stock_beta_memory_restart_n": 4,
+  "scope": "beta-TC6 only. The archived chromosome scores, global min rank and scaling are retained; compact UTF-8 sorting reduces peak memory."
+}

@@ -1,0 +1,8 @@
+package	version	db_file
+affy	1.84.0	
+mouse4302cdf	2.18.0	
+mouse4302.db	3.13.0	mouse4302.sqlite
+AnnotationDbi	1.68.0	
+org.Mm.eg.db	3.20.0	org.Mm.eg.sqlite
+affyio	1.76.0	
+preprocessCore	1.68.0	

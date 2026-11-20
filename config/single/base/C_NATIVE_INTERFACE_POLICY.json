@@ -1,0 +1,43 @@
+{
+  "status": "qualified_global_native_interface",
+  "UTC": "2026-11-17T22:50:17.330722+00:00",
+  "applies_to": [
+    "liver",
+    "cardiomyocyte",
+    "betapanc",
+    "dopaminergic",
+    "mESC"
+  ],
+  "native_inputs": "three source and two target GeneQuant biological RNA tables; one source condition NarrowPeak pooled from both full-read biological ATAC libraries; one preselected target ATAC library NarrowPeak",
+  "native_BAM_input_rows": 0,
+  "source_ATAC_biological_n": 2,
+  "target_ATAC_biological_n": 1,
+  "filtered_BAMs_retained_for_QC_and_provenance": true,
+  "qualification_task": "cardiomyocyte",
+  "actual_all_native_output_comparison": "hammelman_toy_benchmark_20261117_214025/reports/C_NATIVE_PEAK_ONLY_EQUIVALENCE.json",
+  "comparison_sha256": "11c3b630e80678bd27db944fff96cdc2cdbb7481bf64fe9c8954044508f48247",
+  "full_BAM_control_archived": "hammelman_toy_benchmark_20261117_214025/runs/qualification_full_BAM/cardiomyocyte",
+  "old_scorer_sha256": "f2d99f6276100de812b3da9d9cd56a968b5e6f42af6869a2985fbcca3be8c906",
+  "qualified_prototype_scorer_sha256": "f920f63d3e432b5daf284afb53a559cb7728a1e5f66719ac68af74103fbdfc37",
+  "production_scorer_sha256": "4f76a8a9622b6df4c6cd2e222c126eeb154cf2faa88b99ec3d360f951c5264a9",
+  "scientific_formulas_or_native_core_modified": false,
+  "reference_evaluation_seen": false,
+  "decision_basis": "All actual native source/target graph nodes, combined edges, gene PR and RNA profiles were byte-identical with and without unused BAM-derived expression. No recovery criterion.",
+  "resource_policy": {
+    "native_workflow_jobs": 9,
+    "GHC_capabilities": 9,
+    "GHC_max_heap": "10G",
+    "scientific_parameter_change": false,
+    "reason": "All whole-read ATAC alignments have completed; nine independent native motif chunks can use released CPU capacity while leaving headroom for the two bounded samtools pipelines."
+  },
+  "remaining_native_checks": "All five use this same production scorer before the actual C freeze. No old native cache is imported across scorer hashes.",
+  "previous_resource_policy": {
+    "native_workflow_jobs": 3,
+    "GHC_capabilities": 3,
+    "GHC_max_heap": "10G",
+    "reason": "resource-only scheduling; actual full control at2 jobs used VmHWM4687212kB, standalone1-job qualification completed. Three jobs retain headroom in the16GiB WSL VM with bounded concurrent ATAC work.",
+    "scientific_parameter_change": false
+  },
+  "parallelism_update_UTC": "2026-11-18T02:36:56.846375+00:00",
+  "resource_change_record": "config/C_RUNTIME_PARALLELISM.json"
+}

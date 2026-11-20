@@ -1,0 +1,159 @@
+{
+  "mode": "quick",
+  "algorithm": "archive rank_by_spread and stock MC summary; ordered integer endpoint lookup only",
+  "calls": [
+    {
+      "target": "liver",
+      "gene": "ENSMUSG00000000823",
+      "niter": 20,
+      "replicate": 1,
+      "native_spread": 0,
+      "native_seconds": 0.52099999999999991,
+      "indexed_seconds": 0.23300000000000054,
+      "bit_identical_full_rank_result_and_rng": true
+    },
+    {
+      "target": "liver",
+      "gene": "ENSMUSG00000028707",
+      "niter": 20,
+      "replicate": 1,
+      "native_spread": 0.10000000000000001,
+      "native_seconds": 0.17900000000000027,
+      "indexed_seconds": 0.20399999999999974,
+      "bit_identical_full_rank_result_and_rng": true
+    },
+    {
+      "target": "liver",
+      "gene": "ENSMUSG00000057637",
+      "niter": 20,
+      "replicate": 1,
+      "native_spread": 0,
+      "native_seconds": 0.16999999999999993,
+      "indexed_seconds": 0.20099999999999962,
+      "bit_identical_full_rank_result_and_rng": true
+    },
+    {
+      "target": "liver",
+      "gene": "ENSMUSG00000052435",
+      "niter": 20,
+      "replicate": 1,
+      "native_spread": 15.199999999999999,
+      "native_seconds": 0.28300000000000036,
+      "indexed_seconds": 0.52000000000000046,
+      "bit_identical_full_rank_result_and_rng": true
+    },
+    {
+      "target": "liver",
+      "gene": "ENSMUSG00000001280",
+      "niter": 20,
+      "replicate": 1,
+      "native_spread": 245.19999999999999,
+      "native_seconds": 1.4450000000000003,
+      "indexed_seconds": 0.22200000000000131,
+      "bit_identical_full_rank_result_and_rng": true
+    },
+    {
+      "target": "cardiomyocyte",
+      "gene": "ENSMUSG00000000823",
+      "niter": 20,
+      "replicate": 1,
+      "native_spread": 1,
+      "native_seconds": 0.11500000000000021,
+      "indexed_seconds": 0.20100000000000051,
+      "bit_identical_full_rank_result_and_rng": true
+    },
+    {
+      "target": "cardiomyocyte",
+      "gene": "ENSMUSG00000028707",
+      "niter": 20,
+      "replicate": 1,
+      "native_spread": 0.80000000000000004,
+      "native_seconds": 0.18600000000000172,
+      "indexed_seconds": 0.19999999999999929,
+      "bit_identical_full_rank_result_and_rng": true
+    },
+    {
+      "target": "cardiomyocyte",
+      "gene": "ENSMUSG00000057637",
+      "niter": 20,
+      "replicate": 1,
+      "native_spread": 0,
+      "native_seconds": 0.17999999999999972,
+      "indexed_seconds": 0.19899999999999984,
+      "bit_identical_full_rank_result_and_rng": true
+    },
+    {
+      "target": "cardiomyocyte",
+      "gene": "ENSMUSG00000052435",
+      "niter": 20,
+      "replicate": 1,
+      "native_spread": 10.5,
+      "native_seconds": 0.29499999999999993,
+      "indexed_seconds": 0.19200000000000017,
+      "bit_identical_full_rank_result_and_rng": true
+    },
+    {
+      "target": "cardiomyocyte",
+      "gene": "ENSMUSG00000001280",
+      "niter": 20,
+      "replicate": 1,
+      "native_spread": 228.05000000000001,
+      "native_seconds": 1.7219999999999995,
+      "indexed_seconds": 0.22599999999999909,
+      "bit_identical_full_rank_result_and_rng": true
+    },
+    {
+      "target": "betapanc",
+      "gene": "ENSMUSG00000000823",
+      "niter": 20,
+      "replicate": 1,
+      "native_spread": 0,
+      "native_seconds": 0.15700000000000003,
+      "indexed_seconds": 0.20199999999999996,
+      "bit_identical_full_rank_result_and_rng": true
+    },
+    {
+      "target": "betapanc",
+      "gene": "ENSMUSG00000028707",
+      "niter": 20,
+      "replicate": 1,
+      "native_spread": 1,
+      "native_seconds": 0.19000000000000128,
+      "indexed_seconds": 0.49900000000000055,
+      "bit_identical_full_rank_result_and_rng": true
+    },
+    {
+      "target": "betapanc",
+      "gene": "ENSMUSG00000057637",
+      "niter": 20,
+      "replicate": 1,
+      "native_spread": 0.20000000000000001,
+      "native_seconds": 0.17999999999999972,
+      "indexed_seconds": 0.19299999999999962,
+      "bit_identical_full_rank_result_and_rng": true
+    },
+    {
+      "target": "betapanc",
+      "gene": "ENSMUSG00000052435",
+      "niter": 20,
+      "replicate": 1,
+      "native_spread": 1.9000000000000001,
+      "native_seconds": 0.20300000000000118,
+      "indexed_seconds": 0.19999999999999929,
+      "bit_identical_full_rank_result_and_rng": true
+    },
+    {
+      "target": "betapanc",
+      "gene": "ENSMUSG00000001280",
+      "niter": 20,
+      "replicate": 1,
+      "native_spread": 146.64999999999998,
+      "native_seconds": 1.338000000000001,
+      "indexed_seconds": 0.21199999999999974,
+      "bit_identical_full_rank_result_and_rng": true
+    }
+  ],
+  "pass": true,
+  "R": "4.4.3",
+  "igraph": "2.3.4"
+}

@@ -1,0 +1,3 @@
+human_gene_id	human_symbol	mouse_gene_id	relationship	evidence	construct_species	recipient_species
+4808	NHLH2	18072	Ortholog	NCBI gene_orthologs.gz + PMC6483730 Methods, Reprogramming vectors	Homo sapiens	Mus musculus
+5457	POU4F1	18996	Ortholog	NCBI gene_orthologs.gz + PMC6483730 Methods, Reprogramming vectors	Homo sapiens	Mus musculus

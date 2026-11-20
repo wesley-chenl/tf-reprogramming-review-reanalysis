@@ -1,0 +1,25 @@
+method	family	implementation	operation	direction	parameters	inputs	source	main_display	fallback
+expression	4.1	frozen role percentile mean	two fixed gene values	higher	old exact formula	E,D	previous score.py	yes	none
+expr_product	4.1	research expression percentile product	two fixed gene values	higher	p_i*p_j	E,D	protocol	no	none
+taiji_pair	4.1	Taiji-reprogram K2 adaptation	two fixed PageRank-derived scores	higher	official plus pair enumeration	matched RNA/ATAC	https://github.com/Wang-lab-UCSD/Taiji-reprogram	no	preflight
+network_add	4.2	frozen direct signed target sum	fixed target sets summed	higher	old exact formula	E,D,T	previous score.py	no	none
+network_union	4.2	frozen direct signed target union	two TF set union	higher	old exact formula	E,D,T	previous score.py	yes	none
+two_add	4.2	research signed two-step sum	simple signed paths then count sum	higher	conflicting path signs excluded	E,D,T	protocol	no	none
+two_union	4.2	research signed two-step union	simple signed paths then set union	higher	conflicting path signs excluded	E,D,T	protocol	yes	none
+msviper	4.2	viper msviperCombinatorial	co-regulon enrichment	higher	level=2, all pairs conditional native	independent signed regulon, signature and null	https://bioconductor.org/packages/viper/	no	preflight
+msviper_both_positive	4.2	viper sensitivity	positive member orientation	higher	both member NES positive	independent signed regulon, signature and null	https://bioconductor.org/packages/viper/	no	preflight
+msviper_minsize2_diag	4.2	viper small-regulon diagnostic	co-regulon enrichment	higher	minsize 2 diagnostic; withheld from primary plots	T,E,D; native analytic null	https://bioconductor.org/packages/viper/	diagnostic	none
+msviper_minsize2_both_positive_diag	4.2	viper small-regulon sensitivity	positive member orientation	higher	minsize 2 diagnostic; both positive	T,E,D; native analytic null	https://bioconductor.org/packages/viper/	diagnostic	none
+imcell_p010	4.3	IMCell v0.1.0 propagation module	joint positive seeds	higher	p=.1; 3x1000	E,D,T	https://zenodo.org/records/20563020	yes	sfa if blocked
+imcell_p005	4.3	IMCell probability sensitivity	joint positive seeds	higher	p=.05; 3x1000	E,D,T	https://zenodo.org/records/20563020	no	none
+imcell_p020	4.3	IMCell probability sensitivity	joint positive seeds	higher	p=.2; 3x1000	E,D,T	https://zenodo.org/records/20563020	no	none
+tfcomb	4.3	TFcomb published scoring module as applicable	positive dual coefficients	higher	pos/2/multi	independent coefficients/GRN	https://tfcomb.readthedocs.io/en/latest/_modules/TFcomb/tools/utils.html	no	preflight
+sfa	4.3	published normalization with fixed dual enumeration	linear additive steady response minus sham	higher	alpha=.5; cosine measured program	E,D,T	https://github.com/dwgoon/sfa	fallback	none
+boolean	4.4	BoNesis/MaBoSS matched system	dual positive clamp	higher	fixed dynamics/held-out validation	independent longitudinal fitted state model	https://doi.org/10.1038/s41540-025-00569-z	yes	preflight
+fvs_certificate	4.4	structural necessary condition	cover all retained loops	certificate	full directed graph	T	protocol	diagnostic	none
+cabean	4.4	CABEAN conditional certificate	dual positive control	certificate	fixed qualifying boolean model	matched Boolean model	https://satoss.uni.lu/software/CABEAN/	no	preflight
+irene	4.5	IRENE full workflow	published joint objective	higher	official source/target fits	matched epigenomic states	https://github.com/saschajung/IRENE	no	preflight
+netisce	4.5	NETISCE full workflow	FVS->SFA->classification	higher	official classifier design	independent phenotype states+labels	https://github.com/VeraLiconaResearchGroup/Netisce	no	preflight
+integration	4.5	research equal-weight integration	average two same-intersection percentiles	higher	weights .5/.5	old expression and IMCell p=.1 (SFA fallback)	protocol	yes	none
+integration_expression	4.5	component-only ablation	within common intersection	higher	component percentile	integration panel	protocol	yes	none
+integration_response	4.5	component-only ablation	within common intersection	higher	component percentile	integration panel	protocol	yes	none

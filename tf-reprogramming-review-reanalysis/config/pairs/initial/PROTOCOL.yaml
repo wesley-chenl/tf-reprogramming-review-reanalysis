@@ -1,0 +1,17 @@
+run: section4_pair_rank_20261119_234442
+design: "598 roles-specific physically tested placements, 9 frozen identities; strict eligibility after lock"
+primary: GSE53951
+sensitivity: GSE114809
+budgets: [10, 20]
+seed: 20261119
+prior: "Frozen official mouse TRRUST v2, 3964 signed unique edges with eligible sources through 2015; retain loops"
+effect: "Independent target log mean minus source log mean"
+token_order: "Old role IDs and old SHA256 tie salt. External finite floating scores quantized at 1e-12 before ties (exact historical and count-based branches preserve ratios); SHA256 and pair ID for evaluation."
+paths: "Directed simple paths of length 1 or 2; no repeated node; both signs exclude edge relation; intermediate TFs allowed"
+sfa: "Official row/column sqrt-degree normalization (incoming rows). Alpha=0.5. Delta of sham and simultaneous additive +1 inputs. Cosine to continuous d_g for measured program G∩graph excluding all panel TFs. 48-term sparse Neumann, compare with independent direct solve."
+imcell: "Simultaneous dual input, fixed edge p=0.1 and p=0.05/0.2 sensitivity, 3x1000 simulation with independent streams; numerical stability on blinded top budgets"
+integration: "Expression mean + IMCell p=.1 on exact intersection; if scientifically/API blocked switch SFA irrespective of performance; average within-intersection percentiles"
+rank_evaluation: "Lower normalized midrank is better; exact tie groups, constant scores retained. Conditional bHLH comparisons claim partner selection only in informative rows. Evaluate same physical slots."
+statistics: "Binary and gated yield plus raw data only as documented. Uniform and conditional budget reference via 10000+ exact-without-replacement draws or analytic equivalents. AUROC tie half, AP from grouped thresholds. ECDF uses full scored rows; no imputation."
+comparison_scope: "All dominant methods main and endpoint sensitivity; nine identity hypotheses computed. Common scope uses runnable representatives alone; a blocked representative never drops the eligible set to zero. Each missing primary remains explicit. Two-way scopes listed separately."
+isolation: "Before first joining, freeze score files and flags. Score artifacts come only from explicit approved external inputs. Retrospective extension of publicly known previous results."

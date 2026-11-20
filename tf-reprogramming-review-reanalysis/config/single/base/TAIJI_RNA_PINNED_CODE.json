@@ -1,0 +1,8 @@
+{
+  "repo": "https://github.com/Taiji-pipeline/Taiji-RNA-seq",
+  "commit": "747625a6a6eec34af5d948ed99791998bbb07936",
+  "source": "inspected Taiji stack.yaml exact dependency",
+  "zip_sha256": "b0cfc42ecf4b10ca5682d011e1f524d22ba89dd0cd0ee12025a8a650de277ce2",
+  "path": "hammelman_toy_benchmark_20261117_214025/sources/Taiji_RNA_pinned",
+  "no_TF_scores_or_reference_evaluation": true
+}

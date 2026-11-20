@@ -1,0 +1,10 @@
+sample_id	num_processed_fragments	num_mapped_fragments_final_metadata	percent_mapped_final_metadata	library_type	quant_errors	quant_file_sha256	complete_read_stream_count_check
+ENCSR096STK_bio1	60059131	48268316	80.3679893403719	U	[]	3583a18670771c318ea57229e68d7597c3a2325e78bf2e1de7c045334671f023	native complete cached files; input metadata retained
+ENCSR096STK_bio2	60023163	47637678	79.3654909522179	U	[]	7ef5d371ed1f20531dceb4f1902f209fea011f821c67fb4e2900f3c1e0aa9c51	native complete cached files; input metadata retained
+GSM1866625	26590978	24266930	91.26001307661569	U	[]	d8db7c859325e5a731ae2518d12b142fb757233606c00e1936ddfe8a44fdefc1	native complete cached files; input metadata retained
+GSM1866626	25870098	23683564	91.54802583275873	U	[]	ceb156bb0b8e783e547dfd861b86ee95aa3fda4463dd5980d8c133a7289978a0	native complete cached files; input metadata retained
+GSM1866627	29600694	27100826	91.554698008094	U	[]	874bd57f5419a1cf02b23f01e25fe476bea917e08b6451198886dcee49ffd8be	native complete cached files; input metadata retained
+GSM2525582	68512857	19605088	28.615195539138004	SR	[]	d82a2251c4cb473c370b5f94c012fb3f29b5c002906d3d8fc6007c107523659b	True
+GSM2525583	57754858	16120352	27.911681472751606	SR	[]	af9fabb3dc3b57c8f1fdbc77ad65b8cff2a84186eefabefbb27d1273d7211a12	True
+GSM2666438	31749364	29075747	91.57899036969685	ISR	[]	dd29be236bad3bfa895c9979c259087d45ba34552feda7b2dac9606f8943b0fc	True
+GSM2666440	31582721	29215103	92.50343882656595	ISR	[]	9b60c1aff1d6c3f8ef4e4a4ea61e7f3869aad221dac9681752a4525ae31ddad7	True

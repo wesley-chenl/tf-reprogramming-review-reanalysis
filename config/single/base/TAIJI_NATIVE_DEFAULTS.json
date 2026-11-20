@@ -1,0 +1,26 @@
+{
+  "basis": "Official binary1.3.0 and its release-target source/dependency commits; all listed critical constants confirmed in release-matched sources. Binary SHA pins actual executable; not rebuilt locally.",
+  "core_inspected_commit": "6722d287d4797933584fa1dba5dfed6074223f51",
+  "core_source_locators": [
+    "sources/Taiji_release_matched/Taiji_1_3_0/src/Taiji/Core.hs",
+    "sources/Taiji_release_matched/Taiji_1_3_0/src/Taiji/Core/Ranking.hs",
+    "sources/Taiji_release_matched/Taiji_1_3_0/src/Taiji/Core/Network/DeNovo.hs"
+  ],
+  "ATAC_source_locator": "sources/Taiji_release_matched/Taiji_ATAC_release/src/Taiji/Pipeline/ATACSeq.hs",
+  "native_cisBP_mouse_motif_count": 862,
+  "motif_scan_pvalue": 5e-05,
+  "motifs_per_native_scan_chunk": 100,
+  "peak_summit_window_each_side_bp": 50,
+  "PageRank_damping": 0.85,
+  "PageRank_personalization": "native node weights; native combined-edge weights",
+  "native_PageRank_node_exclusion": "nodes with no incoming neighbors in the native graph are not exported as ranked nodes",
+  "native_output_absent_condition_values": "native rank table writer may fill absent condition nodes with0; this study requires finite positive ranks in both conditions and does not convert0 to epsilon",
+  "native_randomized_networks_for_P_values": 10,
+  "native_random_seed_for_P_values": 2394,
+  "native_P_values_used_in_main_priority": false,
+  "native_HTML_heatmap_filters_used_in_main_priority": false,
+  "native_HTML_only_filters": "FDR0.001 and max/min ratio>2 are display filters after full GeneRanks.tsv output; they are not applied to this study's full gene-level priority table",
+  "study_priority": "max(PR_target/PR_source,PR_source/PR_target), both strictly positive finite; no ratio cutoff, epsilon, cocktail enumeration or frequency score",
+  "RNA_over_ATAC_expression_precedence": "Core.aggregate uses RNA expression whenever provided; BAM-derived estimated expression is only a fallback",
+  "release_matched_source_manifest": "manifests/TAIJI_RELEASE_MATCHED_CODE.json"
+}

@@ -1,0 +1,145 @@
+{
+  "config_version": "RNA-v2-output-contract-repair-before-evaluation",
+  "freeze_UTC": "2026-11-17T17:01:05.732144+00:00",
+  "freeze_Asia_Singapore": "2026-11-18T01:01:05.732802+08:00",
+  "task_order": [
+    "liver",
+    "cardiomyocyte",
+    "betapanc",
+    "dopaminergic",
+    "mESC"
+  ],
+  "slot_order": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "Integrative-1",
+    "Integrative-2"
+  ],
+  "manuscript_crosscheck": "pending; no manuscript located, supplied module mapping used",
+  "candidate_universe": "config/CANDIDATE_UNIVERSE.tsv",
+  "candidate_identity": "mouse Ensembl stable gene IDs; all official IDs retained, unresolved IDs explicit",
+  "ranking": {
+    "budget": 10,
+    "direction": "higher ranking_score first",
+    "exact_ties": "canonical stable gene ID lexicographic",
+    "underfilled": "primary Hits NA",
+    "degenerate": "all identical eligible scores invalid"
+  },
+  "reference_isolation": "no reference paths or labels passed to scoring runners; evaluation after all score outputs locked",
+  "sample_selection": "source Renilla day0 biological n3; target first two qualifying biological accessions per target; complete selected reads, no downsampling",
+  "source_samples": [
+    "GSM1866625",
+    "GSM1866626",
+    "GSM1866627"
+  ],
+  "quantification": {
+    "genome": "GRCm38.p6",
+    "gene_annotation": "GENCODE M24",
+    "Salmon_version": "salmon 2.11.0",
+    "index": "transcriptome-only k31 gencode",
+    "library": "A",
+    "seqBias": true,
+    "gcBias": "PE only",
+    "SE_fldMean": 200,
+    "SE_fldSD": 80,
+    "tximport": "lengthScaledTPM estimated counts",
+    "DESeq2_contrast": "target/source, Wald, design~condition, alpha .1, no batch correction",
+    "RNA_signature": "all finite signed Wald statistics; not significance-filtered",
+    "D_input": "minus target/source log2FoldChange, all finite genes"
+  },
+  "A": {
+    "method": "TRIAGE",
+    "score": "equal mean biological replicate ln(TPM+1)*author mouse RTS",
+    "target_only_input": true,
+    "RTS_duplicate_stable_ID": "mean"
+  },
+  "B": {
+    "method": "VIPER",
+    "prior": "CollecTRI Zenodo8192729 with HCOP support>=3 and at most5 one-to-many genes",
+    "duplicate_edges": "mean signed weight; zero mean discarded",
+    "likelihood": 1,
+    "method_parameter": "none",
+    "nes": true,
+    "pleiotropy": true,
+    "minsize": 25,
+    "bootstraps": 0,
+    "score": "native signed NES descending",
+    "interface_patch": "installed viper subset drop=FALSE only; single column numerically checked against unmodified identical-two-column execution, not biological replication"
+  },
+  "C": {
+    "method": "Taiji PageRank-ratio module",
+    "version": "1.3.0",
+    "actual_ATAC_input_freeze": "separate C phase before any C production score; RNA scoring does not wait for ATAC",
+    "score": "max(PR_target/PR_source,PR_source/PR_target), positive finite both states",
+    "missing_nodes": "NA, no epsilon",
+    "native_network_motifs": "Taiji official cisBP_mouse.meme",
+    "ATAC_source_biological_n": 2,
+    "ATAC_target_biological_n": 1,
+    "downsampling": false,
+    "fallback": "ANANSE only if primary globally unable to give legitimate output; decision before evaluation"
+  },
+  "D": {
+    "method": "TFActProfiler local response, target-relative normalization adapter",
+    "prior": "author quantitative human atlas, HCOP complete strict bidirectional one-to-one support>=3",
+    "alpha": 0.01,
+    "step_limit": 3,
+    "intervention_value": 0,
+    "sham_value": "same candidate measured source-relative x_g",
+    "score": "Pearson(pred(g,0)-pred(g,x_g),-x), fixed predictable genes excluding g",
+    "source_rna_columns": 1,
+    "no_defined_change": "x_g exactly0",
+    "numeric_variance_rule": "strict zero denominator -> undefined",
+    "dose_interpretation": "normalization on logFC scale, not knockout or native mouse OE"
+  },
+  "Integrative-1": {
+    "actual_implementation": "official PACNet NIS",
+    "replaced": "original CellNet NIS",
+    "reason": "official current processor lacks ctGRNs,grnList,expTrain,tVals original schema",
+    "relaWeight": 0,
+    "logRank_base": 0,
+    "score": "minus equal mean source replicate signed NIS",
+    "target_mapping": {
+      "liver": "liver",
+      "cardiomyocyte": "heart",
+      "mESC": "esc"
+    },
+    "unsupported": [
+      "betapanc",
+      "dopaminergic"
+    ],
+    "target_RNA_consumed": false
+  },
+  "Integrative-2": {
+    "method": "CompForce pm_mogrify single TF adapter",
+    "commit": "c0d64c336cf4fd4506315eb82cc1dac23a92d7dc",
+    "network": "official mouse CellNet/PACNet overallGRN Apr22_2020; unweighted directed TF->TG, canonical stable IDs",
+    "use_cfobj_network": true,
+    "background_method": "labeled source-only",
+    "diff_thresh": 20,
+    "counts": "rounded formal tximport lengthScaledTPM estimated counts",
+    "internal_rank_caps": 100,
+    "internal_tie_order": "stable sorted initial candidate IDs, native stable R order",
+    "score": "minus sum_rank after native source-expression single-factor filter, before joint redundancy pruning",
+    "cocktail_pruning": false
+  },
+  "evaluation": {
+    "only_primary_metric": "exact-gene Hits@10",
+    "sets": "descriptive observed recovery sets, all cross-method set fields NA if fewer than2 valid outputs",
+    "outside_reference": "unknown; not negative",
+    "motif_projection": "same top10 genes, official member mapping, missing mapping null",
+    "no_performance_based_method_or_rule_selection": true
+  },
+  "actual_input_freeze_policy": "All sample selections, code, priors and scoring rules freeze together. Available actual RNA matrices freeze now; remaining matrices freeze with per-task SHA256 supplements before their production score. All predictions lock together before evaluation.",
+  "RNA_tasks_available_at_common_freeze": [
+    "liver",
+    "cardiomyocyte"
+  ],
+  "output_contract_amendment": {
+    "UTC": "2026-11-17T17:11:40.723793+00:00",
+    "reason": "pandas StringDtype rejected boolean extra native components; use nullable object component columns",
+    "algorithm_or_selection_changed": false,
+    "reference_recovery_inspected": false
+  }
+}

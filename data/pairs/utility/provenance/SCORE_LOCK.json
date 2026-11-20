@@ -1,0 +1,21 @@
+{
+  "sealed_utc": "2026-11-19T14:59:21.580029+00:00",
+  "side": "SCORE",
+  "files": {
+    "protocol.yaml": "48c00d214e4cad9ea522c518ed07f91a225a94cf1b9a09d4319ecbd4523e232e",
+    "code/score.py": "69d76343dd548219d8e1e3b89f7ee24b19e68c8a412b5592a923adebd6506675",
+    "code/run_scoring.sh": "874b1f57983e43aabd06df63d50650964ae5bd0f2eab382d7ae81c1b1cdcd408",
+    "design_public/SCORING_POLICY.json": "ef9dacbbcedee43a144407199b4f57aece61806b4d01dc8fca2da58630121d14",
+    "design_public/CLEAN_PAIRS.tsv": "beced9e64fc5fec770ca6c8687e413d44fc8de905f3d03563a5cfda1cc671d8e",
+    "scores/all_pair_scores.tsv": "6b85a1d91315b94581c63652be0ae157e05deedaaf8c1626a0ce58045b665745",
+    "scores/top_blind.tsv": "cd105933f8cfd1295bf40e76e3e9effe38819a4e8f6d7734b93923b78e6cdc31",
+    "scores/program.tsv": "c8855c11b66c725e7b866b090421f4ba13d6fa3b90398f52ecebc9ed57132800",
+    "scores/READ_ACCESS.json": "f5c43169f4c9f78636e64f123fcb8cb884af65c825e416bac01c302d9346903a",
+    "scores/SCORING_INPUT_SHA256.txt": "6d458c662072904bb0d4ebedb525e639257551e2a95d9585dfb425012c69cea1",
+    "scores/SCORER_SHA256.txt": "0944cdc27141db1751c8c14521a9b870047cd859a6381d5cf93e146482126bda",
+    "scores/ISOLATION.txt": "f0eff53302d69dab63335287e1610cfd8fba52ed1313a44ea04be05e987e921a",
+    "inputs_scoring/GSE114809_EFFECT.tsv": "96aca3342c043d6aab2c945067821d786b717b378a60d10cb5e89cb5e789a7b9",
+    "inputs_scoring/GSE53951_EFFECT.tsv": "285022474fe5248b83d3c20e2b8040a6fe11ec6c2bb92dad15468d7cb6b48ab1",
+    "inputs_scoring/TRRUST_MOUSE_SIGNED.tsv": "ff745b62d754eba87bba6b7375fcd15e79ad5b7598aa38caa974b72188903783"
+  }
+}

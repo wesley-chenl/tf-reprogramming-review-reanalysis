@@ -1,0 +1,158 @@
+[
+  {
+    "path": "hammelman_round2_20261118_225515/sources/r_dependencies/pheatmap_1.0.13.tar.gz",
+    "role": "pinned CRAN dependency",
+    "bytes": 15162,
+    "mtime_ns": 1795014460503349700,
+    "sha256": "4ac34d4c5f787624f45cc98a97b8c28295c57eb635d1523554252c5a583142f7",
+    "url": "https://cloud.r-project.org/src/contrib/pheatmap_1.0.13.tar.gz",
+    "version": "1.0.13"
+  },
+  {
+    "path": "hammelman_round2_20261118_225515/sources/r_dependencies/gridExtra_2.3.tar.gz",
+    "role": "pinned CRAN dependency",
+    "bytes": 1062844,
+    "mtime_ns": 1795014463506567400,
+    "sha256": "81b60ce6f237ec308555471ae0119158b115463df696d2eca9b177ded8988e3b",
+    "url": "https://cloud.r-project.org/src/contrib/Archive/gridExtra/gridExtra_2.3.tar.gz",
+    "version": "2.3"
+  },
+  {
+    "path": "hammelman_round2_20261118_225515/sources/r_dependencies/RobustRankAggreg_1.2.1.tar.gz",
+    "role": "pinned CRAN dependency",
+    "bytes": 21798,
+    "mtime_ns": 1795014465613872700,
+    "sha256": "97908d7c635c1568d346fe44627ab35ddf68e87f02ffd33d7b6204b1fb5b565c",
+    "url": "https://cloud.r-project.org/src/contrib/RobustRankAggreg_1.2.1.tar.gz",
+    "version": "1.2.1"
+  },
+  {
+    "path": "hammelman_round2_20261118_225515/sources/r_dependencies/reshape2_1.4.4.tar.gz",
+    "role": "pinned CRAN dependency",
+    "bytes": 37917,
+    "mtime_ns": 1795014523073796200,
+    "sha256": "ec5a2cccb08609483135c0ac82c29bb754392ac46d1f5c386d7157bff25eca37",
+    "url": "https://codeload.github.com/cran/reshape2/tar.gz/refs/tags/1.4.4",
+    "version": "1.4.4"
+  },
+  {
+    "path": "gemini_independent_audit_20261117_002158/sources/cellnet_repo/CellNet-master/DESCRIPTION",
+    "role": "verified native CellNet 0.1.1 Dependency",
+    "bytes": 1708,
+    "mtime_ns": 1794846309360662800,
+    "sha256": "f8c709d0ad5fbd7d217e7e6a33f0f1dd7195efecde1a68bf9388b605aa72079c",
+    "commit": "6049909f2f943aad656186e5bbd1145ec829104f"
+  },
+  {
+    "path": "gemini_independent_audit_20261117_002158/sources/cellnet_repo/CellNet-master/R/cn_grn.R",
+    "role": "original CellNet helper definitions",
+    "bytes": 46302,
+    "mtime_ns": 1794846309405177400,
+    "sha256": "d5a25bf3f8d30f0f5a3feb328003786afb565a0acd66fed260541600770857c5",
+    "commit": "6049909f2f943aad656186e5bbd1145ec829104f"
+  },
+  {
+    "path": "gemini_independent_audit_20261117_002158/sources/cellnet_repo/CellNet-master/R/cn_preprocess.R",
+    "role": "original CellNet helper definitions",
+    "bytes": 45484,
+    "mtime_ns": 1794846309414177500,
+    "sha256": "4ef6fa4ffd6c07f200d262b940ed05f82f638a3b87aff9fe05a17bc251808130",
+    "commit": "6049909f2f943aad656186e5bbd1145ec829104f"
+  },
+  {
+    "path": "gemini_independent_audit_20261117_002158/sources/cellnet_repo/CellNet-master/R/cn_utils.R",
+    "role": "original CellNet helper definitions",
+    "bytes": 9867,
+    "mtime_ns": 1794846309430178000,
+    "sha256": "669df434ef7cb99fa51e9bfb16a5a8b79a8b3db4b06355921fc0dda329860fc3",
+    "commit": "6049909f2f943aad656186e5bbd1145ec829104f"
+  },
+  {
+    "path": "hammelman_round2_20261118_225515/toolchain/install/CompForce/R/pm_diffexp.R",
+    "role": "archive executable code in installed working copy",
+    "bytes": 6161,
+    "mtime_ns": 1795013992127161900,
+    "sha256": "741ac49fd2c7fa581e7a8e44de8609265bbebb1d7bd3a76756967f50206f9f72",
+    "package": "compforce"
+  },
+  {
+    "path": "hammelman_round2_20261118_225515/toolchain/install/CompForce/R/cf_predict.R",
+    "role": "archive executable code in installed working copy",
+    "bytes": 7697,
+    "mtime_ns": 1795013992056910500,
+    "sha256": "88fb1fbfd5d68249fc7ebfb1c1875293e625cabd91fa761100b49640f834e36a",
+    "package": "compforce"
+  },
+  {
+    "path": "hammelman_round2_20261118_225515/toolchain/install/CompForce/R/pm_mogrify.R",
+    "role": "archive executable code in installed working copy",
+    "bytes": 8352,
+    "mtime_ns": 1795013992174597900,
+    "sha256": "23af975fb4c56c8e088a99afad614da194e49e5076ac2f9c17e6e886a3257df2",
+    "package": "compforce"
+  },
+  {
+    "path": "hammelman_round2_20261118_225515/toolchain/install/CompForce/R/simulations_synthetic.R",
+    "role": "archive executable code in installed working copy",
+    "bytes": 22751,
+    "mtime_ns": 1795013992211597700,
+    "sha256": "858eeaaf726891d81153c8508ee0f8af56fe83bf4ccd39fc8d2a11777923cb2b",
+    "package": "compforce"
+  },
+  {
+    "path": "hammelman_round2_20261118_225515/toolchain/install/CompForce/R/pm_dalessio.R",
+    "role": "archive executable code in installed working copy",
+    "bytes": 3508,
+    "mtime_ns": 1795013992110432400,
+    "sha256": "ccbffd00e6546080e71f20675905faa6789ba7efd7ab5cf52d36fc20bac61bf7",
+    "package": "compforce"
+  },
+  {
+    "path": "hammelman_round2_20261118_225515/toolchain/install/CompForce/R/cf_utils.R",
+    "role": "archive executable code in installed working copy",
+    "bytes": 2837,
+    "mtime_ns": 1795013992071917000,
+    "sha256": "0f736cf76639f6762bea76fb3c53bbf35e1f9fc8453a74818c0f3954aed6efe7",
+    "package": "compforce"
+  },
+  {
+    "path": "hammelman_round2_20261118_225515/toolchain/install/CompForce/R/pm_cellnet.R",
+    "role": "archive executable code in installed working copy",
+    "bytes": 10650,
+    "mtime_ns": 1795013992091435600,
+    "sha256": "ad43fd7f76e8f837e9811b5d49a76eba30de9a8737d213790b0c4b42ea1fef3a",
+    "package": "compforce"
+  },
+  {
+    "path": "hammelman_round2_20261118_225515/toolchain/install/IMCell/R/IMCell.R",
+    "role": "archive executable code in installed working copy",
+    "bytes": 49875,
+    "mtime_ns": 1795013960060010800,
+    "sha256": "a643ba01ea2c9e413cc58f58b208aed7868ec767e1135b521e4987b4a306f40b",
+    "package": "IMCell"
+  },
+  {
+    "path": "hammelman_round2_20261118_225515/toolchain/install/IMCell/R/utils.R",
+    "role": "archive executable code in installed working copy",
+    "bytes": 2552,
+    "mtime_ns": 1795013960147026900,
+    "sha256": "7056cdda0b8de7c395f5c79ca2e46ddb476ac5764b92939377c1b8f37ca6506e",
+    "package": "IMCell"
+  },
+  {
+    "path": "hammelman_round2_20261118_225515/toolchain/install/IMCell/R/IMCell_setup.R",
+    "role": "archive executable code in installed working copy",
+    "bytes": 20270,
+    "mtime_ns": 1795013960077010700,
+    "sha256": "1343e8af63c80fc787e6e8f3e89aab0cb86637c5c78422aa213b707bf731b755",
+    "package": "IMCell"
+  },
+  {
+    "path": "hammelman_round2_20261118_225515/toolchain/install/IMCell/R/stepwise_IMCell.R",
+    "role": "archive executable code in installed working copy",
+    "bytes": 12418,
+    "mtime_ns": 1795013960129021700,
+    "sha256": "9d75f930280fc031f45d1eab2c2f19143913cf69ab8848d2bc65d94ee7f0001c",
+    "package": "IMCell"
+  }
+]

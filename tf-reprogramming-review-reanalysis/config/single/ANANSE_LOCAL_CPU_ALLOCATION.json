@@ -1,0 +1,12 @@
+{
+  "config_sha256": "0fe579c596bb8b5662e5f7e50233d1de54ed5c7e0f4c5ca85c8faeb835373cfc",
+  "date_Singapore": "2026-11-19T00:30:03.858668+08:00",
+  "binding_native_n": 8,
+  "one_ANANSE_stage_at_a_time": true,
+  "first_full_motif_scan_sampled_process_tree_peak_PSS_bytes": 10260213760,
+  "global_reservation_budget_bytes": 11122857984,
+  "reason": "All independent R jobs are terminal. The first complete motif scan profiled native memory. Reuse only bit-identical per-region PWM scores while separately predicting all state-specific activity and binding values.",
+  "proof_file": "hammelman_round2_20261118_225515/validation/ANANSE_MOTIF_ROW_CACHE_PARITY.json",
+  "proof_sha256": "1f9c16b0478d1dccb9a2064ca4a855a18a315319339b619e035dd6ac265b79d1",
+  "same_scientific_parameters": true
+}

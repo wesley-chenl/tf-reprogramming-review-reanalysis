@@ -1,0 +1,167 @@
+{
+  "round2_archive_name": "HAMMELMAN_ROUND2_LIGHT_RESULTS.zip",
+  "round2_archive_sha256": "219664713f458e29f988e70a7cf0c1d0d045da1223ba97739789a2a19ac2e031",
+  "round2_original_lock_sha256": "916fd9b2a767e1a7eb3fa27344f236570918cddfc2ed4d416c11921dd6bdf686",
+  "original_config_sha256": "0fe579c596bb8b5662e5f7e50233d1de54ed5c7e0f4c5ca85c8faeb835373cfc",
+  "verified_reference_freeze": true,
+  "scores": {
+    "FULL_SCORES_AND_RANKS.tsv.gz": {
+      "archive_member": "results/locked/FULL_SCORES_AND_RANKS.tsv",
+      "id_rows": 28854,
+      "uncompressed_sha256": "d97c438996abc39eec1d89ba91defc241c65c59d0813c21b78e18766b7bea791",
+      "gzip_sha256": "99ccae60eb218231c13147e478a05324982d6afdaaa86763e220dfc504dcb4e1"
+    },
+    "COMPFORCE_SENSITIVITY_SCORES_AND_RANKS.tsv.gz": {
+      "archive_member": "results/locked/COMPFORCE_SENSITIVITY_SCORES_AND_RANKS.tsv",
+      "id_rows": 4122,
+      "uncompressed_sha256": "4615575820ce198efc6b3b33b4d9c5fa8470d7327a7d6c1288f9e89261490a89",
+      "gzip_sha256": "53c44b986340eb80582fdebeb2670e6ce5204331586076d86655670560329591"
+    }
+  },
+  "component_outputs": {
+    "compforce/liver/CellNet_NATIVE_LIST.tsv": {
+      "archive_member": "results/liver/CompForce/CellNet_NATIVE_LIST.tsv",
+      "sha256": "bedbd68efdfedd2909d090970bf04e49e429abe87a4cae6d1604fc381a8ca938"
+    },
+    "compforce/liver/CellNet_NATIVE_RAW.tsv": {
+      "archive_member": "results/liver/CompForce/CellNet_NATIVE_RAW.tsv",
+      "sha256": "36b76eb4f4912e68cd84f73ec83c5fe43320763ae0885dd02dabe735ee98df44"
+    },
+    "compforce/liver/DiffExp_deseq_NATIVE_LIST.tsv": {
+      "archive_member": "results/liver/CompForce/DiffExp_deseq_NATIVE_LIST.tsv",
+      "sha256": "7ace3bcf5214cd7f70647d29271b664f5a0a43f9ca8440292b72f2a758dae98c"
+    },
+    "compforce/liver/DiffExp_deseq_NATIVE_RAW.tsv": {
+      "archive_member": "results/liver/CompForce/DiffExp_deseq_NATIVE_RAW.tsv",
+      "sha256": "9603e17d6f7c7a9a5d34dda6225d1ac429b90edf8a5132815ccdfe998ca33c57"
+    },
+    "compforce/liver/DiffExp_ttest_NATIVE_LIST.tsv": {
+      "archive_member": "results/liver/CompForce/DiffExp_ttest_NATIVE_LIST.tsv",
+      "sha256": "41c3be1c93c3ada97a038167a49270e6a8c23de89450465c4aaa361768c8e3e9"
+    },
+    "compforce/liver/DiffExp_ttest_NATIVE_RAW.tsv": {
+      "archive_member": "results/liver/CompForce/DiffExp_ttest_NATIVE_RAW.tsv",
+      "sha256": "8e01dae360d44f5630e8645a2b35ef8fd2dd296c9743c9ad9be8de6606dd6561"
+    },
+    "compforce/liver/DiffExp_ttest_logCP100k_sensitivity_NATIVE_LIST.tsv": {
+      "archive_member": "results/liver/CompForce/DiffExp_ttest_logCP100k_sensitivity_NATIVE_LIST.tsv",
+      "sha256": "03444b98ba5430479b879c920b571868cf2127176c3e89ca8623ac65dff61f2d"
+    },
+    "compforce/liver/DiffExp_ttest_logCP100k_sensitivity_NATIVE_RAW.tsv": {
+      "archive_member": "results/liver/CompForce/DiffExp_ttest_logCP100k_sensitivity_NATIVE_RAW.tsv",
+      "sha256": "15950b0f540174337fbea04c9d90bdfe0081f357743248a940a3d73430fae78b"
+    },
+    "compforce/liver/Mogrify_NATIVE_LIST.tsv": {
+      "archive_member": "results/liver/CompForce/Mogrify_NATIVE_LIST.tsv",
+      "sha256": "acb1c1a9451d782fc1c15af923a1e571c574e750e699759090864dc9824efc1e"
+    },
+    "compforce/liver/Mogrify_NATIVE_RAW.tsv": {
+      "archive_member": "results/liver/CompForce/Mogrify_NATIVE_RAW.tsv",
+      "sha256": "a85ca99f06d089a051d9b5b58c7bd87b34a8186824115822e5a404d7f85543a0"
+    },
+    "compforce/liver/dAlessio_NATIVE_LIST.tsv": {
+      "archive_member": "results/liver/CompForce/dAlessio_NATIVE_LIST.tsv",
+      "sha256": "679fff06589155e97adb5d46a68fb40e2694576c07422f0675b8072b8fa258e5"
+    },
+    "compforce/liver/dAlessio_NATIVE_RAW.tsv": {
+      "archive_member": "results/liver/CompForce/dAlessio_NATIVE_RAW.tsv",
+      "sha256": "a55e31f5209ebac3ef72a616026cbf592a106ab1665cb74c864743d89fa48ac4"
+    },
+    "compforce/cardiomyocyte/CellNet_NATIVE_LIST.tsv": {
+      "archive_member": "results/cardiomyocyte/CompForce/CellNet_NATIVE_LIST.tsv",
+      "sha256": "8b83b25c6b6fe34d93658a52dd93cda6bbbf0b0a20ba78cb41e1cda4cc4508df"
+    },
+    "compforce/cardiomyocyte/CellNet_NATIVE_RAW.tsv": {
+      "archive_member": "results/cardiomyocyte/CompForce/CellNet_NATIVE_RAW.tsv",
+      "sha256": "3879ef52829c9f132a0cc0fe5bb67d5a27da8a63a06490fc74235130a1cf4188"
+    },
+    "compforce/cardiomyocyte/DiffExp_deseq_NATIVE_LIST.tsv": {
+      "archive_member": "results/cardiomyocyte/CompForce/DiffExp_deseq_NATIVE_LIST.tsv",
+      "sha256": "4de47001217f1822aece4ca40d3a483113711a8f92ddbbaafe4e128ff0b53d97"
+    },
+    "compforce/cardiomyocyte/DiffExp_deseq_NATIVE_RAW.tsv": {
+      "archive_member": "results/cardiomyocyte/CompForce/DiffExp_deseq_NATIVE_RAW.tsv",
+      "sha256": "95be8f935b0c27490ba45b63fc462b26b547bd398595318a6952bbecb655d97a"
+    },
+    "compforce/cardiomyocyte/DiffExp_ttest_NATIVE_LIST.tsv": {
+      "archive_member": "results/cardiomyocyte/CompForce/DiffExp_ttest_NATIVE_LIST.tsv",
+      "sha256": "be914b1d1343dc14162ee6cc2362b7274c897cfe49670e035e998a257846a209"
+    },
+    "compforce/cardiomyocyte/DiffExp_ttest_NATIVE_RAW.tsv": {
+      "archive_member": "results/cardiomyocyte/CompForce/DiffExp_ttest_NATIVE_RAW.tsv",
+      "sha256": "b744dfdf085ce449203114cbf437867823fbe6193a4fa366d80c177d4f74b112"
+    },
+    "compforce/cardiomyocyte/DiffExp_ttest_logCP100k_sensitivity_NATIVE_LIST.tsv": {
+      "archive_member": "results/cardiomyocyte/CompForce/DiffExp_ttest_logCP100k_sensitivity_NATIVE_LIST.tsv",
+      "sha256": "d5d6826713b8ba502db1de153ca09daf1015626feba69d7c62611028dc8e4c94"
+    },
+    "compforce/cardiomyocyte/DiffExp_ttest_logCP100k_sensitivity_NATIVE_RAW.tsv": {
+      "archive_member": "results/cardiomyocyte/CompForce/DiffExp_ttest_logCP100k_sensitivity_NATIVE_RAW.tsv",
+      "sha256": "23ae67ff3dc70627a3412be21cf40031d26e73c4e745a8fcf34a633fc5c08bda"
+    },
+    "compforce/cardiomyocyte/Mogrify_NATIVE_LIST.tsv": {
+      "archive_member": "results/cardiomyocyte/CompForce/Mogrify_NATIVE_LIST.tsv",
+      "sha256": "fe45af2aae70d51af5a78a7e7d25140838e6833d3a59a68d416bbd59678e9bee"
+    },
+    "compforce/cardiomyocyte/Mogrify_NATIVE_RAW.tsv": {
+      "archive_member": "results/cardiomyocyte/CompForce/Mogrify_NATIVE_RAW.tsv",
+      "sha256": "3a2b6f31b32ff83666a50c95b1e711e75562324ad14bea7158e1d4a8765f7b03"
+    },
+    "compforce/cardiomyocyte/dAlessio_NATIVE_LIST.tsv": {
+      "archive_member": "results/cardiomyocyte/CompForce/dAlessio_NATIVE_LIST.tsv",
+      "sha256": "48950db58bf26a8be56fab6d2791bf9c484d67f5c95bc4399cb1e5247430e7e2"
+    },
+    "compforce/cardiomyocyte/dAlessio_NATIVE_RAW.tsv": {
+      "archive_member": "results/cardiomyocyte/CompForce/dAlessio_NATIVE_RAW.tsv",
+      "sha256": "2d3a872178c4fdf663a38f99a306ee69a120bee56872b029f5cb60485ecebc0c"
+    },
+    "compforce/betapanc/CellNet_NATIVE_LIST.tsv": {
+      "archive_member": "results/betapanc/CompForce/CellNet_NATIVE_LIST.tsv",
+      "sha256": "fed64b251418fb55b6add4ce3722772bbb88272ebacb3f66c5d6091082f044c0"
+    },
+    "compforce/betapanc/CellNet_NATIVE_RAW.tsv": {
+      "archive_member": "results/betapanc/CompForce/CellNet_NATIVE_RAW.tsv",
+      "sha256": "15c59e60096566b736c06e36d3475caa01b0c8fcebb2762e21bee286511795d0"
+    },
+    "compforce/betapanc/DiffExp_deseq_NATIVE_LIST.tsv": {
+      "archive_member": "results/betapanc/CompForce/DiffExp_deseq_NATIVE_LIST.tsv",
+      "sha256": "9bd3e7a0f0c5e7c6862a1a983e94a59ee057735307ae2944e8b92f4d295c3c2e"
+    },
+    "compforce/betapanc/DiffExp_deseq_NATIVE_RAW.tsv": {
+      "archive_member": "results/betapanc/CompForce/DiffExp_deseq_NATIVE_RAW.tsv",
+      "sha256": "49fb183e74dd618949b728f556572f14f01f76a07f8b8745fc3ef86ab66acf15"
+    },
+    "compforce/betapanc/DiffExp_ttest_NATIVE_LIST.tsv": {
+      "archive_member": "results/betapanc/CompForce/DiffExp_ttest_NATIVE_LIST.tsv",
+      "sha256": "8e2e1792b09f45855db781e9a8cd38c16c5d3fb582737fc1fc2c8f080d6d8432"
+    },
+    "compforce/betapanc/DiffExp_ttest_NATIVE_RAW.tsv": {
+      "archive_member": "results/betapanc/CompForce/DiffExp_ttest_NATIVE_RAW.tsv",
+      "sha256": "08a911e4fb1e3184321e5dea365ae9c13a54bd80c77447e7a9f16fced169a88e"
+    },
+    "compforce/betapanc/DiffExp_ttest_logCP100k_sensitivity_NATIVE_LIST.tsv": {
+      "archive_member": "results/betapanc/CompForce/DiffExp_ttest_logCP100k_sensitivity_NATIVE_LIST.tsv",
+      "sha256": "128348fd90538c3f3dac5c5902fde7485b330f3a996894f453b2150454d88d2f"
+    },
+    "compforce/betapanc/DiffExp_ttest_logCP100k_sensitivity_NATIVE_RAW.tsv": {
+      "archive_member": "results/betapanc/CompForce/DiffExp_ttest_logCP100k_sensitivity_NATIVE_RAW.tsv",
+      "sha256": "36be5d5ccda7f428933a2515241caaa4e5b794e9531e8b16f350165659f50824"
+    },
+    "compforce/betapanc/Mogrify_NATIVE_LIST.tsv": {
+      "archive_member": "results/betapanc/CompForce/Mogrify_NATIVE_LIST.tsv",
+      "sha256": "07975aa5c85bcb800565d0e77ffccb67a526ab26216b6185244e926d5ece9208"
+    },
+    "compforce/betapanc/Mogrify_NATIVE_RAW.tsv": {
+      "archive_member": "results/betapanc/CompForce/Mogrify_NATIVE_RAW.tsv",
+      "sha256": "dcff5ac92041ed7e230a223ffcb12e2eb2117ba76c7e426bdca98da1ffd07ec5"
+    },
+    "compforce/betapanc/dAlessio_NATIVE_LIST.tsv": {
+      "archive_member": "results/betapanc/CompForce/dAlessio_NATIVE_LIST.tsv",
+      "sha256": "be0ace85796e26d1dc38ad8b3858ba88fd5d95cd7d6e8aa4823005be71739e62"
+    },
+    "compforce/betapanc/dAlessio_NATIVE_RAW.tsv": {
+      "archive_member": "results/betapanc/CompForce/dAlessio_NATIVE_RAW.tsv",
+      "sha256": "4adb707f9f3438dce0dc6510c9fab4a89cec1094764b93b0d4b695cd79771b2f"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+--- archive/R/pm_cellnet.R
++++ working/R/pm_cellnet.R
+@@ -97,12 +97,7 @@
+ 		if (is.null(network$type)){
+ 			cat("Network interaction types not provided in network$type, assigning by correlation.",'\n')
+ 
+-			xcorr = cor(t(expTrain))
+-			xcorr = xcorr[unique(network$TF),]
+-			xcorr = xcorr[,unique(network$TG)]
+-			i<-cbind(match(network$TF,rownames(xcorr)),match(network$TG,colnames(xcorr)))
+-
+-			network<-cbind(network,corr=xcorr[i])
++			network$corr <- network_edge_correlation(expTrain, network)
+ 			network$type<-ifelse(network$corr>0,1,-1)
+ 		}
+ 
+@@ -382,3 +377,28 @@
+   ### zscore
+ }
+ 
++
++# Evaluate exactly the Pearson coefficients read by archived trainCellNet.
++# R's stats::cor has the same estimand with an explicit second matrix.
++network_edge_correlation <- function(expression, edges, block_size=512L) {
++  factors <- unique(edges$TF)
++  targets <- unique(edges$TG)
++  stopifnot(all(factors %in% rownames(expression)), all(targets %in% rownames(expression)))
++  if (nrow(edges) == 0L) return(numeric())
++  factor_matrix <- t(expression[factors,,drop=FALSE])
++  factor_index <- match(edges$TF, factors)
++  target_index <- match(edges$TG, targets)
++  coefficients <- rep(NA_real_, nrow(edges))
++  for (lower in seq.int(1L, length(targets), by=block_size)) {
++    upper <- min(lower + block_size - 1L, length(targets))
++    local_targets <- targets[lower:upper]
++    wanted <- which(target_index >= lower & target_index <= upper)
++    block <- stats::cor(factor_matrix, t(expression[local_targets,,drop=FALSE]))
++    coefficients[wanted] <- block[cbind(factor_index[wanted], target_index[wanted] - lower + 1L)]
++  }
++  # stats::cor(x) writes ones on its diagonal, even for constant columns,
++  # while stats::cor(x,y) returns NA at constant self-pairs.
++  stopifnot(all(is.finite(expression)))
++  coefficients[edges$TF == edges$TG] <- 1
++  coefficients
++}

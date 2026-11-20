@@ -1,0 +1,261 @@
+method	slot	bhlh	partner	score	rank	midrank
+Expression: both	B11-P04	Neurod6	Pou3f2	1047/1118	1	1.0
+Expression: both	B08-P04	Neurod1	Pou3f2	1021/1118	2	2.0
+Expression: both	B01-P04	Ascl1	Pou3f2	504/559	3	3.0
+Expression: both	B44-P04	Mycn	Pou3f2	491/559	4	4.0
+Expression: both	B11-P06	Neurod6	Pou3f3	961/1118	5	5.0
+Expression: both	B30-P04	Hes6	Pou3f2	478/559	6	6.0
+Expression: both	B06-P04	Neurog2	Pou3f2	943/1118	7	7.0
+Expression: both	B08-P06	Neurod1	Pou3f3	935/1118	8	8.0
+Expression: both	B01-P06	Ascl1	Pou3f3	461/559	9	9.0
+Expression: both	B44-P06	Mycn	Pou3f3	448/559	10	10.0
+Expression: both	B11-P05	Neurod6	Pou3f4	875/1118	11	11.0
+Expression: both	B30-P06	Hes6	Pou3f3	435/559	12	12.0
+Expression: both	B06-P06	Neurog2	Pou3f3	857/1118	13	13.0
+Expression: both	B08-P05	Neurod1	Pou3f4	849/1118	14	14.0
+Expression: both	B01-P05	Ascl1	Pou3f4	418/559	15	15.0
+Expression: both	B11-P02	Neurod6	Pou4f1	32/43	16	16.0
+Expression: both	B44-P05	Mycn	Pou3f4	405/559	17	17.0
+Expression: both	B08-P02	Neurod1	Pou4f1	31/43	18	18.0
+Expression: both	B12-P04	Atoh1	Pou3f2	400/559	19	19.0
+Expression: both	B01-P02	Ascl1	Pou4f1	61/86	20	20.0
+Expression: both	B11-P10	Neurod6	Pou2f1	789/1118	21	21.0
+Expression: both	B30-P05	Hes6	Pou3f4	392/559	22	22.0
+Expression: both	B06-P05	Neurog2	Pou3f4	771/1118	23	23.0
+Expression: both	B44-P02	Mycn	Pou4f1	59/86	24	24.0
+Expression: both	B08-P10	Neurod1	Pou2f1	763/1118	25	25.0
+Expression: both	B01-P10	Ascl1	Pou2f1	375/559	26	26.0
+Expression: both	B07-P04	Neurog3	Pou3f2	374/559	27	27.0
+Expression: both	B30-P02	Hes6	Pou4f1	57/86	28	28.0
+Expression: both	B06-P02	Neurog2	Pou4f1	28/43	29	29.0
+Expression: both	B44-P10	Mycn	Pou2f1	362/559	30	30.0
+Expression: both	B12-P06	Atoh1	Pou3f3	357/559	31	31.0
+Expression: both	B30-P10	Hes6	Pou2f1	349/559	32	32.0
+Expression: both	B06-P10	Neurog2	Pou2f1	685/1118	33	33.0
+Expression: both	B07-P06	Neurog3	Pou3f3	331/559	34	34.0
+Expression: both	B12-P05	Atoh1	Pou3f4	314/559	35	35.0
+Expression: both	B20-P04	Tcf3	Pou3f2	605/1118	36	36.0
+Expression: both	B12-P02	Atoh1	Pou4f1	45/86	37	37.0
+Expression: both	B22-P04	Myc	Pou3f2	579/1118	38	38.0
+Expression: both	B07-P05	Neurog3	Pou3f4	288/559	39	39.0
+Expression: both	B21-P04	Id1	Pou3f2	553/1118	40	40.0
+Expression: both	B12-P10	Atoh1	Pou2f1	271/559	41	41.0
+Expression: both	B36-P04	Hey2	Pou3f2	270/559	42	42.0
+Expression: both	B07-P02	Neurog3	Pou4f1	41/86	43	43.0
+Expression: both	B46-P04	Bhlhe40	Pou3f2	527/1118	44	44.0
+Expression: both	B20-P06	Tcf3	Pou3f3	519/1118	45	45.0
+Expression: both	B22-P06	Myc	Pou3f3	493/1118	46	46.0
+Expression: both	B07-P10	Neurog3	Pou2f1	245/559	47	47.0
+Expression: both	B21-P06	Id1	Pou3f3	467/1118	48	48.0
+Expression: both	B36-P06	Hey2	Pou3f3	227/559	49	49.0
+Expression: both	B46-P06	Bhlhe40	Pou3f3	441/1118	50	50.0
+Expression: both	B20-P05	Tcf3	Pou3f4	433/1118	51	51.0
+Expression: both	B22-P05	Myc	Pou3f4	407/1118	52	52.0
+Expression: both	B20-P02	Tcf3	Pou4f1	15/43	53	53.0
+Expression: both	B21-P05	Id1	Pou3f4	381/1118	54	54.0
+Expression: both	B36-P05	Hey2	Pou3f4	184/559	55	55.0
+Expression: both	B22-P02	Myc	Pou4f1	14/43	56	56.0
+Expression: both	B46-P05	Bhlhe40	Pou3f4	355/1118	57	57.0
+Expression: both	B20-P10	Tcf3	Pou2f1	347/1118	58	58.0
+Expression: both	B21-P02	Id1	Pou4f1	13/43	59	59.0
+Expression: both	B36-P02	Hey2	Pou4f1	25/86	60	60.0
+Expression: both	B22-P10	Myc	Pou2f1	321/1118	61	61.0
+Expression: both	B46-P02	Bhlhe40	Pou4f1	12/43	62	62.0
+Expression: both	B21-P10	Id1	Pou2f1	295/1118	63	63.0
+Expression: both	B36-P10	Hey2	Pou2f1	141/559	64	64.0
+Expression: both	B46-P10	Bhlhe40	Pou2f1	269/1118	65	65.0
+Expression: bHLH only	B11-P02	Neurod6	Pou4f1	85/86	1	3.0
+Expression: bHLH only	B11-P10	Neurod6	Pou2f1	85/86	2	3.0
+Expression: bHLH only	B11-P06	Neurod6	Pou3f3	85/86	3	3.0
+Expression: bHLH only	B11-P05	Neurod6	Pou3f4	85/86	4	3.0
+Expression: bHLH only	B11-P04	Neurod6	Pou3f2	85/86	5	3.0
+Expression: bHLH only	B08-P06	Neurod1	Pou3f3	81/86	6	8.0
+Expression: bHLH only	B08-P02	Neurod1	Pou4f1	81/86	7	8.0
+Expression: bHLH only	B08-P10	Neurod1	Pou2f1	81/86	8	8.0
+Expression: bHLH only	B08-P05	Neurod1	Pou3f4	81/86	9	8.0
+Expression: bHLH only	B08-P04	Neurod1	Pou3f2	81/86	10	8.0
+Expression: bHLH only	B01-P10	Ascl1	Pou2f1	79/86	11	13.0
+Expression: bHLH only	B01-P05	Ascl1	Pou3f4	79/86	12	13.0
+Expression: bHLH only	B01-P02	Ascl1	Pou4f1	79/86	13	13.0
+Expression: bHLH only	B01-P06	Ascl1	Pou3f3	79/86	14	13.0
+Expression: bHLH only	B01-P04	Ascl1	Pou3f2	79/86	15	13.0
+Expression: bHLH only	B44-P10	Mycn	Pou2f1	75/86	16	18.0
+Expression: bHLH only	B44-P02	Mycn	Pou4f1	75/86	17	18.0
+Expression: bHLH only	B44-P05	Mycn	Pou3f4	75/86	18	18.0
+Expression: bHLH only	B44-P06	Mycn	Pou3f3	75/86	19	18.0
+Expression: bHLH only	B44-P04	Mycn	Pou3f2	75/86	20	18.0
+Expression: bHLH only	B30-P06	Hes6	Pou3f3	71/86	21	23.0
+Expression: bHLH only	B30-P10	Hes6	Pou2f1	71/86	22	23.0
+Expression: bHLH only	B30-P05	Hes6	Pou3f4	71/86	23	23.0
+Expression: bHLH only	B30-P04	Hes6	Pou3f2	71/86	24	23.0
+Expression: bHLH only	B30-P02	Hes6	Pou4f1	71/86	25	23.0
+Expression: bHLH only	B06-P10	Neurog2	Pou2f1	69/86	26	28.0
+Expression: bHLH only	B06-P06	Neurog2	Pou3f3	69/86	27	28.0
+Expression: bHLH only	B06-P02	Neurog2	Pou4f1	69/86	28	28.0
+Expression: bHLH only	B06-P04	Neurog2	Pou3f2	69/86	29	28.0
+Expression: bHLH only	B06-P05	Neurog2	Pou3f4	69/86	30	28.0
+Expression: bHLH only	B12-P06	Atoh1	Pou3f3	47/86	31	33.0
+Expression: bHLH only	B12-P02	Atoh1	Pou4f1	47/86	32	33.0
+Expression: bHLH only	B12-P04	Atoh1	Pou3f2	47/86	33	33.0
+Expression: bHLH only	B12-P05	Atoh1	Pou3f4	47/86	34	33.0
+Expression: bHLH only	B12-P10	Atoh1	Pou2f1	47/86	35	33.0
+Expression: bHLH only	B07-P10	Neurog3	Pou2f1	39/86	36	38.0
+Expression: bHLH only	B07-P02	Neurog3	Pou4f1	39/86	37	38.0
+Expression: bHLH only	B07-P05	Neurog3	Pou3f4	39/86	38	38.0
+Expression: bHLH only	B07-P04	Neurog3	Pou3f2	39/86	39	38.0
+Expression: bHLH only	B07-P06	Neurog3	Pou3f3	39/86	40	38.0
+Expression: bHLH only	B20-P10	Tcf3	Pou2f1	17/86	41	43.0
+Expression: bHLH only	B20-P04	Tcf3	Pou3f2	17/86	42	43.0
+Expression: bHLH only	B20-P06	Tcf3	Pou3f3	17/86	43	43.0
+Expression: bHLH only	B20-P05	Tcf3	Pou3f4	17/86	44	43.0
+Expression: bHLH only	B20-P02	Tcf3	Pou4f1	17/86	45	43.0
+Expression: bHLH only	B22-P10	Myc	Pou2f1	13/86	46	48.0
+Expression: bHLH only	B22-P05	Myc	Pou3f4	13/86	47	48.0
+Expression: bHLH only	B22-P06	Myc	Pou3f3	13/86	48	48.0
+Expression: bHLH only	B22-P02	Myc	Pou4f1	13/86	49	48.0
+Expression: bHLH only	B22-P04	Myc	Pou3f2	13/86	50	48.0
+Expression: bHLH only	B21-P04	Id1	Pou3f2	9/86	51	53.0
+Expression: bHLH only	B21-P06	Id1	Pou3f3	9/86	52	53.0
+Expression: bHLH only	B21-P10	Id1	Pou2f1	9/86	53	53.0
+Expression: bHLH only	B21-P05	Id1	Pou3f4	9/86	54	53.0
+Expression: bHLH only	B21-P02	Id1	Pou4f1	9/86	55	53.0
+Expression: bHLH only	B36-P06	Hey2	Pou3f3	7/86	56	58.0
+Expression: bHLH only	B36-P04	Hey2	Pou3f2	7/86	57	58.0
+Expression: bHLH only	B36-P05	Hey2	Pou3f4	7/86	58	58.0
+Expression: bHLH only	B36-P02	Hey2	Pou4f1	7/86	59	58.0
+Expression: bHLH only	B36-P10	Hey2	Pou2f1	7/86	60	58.0
+Expression: bHLH only	B46-P05	Bhlhe40	Pou3f4	5/86	61	63.0
+Expression: bHLH only	B46-P02	Bhlhe40	Pou4f1	5/86	62	63.0
+Expression: bHLH only	B46-P04	Bhlhe40	Pou3f2	5/86	63	63.0
+Expression: bHLH only	B46-P10	Bhlhe40	Pou2f1	5/86	64	63.0
+Expression: bHLH only	B46-P06	Bhlhe40	Pou3f3	5/86	65	63.0
+TFcomb: both	B06-P04	Neurog2	Pou3f2	0.024010086675	1	1.0
+TFcomb: both	B06-P06	Neurog2	Pou3f3	0.023327641538	2	2.5
+TFcomb: both	B06-P05	Neurog2	Pou3f4	0.023327641538	3	2.5
+TFcomb: both	B06-P02	Neurog2	Pou4f1	0.02294799143	4	4.0
+TFcomb: both	B06-P10	Neurog2	Pou2f1	0.02216365212	5	5.0
+TFcomb: both	B07-P04	Neurog3	Pou3f2	0.018205135139	6	6.0
+TFcomb: both	B21-P04	Id1	Pou3f2	0.01739424879	7	7.0
+TFcomb: both	B07-P05	Neurog3	Pou3f4	0.01732681502	8	8.5
+TFcomb: both	B07-P06	Neurog3	Pou3f3	0.01732681502	9	8.5
+TFcomb: both	B21-P06	Id1	Pou3f3	0.016791583589	10	10.5
+TFcomb: both	B21-P05	Id1	Pou3f4	0.016791583589	11	10.5
+TFcomb: both	B07-P02	Neurog3	Pou4f1	0.016711686561	12	12.0
+TFcomb: both	B21-P02	Id1	Pou4f1	0.016136365582	13	13.0
+TFcomb: both	B08-P04	Neurod1	Pou3f2	0.01567231237	14	14.0
+TFcomb: both	B08-P06	Neurod1	Pou3f3	0.015595763693	15	15.5
+TFcomb: both	B08-P05	Neurod1	Pou3f4	0.015595763693	16	15.5
+TFcomb: both	B07-P10	Neurog3	Pou2f1	0.015349776121	17	17.0
+TFcomb: both	B30-P06	Hes6	Pou3f3	0.014630289697	18	18.5
+TFcomb: both	B30-P05	Hes6	Pou3f4	0.014630289697	19	18.5
+TFcomb: both	B44-P04	Mycn	Pou3f2	0.01459243484	20	20.0
+TFcomb: both	B30-P04	Hes6	Pou3f2	0.014542901866	21	21.0
+TFcomb: both	B08-P02	Neurod1	Pou4f1	0.01420632005	22	22.0
+TFcomb: both	B44-P05	Mycn	Pou3f4	0.013488126997	23	23.5
+TFcomb: both	B44-P06	Mycn	Pou3f3	0.013488126997	24	23.5
+TFcomb: both	B21-P10	Id1	Pou2f1	0.013336626318	25	25.0
+TFcomb: both	B30-P02	Hes6	Pou4f1	0.013009791568	26	26.0
+TFcomb: both	B44-P02	Mycn	Pou4f1	0.012989271586	27	27.0
+TFcomb: both	B22-P04	Myc	Pou3f2	0.012726575716	28	28.0
+TFcomb: both	B44-P10	Mycn	Pou2f1	0.012335615545	29	29.0
+TFcomb: both	B22-P05	Myc	Pou3f4	0.011590844451	30	30.5
+TFcomb: both	B22-P06	Myc	Pou3f3	0.011590844451	31	30.5
+TFcomb: both	B22-P02	Myc	Pou4f1	0.011155073846	32	32.0
+TFcomb: both	B22-P10	Myc	Pou2f1	0.010784994909	33	33.0
+TFcomb: both	B08-P10	Neurod1	Pou2f1	0.010547200199	34	34.0
+TFcomb: both	B36-P04	Hey2	Pou3f2	0.01034600977	35	35.0
+TFcomb: both	B30-P10	Hes6	Pou2f1	0.009102848227	36	36.0
+TFcomb: both	B36-P06	Hey2	Pou3f3	0.009024013306	37	37.5
+TFcomb: both	B36-P05	Hey2	Pou3f4	0.009024013306	38	37.5
+TFcomb: both	B36-P02	Hey2	Pou4f1	0.008545051165	39	39.0
+TFcomb: both	B36-P10	Hey2	Pou2f1	0.00826850895	40	40.0
+TFcomb: both	B12-P04	Atoh1	Pou3f2	0.006365577184	41	41.0
+TFcomb: both	B11-P04	Neurod6	Pou3f2	0.005781914214	42	42.0
+TFcomb: both	B46-P04	Bhlhe40	Pou3f2	0.00552219682	43	43.0
+TFcomb: both	B01-P04	Ascl1	Pou3f2	0.003096117267	44	44.0
+TFcomb: both	B12-P06	Atoh1	Pou3f3	0.003008163367	45	45.5
+TFcomb: both	B12-P05	Atoh1	Pou3f4	0.003008163367	46	45.5
+TFcomb: both	B11-P06	Neurod6	Pou3f3	0.001559422072	47	47.5
+TFcomb: both	B11-P05	Neurod6	Pou3f4	0.001559422072	48	47.5
+TFcomb: both	B12-P10	Atoh1	Pou2f1	0.000768255871	49	49.0
+TFcomb: both	B46-P05	Bhlhe40	Pou3f4	0.000493400244	50	50.5
+TFcomb: both	B46-P06	Bhlhe40	Pou3f3	0.000493400244	51	50.5
+TFcomb: both	B46-P10	Bhlhe40	Pou2f1	0.000120077654	52	52.0
+TFcomb: both	B11-P10	Neurod6	Pou2f1	7.415952e-05	53	53.0
+TFcomb: both	B12-P02	Atoh1	Pou4f1	-0.000748106303	54	54.0
+TFcomb: both	B01-P10	Ascl1	Pou2f1	-0.001717467173	55	55.0
+TFcomb: both	B46-P02	Bhlhe40	Pou4f1	-0.002843031852	56	56.0
+TFcomb: both	B20-P04	Tcf3	Pou3f2	-0.004109266025	57	57.0
+TFcomb: both	B11-P02	Neurod6	Pou4f1	-0.005248875271	58	58.0
+TFcomb: both	B20-P10	Tcf3	Pou2f1	-0.005960212669	59	59.0
+TFcomb: both	B01-P05	Ascl1	Pou3f4	-0.006159281685	60	60.5
+TFcomb: both	B01-P06	Ascl1	Pou3f3	-0.006159281685	61	60.5
+TFcomb: both	B20-P06	Tcf3	Pou3f3	-0.006799726667	62	62.5
+TFcomb: both	B20-P05	Tcf3	Pou3f4	-0.006799726667	63	62.5
+TFcomb: both	B20-P02	Tcf3	Pou4f1	-0.00728376666	64	64.0
+TFcomb: both	B01-P02	Ascl1	Pou4f1	-0.008351088805	65	65.0
+TFcomb: bHLH only	B06-P10	Neurog2	Pou2f1	0.023316825949	1	3.0
+TFcomb: bHLH only	B06-P06	Neurog2	Pou3f3	0.023316825949	2	3.0
+TFcomb: bHLH only	B06-P02	Neurog2	Pou4f1	0.023316825949	3	3.0
+TFcomb: bHLH only	B06-P04	Neurog2	Pou3f2	0.023316825949	4	3.0
+TFcomb: bHLH only	B06-P05	Neurog2	Pou3f4	0.023316825949	5	3.0
+TFcomb: bHLH only	B07-P10	Neurog3	Pou2f1	0.017310067803	6	8.0
+TFcomb: bHLH only	B07-P02	Neurog3	Pou4f1	0.017310067803	7	8.0
+TFcomb: bHLH only	B07-P05	Neurog3	Pou3f4	0.017310067803	8	8.0
+TFcomb: bHLH only	B07-P04	Neurog3	Pou3f2	0.017310067803	9	8.0
+TFcomb: bHLH only	B07-P06	Neurog3	Pou3f3	0.017310067803	10	8.0
+TFcomb: bHLH only	B21-P04	Id1	Pou3f2	0.016769002719	11	13.0
+TFcomb: bHLH only	B21-P06	Id1	Pou3f3	0.016769002719	12	13.0
+TFcomb: bHLH only	B21-P10	Id1	Pou2f1	0.016769002719	13	13.0
+TFcomb: bHLH only	B21-P05	Id1	Pou3f4	0.016769002719	14	13.0
+TFcomb: bHLH only	B21-P02	Id1	Pou4f1	0.016769002719	15	13.0
+TFcomb: bHLH only	B08-P06	Neurod1	Pou3f3	0.015566749371	16	18.0
+TFcomb: bHLH only	B08-P02	Neurod1	Pou4f1	0.015566749371	17	18.0
+TFcomb: bHLH only	B08-P10	Neurod1	Pou2f1	0.015566749371	18	18.0
+TFcomb: bHLH only	B08-P05	Neurod1	Pou3f4	0.015566749371	19	18.0
+TFcomb: bHLH only	B08-P04	Neurod1	Pou3f2	0.015566749371	20	18.0
+TFcomb: bHLH only	B30-P06	Hes6	Pou3f3	0.014597867033	21	23.0
+TFcomb: bHLH only	B30-P10	Hes6	Pou2f1	0.014597867033	22	23.0
+TFcomb: bHLH only	B30-P05	Hes6	Pou3f4	0.014597867033	23	23.0
+TFcomb: bHLH only	B30-P04	Hes6	Pou3f2	0.014597867033	24	23.0
+TFcomb: bHLH only	B30-P02	Hes6	Pou4f1	0.014597867033	25	23.0
+TFcomb: bHLH only	B44-P10	Mycn	Pou2f1	0.013473036995	26	28.0
+TFcomb: bHLH only	B44-P02	Mycn	Pou4f1	0.013473036995	27	28.0
+TFcomb: bHLH only	B44-P05	Mycn	Pou3f4	0.013473036995	28	28.0
+TFcomb: bHLH only	B44-P06	Mycn	Pou3f3	0.013473036995	29	28.0
+TFcomb: bHLH only	B44-P04	Mycn	Pou3f2	0.013473036995	30	28.0
+TFcomb: bHLH only	B22-P10	Myc	Pou2f1	0.011577038836	31	33.0
+TFcomb: bHLH only	B22-P05	Myc	Pou3f4	0.011577038836	32	33.0
+TFcomb: bHLH only	B22-P06	Myc	Pou3f3	0.011577038836	33	33.0
+TFcomb: bHLH only	B22-P02	Myc	Pou4f1	0.011577038836	34	33.0
+TFcomb: bHLH only	B22-P04	Myc	Pou3f2	0.011577038836	35	33.0
+TFcomb: bHLH only	B36-P06	Hey2	Pou3f3	0.009008498583	36	38.0
+TFcomb: bHLH only	B36-P04	Hey2	Pou3f2	0.009008498583	37	38.0
+TFcomb: bHLH only	B36-P05	Hey2	Pou3f4	0.009008498583	38	38.0
+TFcomb: bHLH only	B36-P02	Hey2	Pou4f1	0.009008498583	39	38.0
+TFcomb: bHLH only	B36-P10	Hey2	Pou2f1	0.009008498583	40	38.0
+TFcomb: bHLH only	B12-P06	Atoh1	Pou3f3	0.002892666868	41	43.0
+TFcomb: bHLH only	B12-P02	Atoh1	Pou4f1	0.002892666868	42	43.0
+TFcomb: bHLH only	B12-P04	Atoh1	Pou3f2	0.002892666868	43	43.0
+TFcomb: bHLH only	B12-P05	Atoh1	Pou3f4	0.002892666868	44	43.0
+TFcomb: bHLH only	B12-P10	Atoh1	Pou2f1	0.002892666868	45	43.0
+TFcomb: bHLH only	B11-P02	Neurod6	Pou4f1	0.001166439981	46	48.0
+TFcomb: bHLH only	B11-P10	Neurod6	Pou2f1	0.001166439981	47	48.0
+TFcomb: bHLH only	B11-P06	Neurod6	Pou3f3	0.001166439981	48	48.0
+TFcomb: bHLH only	B11-P05	Neurod6	Pou3f4	0.001166439981	49	48.0
+TFcomb: bHLH only	B11-P04	Neurod6	Pou3f2	0.001166439981	50	48.0
+TFcomb: bHLH only	B46-P05	Bhlhe40	Pou3f4	0.000354027871	51	53.0
+TFcomb: bHLH only	B46-P02	Bhlhe40	Pou4f1	0.000354027871	52	53.0
+TFcomb: bHLH only	B46-P04	Bhlhe40	Pou3f2	0.000354027871	53	53.0
+TFcomb: bHLH only	B46-P10	Bhlhe40	Pou2f1	0.000354027871	54	53.0
+TFcomb: bHLH only	B46-P06	Bhlhe40	Pou3f3	0.000354027871	55	53.0
+TFcomb: bHLH only	B01-P10	Ascl1	Pou2f1	-0.006343413657	56	58.0
+TFcomb: bHLH only	B01-P05	Ascl1	Pou3f4	-0.006343413657	57	58.0
+TFcomb: bHLH only	B01-P02	Ascl1	Pou4f1	-0.006343413657	58	58.0
+TFcomb: bHLH only	B01-P06	Ascl1	Pou3f3	-0.006343413657	59	58.0
+TFcomb: bHLH only	B01-P04	Ascl1	Pou3f2	-0.006343413657	60	58.0
+TFcomb: bHLH only	B20-P10	Tcf3	Pou2f1	-0.006822188155	61	63.0
+TFcomb: bHLH only	B20-P04	Tcf3	Pou3f2	-0.006822188155	62	63.0
+TFcomb: bHLH only	B20-P06	Tcf3	Pou3f3	-0.006822188155	63	63.0
+TFcomb: bHLH only	B20-P05	Tcf3	Pou3f4	-0.006822188155	64	63.0
+TFcomb: bHLH only	B20-P02	Tcf3	Pou4f1	-0.006822188155	65	63.0

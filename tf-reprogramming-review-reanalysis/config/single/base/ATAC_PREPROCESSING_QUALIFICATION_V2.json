@@ -1,0 +1,17 @@
+{
+  "UTC": "2026-11-17T17:55:08.990719+00:00",
+  "phase": "pre-C actual-input freeze; no C TF score/reference matching performed",
+  "evidence": [
+    "reports/ATAC_SOURCE_PREFIX_QC_AND_PROGRESS.json",
+    "reports/ATAC_ALIGNMENT_INTERFACE_TEST.json"
+  ],
+  "reason": "51bp source reads contain ~8.3% exact Nextera core; adapter-compatible local alignment and bounded shared-index memory qualify common ATAC reconstruction",
+  "uniform_alignment": "Bowtie2 very-sensitive-local; seed0; memory-mapped byte-identical index;8threads, at most2 concurrent biological libraries; PE no-mixed/no-discordant because only proper pairs are retained",
+  "same_retained_records_legacy_vs_no_rescue_QC": true,
+  "local_alignment_change": "declared preprocessing change motivated by adapter QC; not numerically equivalent to end-to-end",
+  "all_five_targets_retained": true,
+  "no_downsampling_or_reference_based_choice": true,
+  "unconsumed_attempt_preserved": "hammelman_toy_benchmark_20261117_214025/tmp/posix_work/UNCONSUMED_END_TO_END_ATTEMPT",
+  "statistical_scoring_rules_changed": false,
+  "RNA_predictions_or_eligibility_changed": false
+}

@@ -1,0 +1,22 @@
+{
+  "timestamp_UTC": "2026-11-17T14:09:15.729651+00:00",
+  "gene_annotation": "GENCODE M24 GRCm38.p6",
+  "genes": 55385,
+  "transcripts": 142552,
+  "B_edges": 43338,
+  "B_sources": 1167,
+  "B_lost": {
+    "unmapped_target": 1331,
+    "unmapped_source": 1579
+  },
+  "B_duplicate_edges": "mean signed coefficients; zero mean discarded",
+  "D_input_edges": 2606176,
+  "D_mapped_unique_edges": 1165240,
+  "D_lost": {
+    "target_mapping_unavailable": 684677,
+    "source_mapping_unavailable": 756259
+  },
+  "D_mapping": "complete HCOP strict bidirectional one-to-one, support>=3, M24 present",
+  "RTS_mapped_genes": 16176,
+  "RTS_unmapped_rows": 120
+}

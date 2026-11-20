@@ -1,0 +1,206 @@
+{
+  "score_rows": 5382,
+  "positive_direction_native_pairs": 171,
+  "variant_score_rows": 630,
+  "scored_study_gene_pairs": 70,
+  "reads": [
+    "CLEAN_PAIRS.tsv",
+    "GSE114809_EFFECT.tsv",
+    "TRRUST_MOUSE_SIGNED.tsv"
+  ],
+  "source_files": [
+    "utils.py",
+    "tf_inference.py"
+  ],
+  "source_sha256": {
+    "utils.py": "b36d6c97f453780f4ebab97020209843f415f2245b38350f96d57d34390d60ad",
+    "tf_inference.py": "a1a90fcb9ec50b9a05f6ba1d8c8b72412cda49d451ea0bbc0835a0b845b06b2d"
+  },
+  "python": "3.11.18",
+  "numpy": "2.2.6",
+  "pandas": "3.0.6",
+  "scipy": "1.15.2",
+  "sklearn": "1.6.1",
+  "hash_selected_checks": [
+    {
+      "audit_hash": "0155db602fb40152fd7ed0ec80d4da4841bd6fcf491981a1a1785dfc5762e307",
+      "a": "18109",
+      "b": "18993",
+      "score": 0.013262665155196762,
+      "reverse_native": 0.013262665155196762,
+      "independent_pearson_sparse": 0.013262665155197006,
+      "reason": ""
+    },
+    {
+      "audit_hash": "0522d385b7de61502a977ce292ba05c901b41b287a647a0746e8b0757fda5994",
+      "a": "17869",
+      "b": "18986",
+      "score": 0.014863436483862817,
+      "reverse_native": 0.014863436483862817,
+      "independent_pearson_sparse": 0.0148634364838622,
+      "reason": ""
+    },
+    {
+      "audit_hash": "05a21d7838a425eb79bd1955642328bb5456ba97b29cb1676448306afafc78f5",
+      "a": "15901",
+      "b": "18986",
+      "score": 0.010950636156913138,
+      "reverse_native": 0.010950636156913138,
+      "independent_pearson_sparse": 0.01095063615691297,
+      "reason": ""
+    },
+    {
+      "audit_hash": "05e9b3cf2a3750c6d3c6c1e4e7cbd6786b112df1629e574b972b9d4946d25d53",
+      "a": "15901",
+      "b": "18992",
+      "score": 0.017350559107122753,
+      "reverse_native": 0.017350559107122753,
+      "independent_pearson_sparse": 0.017350559107123215,
+      "reason": ""
+    },
+    {
+      "audit_hash": "0830513d1413fb6a9fd43fb263701c0c5d655b9783d4726ff86c919b591837c0",
+      "a": "55927",
+      "b": "18992",
+      "score": 0.007443377891860479,
+      "reverse_native": 0.007443377891860479,
+      "independent_pearson_sparse": 0.007443377891860395,
+      "reason": ""
+    },
+    {
+      "audit_hash": "08e67885e116370606ffd741a0fbfe811b3cb685de98f9f3d2b363844af47012",
+      "a": "15214",
+      "b": "18994",
+      "score": 0.018351468680578978,
+      "reverse_native": 0.018351468680578978,
+      "independent_pearson_sparse": 0.018351468680578565,
+      "reason": ""
+    },
+    {
+      "audit_hash": "091e7847ae2ed8b8b834d50b28e510ad9e4f3a858753aeb86f005f71e8c9f6d4",
+      "a": "17869",
+      "b": "18992",
+      "score": 0.01629674636581442,
+      "reverse_native": 0.01629674636581442,
+      "independent_pearson_sparse": 0.01629674636581423,
+      "reason": ""
+    },
+    {
+      "audit_hash": "0ae8f34624035a8f31dcea9a96b6251b066030d5b420238480638ff0b61f5f26",
+      "a": "17172",
+      "b": "18994",
+      "score": 0.0021736793555621773,
+      "reverse_native": 0.0021736793555621773,
+      "independent_pearson_sparse": 0.0021736793555620884,
+      "reason": ""
+    },
+    {
+      "audit_hash": "0bb549f3f66e39fe0a07b862dbea8afb670b7213815a5ebb5bcf82c4757a2cd1",
+      "a": "55927",
+      "b": "18994",
+      "score": 0.009270865675062672,
+      "reverse_native": 0.009270865675062672,
+      "independent_pearson_sparse": 0.009270865675062441,
+      "reason": ""
+    },
+    {
+      "audit_hash": "0d246447faf4e7ed354b236e626cb85484bb8bdf897521ecad94ea680267cecf",
+      "a": "20893",
+      "b": "18986",
+      "score": 0.003001030406423475,
+      "reverse_native": 0.003001030406423475,
+      "independent_pearson_sparse": 0.003001030406423349,
+      "reason": ""
+    },
+    {
+      "audit_hash": "0fb1a834c9f7f03dcc1bf100d9f86985544a4ebaa4af1bbc27f73d9e96148070",
+      "a": "18109",
+      "b": "18986",
+      "score": 0.009300076570017262,
+      "reverse_native": 0.009300076570017262,
+      "independent_pearson_sparse": 0.009300076570017263,
+      "reason": ""
+    },
+    {
+      "audit_hash": "0fd3cfad90d713037cf94144bb1a60fb3333b5c1f6834d2d24e60892b4a56ea4",
+      "a": "17172",
+      "b": "18992",
+      "score": 0.0009306913878860281,
+      "reverse_native": 0.0009306913878860281,
+      "independent_pearson_sparse": 0.0009306913878860165,
+      "reason": ""
+    },
+    {
+      "audit_hash": "001662c4e792624517758b4027c8b2ed2f0ff302ea56c3333167af819ce35343",
+      "a": "15213",
+      "b": "18736",
+      "score": null,
+      "reverse_native": null,
+      "independent_pearson_sparse": null,
+      "reason": "native_direction_positive_filter"
+    },
+    {
+      "audit_hash": "002b11354a19288ba5d858e7a38b61b3d93679b1621a789ba0e6f012c5ff0f86",
+      "a": "19213",
+      "b": "18991",
+      "score": null,
+      "reverse_native": null,
+      "independent_pearson_sparse": null,
+      "reason": "native_direction_positive_filter"
+    },
+    {
+      "audit_hash": "0097e5cf3175bc8a922a9e42d74d723e8f86c7d795cd273c7fee7510fa9cabc5",
+      "a": "17877",
+      "b": "18992",
+      "score": null,
+      "reverse_native": null,
+      "independent_pearson_sparse": null,
+      "reason": "native_direction_positive_filter"
+    },
+    {
+      "audit_hash": "010487262051a52b0475900317570bc5ab6632e5fce1089c4b493e6140747d0b",
+      "a": "19213",
+      "b": "18996",
+      "score": null,
+      "reverse_native": null,
+      "independent_pearson_sparse": null,
+      "reason": "native_direction_positive_filter"
+    },
+    {
+      "audit_hash": "01ce09d5f5f43d56cd9e8c0ee1748cee1312d33a62afd84e7d81e13aa071acbd",
+      "a": "17121",
+      "b": "18994",
+      "score": null,
+      "reverse_native": null,
+      "independent_pearson_sparse": null,
+      "reason": "member_no_measured_outgoing_in_model"
+    },
+    {
+      "audit_hash": "02465388166b02a3e0be41bb17282e1838aead0d08f184cbbce75dc09eb71e55",
+      "a": "17877",
+      "b": "18991",
+      "score": null,
+      "reverse_native": null,
+      "independent_pearson_sparse": null,
+      "reason": "native_direction_positive_filter"
+    },
+    {
+      "audit_hash": "0256c55166931102358a3d61b4a220c26955556dc461f46cb1a2ab97100844f9",
+      "a": "71093",
+      "b": "18994",
+      "score": null,
+      "reverse_native": null,
+      "independent_pearson_sparse": null,
+      "reason": "member_no_measured_outgoing_in_model"
+    },
+    {
+      "audit_hash": "025d620a6a578625e3d42f7fd60d03bf231081599e72c1c5ae65381eeffef708",
+      "a": "21350",
+      "b": "18996",
+      "score": null,
+      "reverse_native": null,
+      "independent_pearson_sparse": null,
+      "reason": "member_no_measured_outgoing_in_model"
+    }
+  ]
+}

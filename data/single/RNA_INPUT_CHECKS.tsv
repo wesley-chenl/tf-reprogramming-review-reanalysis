@@ -1,0 +1,4 @@
+target	count_genes	DE_genes	finite_stat	finite_stat_padj_missing	sample_order	positive_sign_means	rounded_counts_exact	counts_unit
+liver	54331	31364	31364	8501	GSM1866625;GSM1866626;GSM1866627;ENCSR096STK_bio1;ENCSR096STK_bio2	target up vs source	True	rounded tximport lengthScaledTPM estimated counts
+cardiomyocyte	54331	29972	29972	6974	GSM1866625;GSM1866626;GSM1866627;GSM2525582;GSM2525583	target up vs source	True	rounded tximport lengthScaledTPM estimated counts
+betapanc	54331	29539	29539	8600	GSM1866625;GSM1866626;GSM1866627;GSM2666438;GSM2666440	target up vs source	True	rounded tximport lengthScaledTPM estimated counts

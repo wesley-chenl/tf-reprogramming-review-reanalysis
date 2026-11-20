@@ -1,0 +1,19 @@
+--- sealed/imcell_run.R
++++ working/imcell_run.R
+@@ -26,6 +26,16 @@
+ }
+ file_sha <- function(path) {
+   strsplit(system2("sha256sum",shQuote(path),stdout=TRUE)," +")[[1]][[1]]
++}
++
++if (!preflight) {
++  adapt <- fromJSON(file.path(root,"checkpoints/IMCELL_RUNTIME_READY.json"))
++  code <- file.path(root,"scripts/imcell_indexed_cpu.R")
++  stopifnot(adapt$config_sha256==file_sha(file.path(root,"FROZEN_CONFIG_ROUND2.yaml")),
++            adapt$indexed_code_sha256==file_sha(code))
++  source(code)
++  r2_install_indexed_mc()
++  cat("IMCell archive rank_by_spread with exact ordered integer lookups:",adapt$indexed_code_sha256,"\n")
+ }
+ 
+ score_job <- function(job,niter=1000L) {

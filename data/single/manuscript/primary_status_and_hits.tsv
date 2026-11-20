@@ -1,0 +1,19 @@
+target	method	implementation	execution_status	interpretation_status	QC_limitations	candidate_universe_n	scoreable_n	returned_n	eligible_n	actual_recommendations_n	reference_total_n	reference_in_U_n	reference_eligible_n	Hits_at_10	exact_hits_in_rank_order	boundary_tie_n
+liver	TRIAGE	original_discordance_score	reused_verified	valid		1374	1216	1216	1216	10	11	10	10	2	Gata2;Sox17	0
+liver	VIPER	VIPER_CollecTRI_mouse_adapter	reused_verified	valid		1374	304	304	304	10	11	10	9	4	Hnf1a;Cebpa;Foxa2;Gata2	0
+liver	Taiji	Taiji_1.3.0_bilateral_PageRank_ratio	reused_verified	conditional	common source pooled ATAC: 21041 peaks; 3.418% alignment records / 3.873% TLEN fragments	1374	577	577	577	10	11	10	9	1	Hnf4a	0
+liver	ANANSE	ANANSE_v0.5.1_influence	completed	conditional	common source pooled ATAC: 21041 peaks; 3.418% alignment records / 3.873% TLEN fragments	1374	84	84	84	10	11	10	4	1	Foxa3	0
+liver	IMCell	IMCell_v0.1.0_signed_singleton_3x1000	completed	valid		1374	906	906	906	10	11	10	10	1	Cebpb	0
+liver	CompForce RRA	CompForce_RRA5_archived	completed	valid		1374	1226	1226	1226	10	11	10	10	0		0
+cardiomyocyte	TRIAGE	original_discordance_score	reused_verified	conditional	cardiomyocyte RNA: Salmon 28.615% and 27.912% mapped	1374	1216	1216	1216	10	6	6	6	2	Gata4;Tbx5	0
+cardiomyocyte	VIPER	VIPER_CollecTRI_mouse_adapter	reused_verified	conditional	cardiomyocyte RNA: Salmon 28.615% and 27.912% mapped	1374	284	284	284	10	6	6	3	2	Mef2c;Tbx5	0
+cardiomyocyte	Taiji	Taiji_1.3.0_bilateral_PageRank_ratio	reused_verified	conditional	common source pooled ATAC: 21041 peaks; 3.418% alignment records / 3.873% TLEN fragments | cardiomyocyte ATAC: single-end; 113 peaks; 0.030% alignment records | cardiomyocyte RNA: Salmon 28.615% and 27.912% mapped	1374	254	254	254	10	6	6	2	2	Gata4;Isl1	0
+cardiomyocyte	ANANSE	ANANSE_v0.5.1_influence	completed	conditional	common source pooled ATAC: 21041 peaks; 3.418% alignment records / 3.873% TLEN fragments | cardiomyocyte ATAC: single-end; 113 peaks; 0.030% alignment records | cardiomyocyte RNA: Salmon 28.615% and 27.912% mapped	1374	103	103	103	10	6	6	4	2	Gata4;Tbx5	0
+cardiomyocyte	IMCell	IMCell_v0.1.0_signed_singleton_3x1000	completed	conditional	cardiomyocyte RNA: Salmon 28.615% and 27.912% mapped	1374	906	906	906	10	6	6	6	0		0
+cardiomyocyte	CompForce RRA	CompForce_RRA5_archived	completed	conditional	cardiomyocyte RNA: Salmon 28.615% and 27.912% mapped	1374	1203	1203	1203	10	6	6	5	1	Gata4	0
+betapanc	TRIAGE	original_discordance_score	reused_verified	valid		1374	1216	1216	1216	10	5	5	5	3	Pdx1;Nkx2-2;Nkx6-1	0
+betapanc	VIPER	VIPER_CollecTRI_mouse_adapter	reused_verified	valid		1374	289	289	289	10	5	5	3	0		0
+betapanc	Taiji	Taiji_1.3.0_bilateral_PageRank_ratio	reused_verified	conditional	common source pooled ATAC: 21041 peaks; 3.418% alignment records / 3.873% TLEN fragments	1374	577	577	577	10	5	5	5	2	Pdx1;Nkx6-1	0
+betapanc	ANANSE	ANANSE_v0.5.1_influence	completed	conditional	common source pooled ATAC: 21041 peaks; 3.418% alignment records / 3.873% TLEN fragments	1374	83	83	83	10	5	5	1	0		0
+betapanc	IMCell	IMCell_v0.1.0_signed_singleton_3x1000	completed	valid		1374	906	906	906	10	5	5	5	0		0
+betapanc	CompForce RRA	CompForce_RRA5_archived	completed	valid		1374	1253	1253	1253	10	5	5	4	1	Pdx1	0

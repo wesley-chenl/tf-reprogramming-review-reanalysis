@@ -1,0 +1,6 @@
+type	id	group	rep	path	tags	format
+RNA-seq	RNA_source	source	1	/input/GSM1074345.tsv	GeneQuant	Tsv
+RNA-seq	RNA_source	source	2	/input/GSM1074346.tsv	GeneQuant	Tsv
+RNA-seq	RNA_target	target	1	/input/GSM1074357.tsv	GeneQuant	Tsv
+ATAC-seq	ATAC_source	source	0	/input/source.narrowPeak		NarrowPeak
+ATAC-seq	ATAC_target	target	0	/input/target.narrowPeak		NarrowPeak

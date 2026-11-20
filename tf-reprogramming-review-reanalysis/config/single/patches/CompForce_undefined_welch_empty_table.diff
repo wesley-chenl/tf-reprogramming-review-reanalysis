@@ -1,0 +1,26 @@
+--- archive/R/pm_diffexp.R
++++ working/R/pm_diffexp.R
+@@ -54,9 +54,7 @@
+   if (nrow(topTFs)==0){
+     print("No significantly differentially expressed TFs.")
+   }
+-  else{
+-    topTFs$rank<-1:nrow(topTFs)
+-  }
++  topTFs$rank<-seq_len(nrow(topTFs))
+ 
+   cleaned_res<-topTFs[,c('TF','rank')]
+   #colnames(cleaned_res)<-c("TF","rank")
+@@ -85,7 +83,11 @@
+   TFs<-intersect(TFs,rownames(g1))
+   TFs<-intersect(TFs,rownames(g2))
+   for (tf in TFs){
+-    t<-t.test(g1[tf,],g2[tf,])
++    t<-tryCatch(t.test(g1[tf,],g2[tf,]),error=function(e){
++      if (!identical(conditionMessage(e), "data are essentially constant")) stop(e)
++      message("CF_UNDEFINED_WELCH_TTEST\t", tf, "\t", conditionMessage(e))
++      list(estimate=c(mean(g1[tf,]), mean(g2[tf,])), p.value=NA_real_)
++    })
+     ans<-data.frame(TF=tf,start_mean=t$estimate[2],target_mean=t$estimate[1],mean_diff=(t$estimate[1]-t$estimate[2]),pval=t$p.value)
+     diffres<-rbind(diffres,ans)
+   }

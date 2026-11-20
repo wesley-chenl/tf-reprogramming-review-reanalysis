@@ -1,0 +1,6 @@
+alias	input	eligibility
+D	CLEAN_PAIRS.tsv + SCORING_POLICY.json	old score allowlist; hash IDs and confirmed aliases only
+E	GSE53951_EFFECT.tsv + GSE114809_EFFECT.tsv	separate population effects by endpoint
+T	TRRUST_MOUSE_SIGNED.tsv	3964 dated signed unique links; no target outcomes
+native_resources	external module archives and independent eligible resources	may enter scoring after documented legal feature preparation and provenance
+private_labels	old sources_private and old evaluation files	never mounted in scoring, only after new score lock

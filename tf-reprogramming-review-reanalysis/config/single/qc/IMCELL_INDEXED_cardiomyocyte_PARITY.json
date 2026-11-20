@@ -1,0 +1,19 @@
+{
+  "mode": "cardiomyocyte",
+  "algorithm": "archive rank_by_spread and stock MC summary; ordered integer endpoint lookup only",
+  "calls": [
+    {
+      "target": "cardiomyocyte",
+      "gene": "ENSMUSG00000001280",
+      "niter": 1000,
+      "replicate": 1,
+      "native_spread": 208.548,
+      "native_seconds": 90.199000000000012,
+      "indexed_seconds": 1.2980000000000018,
+      "bit_identical_full_rank_result_and_rng": true
+    }
+  ],
+  "pass": true,
+  "R": "4.4.3",
+  "igraph": "2.3.4"
+}

@@ -1,0 +1,5 @@
+# TRRUST mouse edge table and diagnostic extract
+
+The packaged `score_inputs/inputs_scoring/TRRUST_MOUSE_SIGNED.tsv` and `diagnostic/score_inputs/direct_edges.tsv.gz` are adaptations of TRRUST v2 mouse network data. They retain a subset with auditable direction and dated evidence, map identifiers to the recorded mouse Gene IDs, remove ambiguous signs and duplicate edges, and add support references. The diagnostic extract retains only the graph columns for the 65 scored pairs. The tables are available under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). The database authors' terms apply to the source data and its adaptations.
+
+Han H, Cho J-W, Lee S, Yun A, Kim H, Bae D, et al. TRRUST v2, an expanded reference database of human and mouse transcriptional regulatory interactions. *Nucleic Acids Research* 2018, 46(D1), D380–D386. [Article](https://doi.org/10.1093/nar/gkx1013) · [TRRUST data license](https://www.grnpedia.org/trrust//?homeType=newUser) · [Original download](https://www.grnpedia.org/trrust/downloadnetwork.php).

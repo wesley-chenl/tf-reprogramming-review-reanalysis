@@ -1,0 +1,31 @@
+name: ananse-round2
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.9
+  - pip
+  - setuptools<70
+  - wheel
+  - adjusttext
+  - dask=2023.9.1
+  - distributed=2023.9.1
+  - genomepy=0.16.1
+  - gimmemotifs-minimal=0.18.0
+  - loguru
+  - matplotlib-base>=3.3
+  - networkx<3.3
+  - numpy=1.23.5
+  - openpyxl
+  - pandas=1.5.3
+  - pybedtools
+  - pydot>=1.4.1
+  - pygraphviz>=1.7
+  - pyranges
+  - pytables
+  - scikit-learn=0.24.1
+  - scipy=1.10.1
+  - seaborn-base
+  - tqdm
+  - bedtools
+  - pyarrow<15

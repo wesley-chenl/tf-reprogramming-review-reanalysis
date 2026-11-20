@@ -1,0 +1,15 @@
+{
+  "compact_rank_enabled_Singapore": "2026-11-19T02:56:50.119368+08:00",
+  "compact_archive_binding_rank_for_targets": [
+    "betapanc"
+  ],
+  "compact_rank_code_sha256": "6b8e269d54df6731443adc9c5c5f6afc390e03d776ca42d05175377d995ef686",
+  "compact_binding_parity_sha256": "ed780c99121a2cf20d2aa313138f479eb33d6635d580597d9e7b150c0b657f92",
+  "completed_chromosome_checkpoints": {
+    "betapanc/source": "hammelman_round2_20261118_225515/validation/ANANSE_BETAPANC_NATIVE_CHROMOSOME_CHECKPOINT.json"
+  },
+  "adapter_sha256": "b6ebec992c3bc11fcf3fa09f953cc0f9f875dd04f3755b47340d5312a0ebb859",
+  "stock_binding_aggregation_memory_log": "hammelman_round2_20261118_225515/results/betapanc/ANANSE/network_source_attempt1.log",
+  "stock_beta_memory_restart_n": 4,
+  "scope": "beta-TC6 only. The archived chromosome scores, global min rank and scaling are retained; compact UTF-8 sorting reduces peak memory."
+}

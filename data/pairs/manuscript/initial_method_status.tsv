@@ -1,0 +1,25 @@
+method	family	state	scored_rows	implementation	source	notes	detail_status
+expression	4.1	已跑且可解释	10439	frozen role percentile mean	previous score.py		
+expr_product	4.1	已跑且可解释	10439	research expression percentile product	protocol		
+taiji_pair	4.1	输入不足	0	Taiji-reprogram member product K=2 adaptation	https://github.com/Wang-lab-UCSD/Taiji-reprogram	State-specific QC NarrowPeak for both states unavailable within raw acquisition window	input_insufficient
+network_add	4.2	已跑且可解释	4050	frozen direct signed target sum	previous score.py		
+network_union	4.2	已跑且可解释	4050	frozen direct signed target union	previous score.py		
+two_add	4.2	已跑但有条件	4410	research signed two-step sum	protocol		
+two_union	4.2	已跑但有条件	4410	research signed two-step union	protocol		
+msviper	4.2	输入不足	0	viper msviperCombinatorial	https://bioconductor.org/packages/viper/	Native msviperCombinatorial executed at minsize=5. Maximum raw common regulon size over study pairs is four.	
+msviper_both_positive	4.2	输入不足	0	viper sensitivity	https://bioconductor.org/packages/viper/	No studied pair reaches the common size filter; both native member NES >0 sensitivity has no additional pair.	
+msviper_minsize2_diag	4.2	已跑但有条件	90	viper small-regulon diagnostic	https://bioconductor.org/packages/viper/	Native analytic pair NES on 2–4 measured common targets after checking member direction. Supplementary only.	
+msviper_minsize2_both_positive_diag	4.2	已跑但有条件	18	viper small-regulon sensitivity	https://bioconductor.org/packages/viper/	Native analytic pair NES after both native member NES >0 restriction. No two-class rank comparison on a one-pair panel.	
+imcell_p010	4.3	已跑但有条件	4680	IMCell v0.1.0 propagation module	https://zenodo.org/records/20563020		
+imcell_p005	4.3	已跑但有条件	4680	IMCell probability sensitivity	https://zenodo.org/records/20563020		
+imcell_p020	4.3	已跑但有条件	4680	IMCell probability sensitivity	https://zenodo.org/records/20563020		
+tfcomb	4.3	已跑但有条件	1260	TFcomb published scoring module as applicable	https://tfcomb.readthedocs.io/en/latest/_modules/TFcomb/tools/utils.html	Native get_multi_TF direction=pos number=2 and get_directing_score mode=multi X=None. Fresh external graph plus separately fitted ridge on each bulk endpoint.	
+sfa	4.3	已跑但有条件	6732	published normalization with fixed dual enumeration	https://github.com/dwgoon/sfa		
+boolean	4.4	输入不足	0	BoNesis synthesis plus MaBoSS double-ON	https://doi.org/10.1038/s41540-025-00569-z	No compatible trained MEF-to-neuronal model with validated independent endpoint and terminal held-out time series	input_insufficient
+fvs_certificate	4.4	仅集合/证书	0	structural necessary condition	protocol	16 个自环必须逐一覆盖，任意两节点都不是全图的完整 FVS。属于结构证书，不是实验的负标签。	
+cabean	4.4	输入不足	0	CABEAN Boolean control certificate 2.0.1 archive	https://satoss.uni.lu/software/CABEAN/	No eligible mouse Boolean rule network, definite source and target attractor pair	input_insufficient
+irene	4.5	输入不足	0	IRENE released MammaryEC native workflow	https://github.com/saschajung/IRENE	Human supplied core network, promoter/enhancers and backgrounds; matched two-state mouse epigenetic and model input absent	input_insufficient
+netisce	4.5	输入不足	0	NETISCE native FVS then SFA, cluster and classifiers	https://github.com/VeraLiconaResearchGroup/Netisce	No validated phenotype markers and attractor cluster mapping for mouse conversion; native scoring covers FVS configurations only	input_insufficient
+integration	4.5	已跑但有条件	4680	research equal-weight integration	protocol		
+integration_expression	4.5	已跑但有条件	4680	component-only ablation	protocol		
+integration_response	4.5	已跑但有条件	4680	component-only ablation	protocol		

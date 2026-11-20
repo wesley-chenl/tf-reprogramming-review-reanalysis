@@ -1,0 +1,14 @@
+family_order: ["4.1","4.2","4.3","4.4","4.5"]
+representatives:
+  "4.1": [expression]
+  "4.2": [two_union, network_union]
+  "4.3": [imcell_p010]
+  "4.4": [boolean]
+  "4.5": [integration, integration_expression, integration_response]
+fallbacks_display_separately:
+  "4.3": [sfa]
+main_endpoint: GSE53951
+identity: main
+versions: [native, common]
+colors: {positive: "#7853A6", negative: "#277B98", unavailable: "#DDE3E7"}
+rule: "Show all the above even if their curves coincide or scores are missing. Supplemental eligible published modules and score variants get separate panels."

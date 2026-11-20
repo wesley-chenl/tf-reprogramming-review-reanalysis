@@ -1,0 +1,12 @@
+{
+  "created_Singapore": "2026-11-19T00:55:29.416675+08:00",
+  "config_sha256": "0fe579c596bb8b5662e5f7e50233d1de54ed5c7e0f4c5ca85c8faeb835373cfc",
+  "Dask_workers": 1,
+  "threads_per_worker": 2,
+  "memory_limit_per_worker": "7350MiB",
+  "restart_evidence": {
+    "log": "hammelman_round2_20261118_225515/results/liver/ANANSE/network_source_attempt1.log",
+    "visible_Dask_nanny_memory_restarts": 6
+  },
+  "scientific_inputs_and_score_formula_unchanged": true
+}

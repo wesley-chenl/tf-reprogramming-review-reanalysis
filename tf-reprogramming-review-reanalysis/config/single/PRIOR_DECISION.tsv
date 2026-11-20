@@ -1,0 +1,4 @@
+method	order	candidate_prior	selected	source	source_sha256	reason
+CompForce RRA	1	official mouse_chipX.rda / chipX_gs	True	hammelman_round2_20261118_225515/sources/CompForce/data/mouse_chipX.rda	4d380a5b56379fdf22b00ed21b172d58339c455bd365f078e71104867eb8dee5	Zenodo 20563029 archive and v0.1.0 commit verified; official example uses TF and TG only
+IMCell	1	official mouse_chipX.rda / chipX_gs	False	hammelman_round2_20261118_225515/sources/CompForce/data/mouse_chipX.rda	4d380a5b56379fdf22b00ed21b172d58339c455bd365f078e71104867eb8dee5	Only TF and TG supplied; signed edge types and positive weights cannot be verified
+IMCell	2	frozen VIPER mouse CollecTRI, Zenodo 8192729 / HCOP	True	hammelman_toy_benchmark_20261117_214025/inputs/priors/COLLECTRI_MOUSE_M24.tsv	7a258a8b1e3394f7b6f921df9c8c89dc0c653f463ac4060b545e2d7b0d69d220	Frozen mouse mapped regulator/target, nonzero signed MOR converted to type and positive unit weight

@@ -1,0 +1,46 @@
+target	method_1	method_2	intersection_n	union_n	jaccard	shared_exact_hits	only_1_hits	only_2_hits
+liver	TRIAGE	VIPER	1	19	0.05263157895	Gata2	Sox17	Cebpa;Foxa2;Hnf1a
+liver	TRIAGE	Taiji	2	18	0.1111111111		Gata2;Sox17	Hnf4a
+liver	TRIAGE	ANANSE	1	19	0.05263157895		Gata2;Sox17	Foxa3
+liver	TRIAGE	IMCell	0	20	0		Gata2;Sox17	Cebpb
+liver	TRIAGE	CompForce RRA	1	19	0.05263157895		Gata2;Sox17	
+liver	VIPER	Taiji	3	17	0.1764705882		Cebpa;Foxa2;Gata2;Hnf1a	Hnf4a
+liver	VIPER	ANANSE	3	17	0.1764705882		Cebpa;Foxa2;Gata2;Hnf1a	Foxa3
+liver	VIPER	IMCell	0	20	0		Cebpa;Foxa2;Gata2;Hnf1a	Cebpb
+liver	VIPER	CompForce RRA	1	19	0.05263157895		Cebpa;Foxa2;Gata2;Hnf1a	
+liver	Taiji	ANANSE	3	17	0.1764705882		Hnf4a	Foxa3
+liver	Taiji	IMCell	0	20	0		Hnf4a	Cebpb
+liver	Taiji	CompForce RRA	2	18	0.1111111111		Hnf4a	
+liver	ANANSE	IMCell	0	20	0		Foxa3	Cebpb
+liver	ANANSE	CompForce RRA	5	15	0.3333333333		Foxa3	
+liver	IMCell	CompForce RRA	0	20	0		Cebpb	
+cardiomyocyte	TRIAGE	VIPER	2	18	0.1111111111	Tbx5	Gata4	Mef2c
+cardiomyocyte	TRIAGE	Taiji	1	19	0.05263157895	Gata4	Tbx5	Isl1
+cardiomyocyte	TRIAGE	ANANSE	4	16	0.25	Gata4;Tbx5		
+cardiomyocyte	TRIAGE	IMCell	0	20	0		Gata4;Tbx5	
+cardiomyocyte	TRIAGE	CompForce RRA	3	17	0.1764705882	Gata4	Tbx5	
+cardiomyocyte	VIPER	Taiji	0	20	0		Mef2c;Tbx5	Gata4;Isl1
+cardiomyocyte	VIPER	ANANSE	1	19	0.05263157895	Tbx5	Mef2c	Gata4
+cardiomyocyte	VIPER	IMCell	0	20	0		Mef2c;Tbx5	
+cardiomyocyte	VIPER	CompForce RRA	1	19	0.05263157895		Mef2c;Tbx5	Gata4
+cardiomyocyte	Taiji	ANANSE	3	17	0.1764705882	Gata4	Isl1	Tbx5
+cardiomyocyte	Taiji	IMCell	0	20	0		Gata4;Isl1	
+cardiomyocyte	Taiji	CompForce RRA	3	17	0.1764705882	Gata4	Isl1	
+cardiomyocyte	ANANSE	IMCell	0	20	0		Gata4;Tbx5	
+cardiomyocyte	ANANSE	CompForce RRA	4	16	0.25	Gata4	Tbx5	
+cardiomyocyte	IMCell	CompForce RRA	0	20	0			Gata4
+betapanc	TRIAGE	VIPER	0	20	0		Nkx2-2;Nkx6-1;Pdx1	
+betapanc	TRIAGE	Taiji	5	15	0.3333333333	Nkx6-1;Pdx1	Nkx2-2	
+betapanc	TRIAGE	ANANSE	1	19	0.05263157895		Nkx2-2;Nkx6-1;Pdx1	
+betapanc	TRIAGE	IMCell	0	20	0		Nkx2-2;Nkx6-1;Pdx1	
+betapanc	TRIAGE	CompForce RRA	3	17	0.1764705882	Pdx1	Nkx2-2;Nkx6-1	
+betapanc	VIPER	Taiji	0	20	0			Nkx6-1;Pdx1
+betapanc	VIPER	ANANSE	0	20	0			
+betapanc	VIPER	IMCell	1	19	0.05263157895			
+betapanc	VIPER	CompForce RRA	0	20	0			Pdx1
+betapanc	Taiji	ANANSE	5	15	0.3333333333		Nkx6-1;Pdx1	
+betapanc	Taiji	IMCell	0	20	0		Nkx6-1;Pdx1	
+betapanc	Taiji	CompForce RRA	5	15	0.3333333333	Pdx1	Nkx6-1	
+betapanc	ANANSE	IMCell	0	20	0			
+betapanc	ANANSE	CompForce RRA	4	16	0.25			Pdx1
+betapanc	IMCell	CompForce RRA	0	20	0			Pdx1

@@ -1,0 +1,4 @@
+relative_path	url	bytes	sha256	download_mtime_utc	status
+external/preflight/GSE43916_RPKM.tsv.gz	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE43nnn/GSE43916/suppl/GSE43916_rnaseq_rpkm_iN_mm9_refseq_genes_collapse.txt.gz	2228277	d9f43d41eb26cf6c6136a85e566f963cf27ce9ed674d0aaedd7331e44919b1be	2026-11-19T15:52:33.605362+00:00	present
+external/preflight/GSE43916_family.soft.gz	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE43nnn/GSE43916/soft/GSE43916_family.soft.gz	5031	85d272a8bd6102e55ef1d197019b4340991bee24cc6818c01b511313cef78951	2026-11-19T15:50:30.866541+00:00	present
+external/preflight/Taiji-reprogram-0b6337aae2bebdcb5f1db35031ecc38e8b49179a.zip	https://codeload.github.com/Wang-lab-UCSD/Taiji-reprogram/zip/0b6337aae2bebdcb5f1db35031ecc38e8b49179a	22962023	6544e4b779a50e33ee68e5c24bc95dfb281f7ccc85784fb575f32def93ae1e14	2026-11-19T15:46:52.356166+00:00	present

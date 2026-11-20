@@ -1,0 +1,646 @@
+{
+  "frozen_at_Singapore": "2026-11-18T23:27:22.383511+08:00",
+  "design": "Revised exploratory analysis, native-input comparison, single TF only",
+  "targets": [
+    "liver",
+    "cardiomyocyte",
+    "betapanc"
+  ],
+  "methods_ordered": [
+    "DE",
+    "TRIAGE",
+    "VIPER",
+    "Taiji",
+    "ANANSE",
+    "CompForce RRA",
+    "IMCell"
+  ],
+  "paths": {
+    "output_wsl": "hammelman_round2_20261118_225515",
+    "output_windows": "hammelman_round2_20261118_225515",
+    "previous_frozen_inputs": "hammelman_toy_benchmark_20261117_214025",
+    "ananse_environment": "hammelman_round2_20261118_225515/toolchain/ananse",
+    "large_temporary_io": "hammelman_round2_20261118_225515/toolchain/work"
+  },
+  "samples": {
+    "liver": {
+      "rna_source": [
+        "GSM1866625",
+        "GSM1866626",
+        "GSM1866627"
+      ],
+      "rna_target": [
+        "ENCSR096STK_bio1",
+        "ENCSR096STK_bio2"
+      ],
+      "atac_source": [
+        "GSM1867737",
+        "GSM1867738"
+      ],
+      "atac_target": "ENCSR609OHJ_bio1"
+    },
+    "cardiomyocyte": {
+      "rna_source": [
+        "GSM1866625",
+        "GSM1866626",
+        "GSM1866627"
+      ],
+      "rna_target": [
+        "GSM2525582",
+        "GSM2525583"
+      ],
+      "atac_source": [
+        "GSM1867737",
+        "GSM1867738"
+      ],
+      "atac_target": "GSM2525591"
+    },
+    "betapanc": {
+      "rna_source": [
+        "GSM1866625",
+        "GSM1866626",
+        "GSM1866627"
+      ],
+      "rna_target": [
+        "GSM2666438",
+        "GSM2666440"
+      ],
+      "atac_source": [
+        "GSM1867737",
+        "GSM1867738"
+      ],
+      "atac_target": "GSM2666437"
+    }
+  },
+  "candidate_universe": {
+    "file": "hammelman_round2_20261118_225515/inputs_manifest/CANDIDATE_UNIVERSE.tsv",
+    "size": 1374,
+    "same_file_sha256": "150a3dfc4ecbbca8457437dd9c67dc4fc5205c2412bd2a7f193e970e5c20e2f9",
+    "scope": "candidate output or operated seed only. Full transcriptome and/or graph supplied where required."
+  },
+  "expression": {
+    "annotation": "GENCODE M24 / GRCm38.p6",
+    "target_vs_source": true,
+    "DE": "full frozen DESeq2 target-v-source signed Wald stat; keep finite stat even if padj NA",
+    "CompForce_input": "integer rounded tximport lengthScaledTPM estimated counts, full 54331 rows, 3 source and 2 target samples"
+  },
+  "peaks": {
+    "independent_qc": "preserved per-sample and pooled source checks",
+    "cardiomyocyte": "GSM2525591 SINGLE, Bowtie2 -U and MACS3 -f BAM --nomodel --shift -100 --extsize 200",
+    "assembly": "hammelman_round2_20261118_225515/toolchain/input_ref/mm10_GRCm38.p6.fa"
+  },
+  "ranking": {
+    "top_budget": 10,
+    "tie_break": "exact full-precision equality, stable Ensembl ID ASCII ascending",
+    "full_U": true,
+    "missing": "NA with reason; finite but ineligible remains unranked",
+    "all_identical": "completed_uninformative; no biological top10",
+    "direction": {
+      "DE": "descending",
+      "TRIAGE": "descending",
+      "VIPER": "descending",
+      "Taiji": "descending",
+      "ANANSE": "descending",
+      "CompForce RRA": "ascending",
+      "IMCell": "descending"
+    },
+    "Hhex_outside_U_remains_outside": true
+  },
+  "reused": {
+    "TRIAGE": "original_discordance_score, M24-mapped frozen RTS, positive target mean TPM times RTS",
+    "VIPER": "frozen package VIPER signed activity on full contrast with frozen mouse CollecTRI inputs and original eligibility",
+    "Taiji": "1.3.0 frozen max(PR_target/PR_source, PR_source/PR_target), original eligibility; no OE direction inferred"
+  },
+  "ANANSE": {
+    "version": "v0.5.1",
+    "commit": "580907581bda42e7bae172bcd346076cb87dcd41",
+    "resources": "GRCm38.p6/mm10, M24 unique-symbol gene BED12, Gimme vertebrate v5.0 mouse factors; pinned native ATAC+motif models",
+    "regions": "per-task source pooled plus current target only, v0.5.1 CombineBedFiles width=200 initial summit windows, native merging",
+    "expression": "mean gene-level TPM separately by state; all unique M24 expression genes",
+    "influence": {
+      "i": 500000,
+      "j": 0.05,
+      "c": "prob",
+      "select_after_join": false,
+      "native_positive_fold_change_filter": true,
+      "native_score": "influence_score"
+    },
+    "RNG": {
+      "python": 20261118,
+      "numpy": 20261118,
+      "PYTHONHASHSEED": 0
+    },
+    "runtime_only_controls": "local Dask memory limit/spill and worker count may adapt to measured resources"
+  },
+  "CompForce_RRA5_archived": {
+    "version": "v0.1.0",
+    "commit": "c0d64c336cf4fd4506315eb82cc1dac23a92d7dc",
+    "network": "official mouse_chipX.rda, exact M24 then frozen unique alias; preserve mapped source row order and multiplicity",
+    "components_in_order": [
+      "DiffExp_ttest",
+      "DiffExp_deseq",
+      "CellNet",
+      "Mogrify_source",
+      "dAlessio"
+    ],
+    "diffexp_pThresh": 0.05,
+    "CellNet_use_cfobj_network": true,
+    "Mogrify_use_cfobj_network": true,
+    "Mogrify_background_method": "source",
+    "Mogrify_diff_thresh": 20,
+    "dAlessio_all_background": false,
+    "scores": "stock cf_RRA / RobustRankAggreg; lower better; native union and missing behavior; no incomplete aggregation",
+    "compatibility": "bounded equivalent Pearson lookup, undefined constant Welch error yields a logged missing p-value, empty DE lists maintain schema",
+    "sensitivity": {
+      "name": "CompForce_RRA5_ttest_logCP100k_sensitivity",
+      "input": "native downsample_and_transform(counts,xFact=1e5,observations_by_features=FALSE)",
+      "unchanged_BH_and_native_direction": true,
+      "other_four_component_exports_byte_identical": true
+    }
+  },
+  "IMCell": {
+    "version": "v0.1.0",
+    "commit": "cfa3a869138f9d8f6395ac3509f4ff8a6423a3f9",
+    "prior": "frozen VIPER mouse CollecTRI; mouse_chipX lacks signed types and weights",
+    "graph": "full signed mapped graph, type=sign(mor), weight=1; exclude opposing duplicate edge signs",
+    "activation_program": "finite padj<0.05 and finite log2FoldChange>1",
+    "repression_program": "finite padj<0.05 and finite log2FoldChange<-1",
+    "call": "rank_by_spread, one seed, signed activation spread, repressor_wins=FALSE, in_degree, multiplier=1, return_spread=TRUE, num_cores=1",
+    "niter": 1000,
+    "replicates": 3,
+    "aggregate": "arithmetic mean of three native spreads",
+    "RNGkind": "L'Ecuyer-CMRG",
+    "seed": 20261118,
+    "streams": "precomputed sorted job-level nextRNGStream; 8154 jobs; independent of schedule"
+  },
+  "separation": {
+    "reference_policy": "Only independent evaluator opens original frozen labels after all scored outputs seal.",
+    "primary": "exact stable-gene Hits@10",
+    "family": "separate; frozen motif-family mapping, families collapsed and deduplicated",
+    "study_state_confounding": true,
+    "out_of_scope": [
+      "cocktails",
+      "scTF-seq",
+      "mESC",
+      "dopaminergic"
+    ]
+  },
+  "source_manifest_sha256": "a8e1615ed4a9e3bbdf815ea3d16084cae8f41f6f12954783a80053e5915b26ef",
+  "versions_and_prepared_input_files": [
+    {
+      "path": "hammelman_round2_20261118_225515/config/ANANSE_CONDA_EXPLICIT.txt",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 25968,
+      "mtime_ns": 1795014498637971400,
+      "sha256": "57fb5a22e0578ae7ee5092d23001786d90c059b9ccb7ad381e04b84ab8312d00"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/config/ANANSE_PIP_FREEZE.txt",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 12918,
+      "mtime_ns": 1795014499124802400,
+      "sha256": "4c896a2d293b64d14372f47a9fb50577a2f86f67c62203ac8ccc87696cc0ce48"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/config/ANANSE_VERSION.txt",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 14,
+      "mtime_ns": 1795014511749293100,
+      "sha256": "72bbf2c2a59d211513f2f4ac16e23d4ed3203fa1e6bdf18c29f9c95539af3017"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/config/ANANSE_binding_HELP.txt",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 5123,
+      "mtime_ns": 1795014502910574100,
+      "sha256": "bb30b611eaad100794c0f7ac97cf4c8c4bb6107822d8ec3d87d58c9d53bf5806"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/config/ANANSE_influence_HELP.txt",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 2119,
+      "mtime_ns": 1795014508613337500,
+      "sha256": "d2aa43257c9e8b22bf0a46d2ce6f2d91e66f9561354c0a7ab35b08952f0fb614"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/config/ANANSE_network_HELP.txt",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 3103,
+      "mtime_ns": 1795014505675402400,
+      "sha256": "066c5f049b31dd04e48d0c4f39eb7079055edd0ae972b54901198d5a694d7051"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/config/COMPFORCE_COMPAT_PROVENANCE.json",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 1212,
+      "mtime_ns": 1795015107030012700,
+      "sha256": "9373767d35f11fac6515de708067e2422b09468d396f9be77b13d774db392f2c"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/config/COMPFORCE_TTEST_COMPAT_PROVENANCE.json",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 1171,
+      "mtime_ns": 1795015464518218200,
+      "sha256": "c6c9911d9204a8937420516e3eab289436aaf5894d964914e1763d90c9bf3feb"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/config/PRIOR_DECISION.tsv",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 995,
+      "mtime_ns": 1795014840554361000,
+      "sha256": "e867a2a7d217d011be43ae24278ea8ccd4a4079e4125754c7b8904558f222704"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/config/ROUND2_R_SESSION.txt",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 2560,
+      "mtime_ns": 1795015115495166900,
+      "sha256": "7220a62749a8ecf9cdf1dc71326651217c9da814b90d5f74d4939a451e6bc1f3"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/config/R_INSTALL_PROVENANCE.json",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 7039,
+      "mtime_ns": 1795014675020855800,
+      "sha256": "b48d6bc402f608f82f06f0c1bf208e7ce0bd5f7826dbf26ee70305a699789e40"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/config/SOURCE_RELEASES.json",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 174810,
+      "mtime_ns": 1795014157626678700,
+      "sha256": "b5964caf2050f1b9a05ab0d92e752a64de2bd0c44512ee9e23f28e368e7a22f8"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/config/TASK_SPECIFICATION.md",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 33848,
+      "mtime_ns": 1795013657849410200,
+      "sha256": "ead2f92b385ecf6f69ad4d486d030f2e941fe387ecd0c15d1f7245b34f186b75"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/config/ananse-environment.yml",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 506,
+      "mtime_ns": 1795014195243614200,
+      "sha256": "1db373f93fac24709c1e8e66a0322a5439c62add459cb54634527babc8c0a42d"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/ATAC_INPUT_CHECKS.tsv",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 1906,
+      "mtime_ns": 1795014689795433000,
+      "sha256": "ee5d2258e57258a3c23819a511e63bae109ccb5e56101713defd219e57feb7ca"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/CANDIDATE_UNIVERSE.tsv",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 121122,
+      "mtime_ns": 1795014371593090200,
+      "sha256": "150a3dfc4ecbbca8457437dd9c67dc4fc5205c2412bd2a7f193e970e5c20e2f9"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/CHIPX_SYMBOL_MAPPING.tsv",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 1515673,
+      "mtime_ns": 1795014834967559700,
+      "sha256": "e2d0d25730f61addbb14b0dbb1d93a28907805ac92109711f939b27b0b289c47"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/COMPFORCE_MOUSE_CHIPX_M24.tsv",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 16872272,
+      "mtime_ns": 1795014837985743300,
+      "sha256": "72a445a6c103ce9de70f4df4d5e7d86d122d33877e75240f6d23645d5d288973"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/IMCELL_COLLECTRI_MOUSE_SIGNED.tsv",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 1826187,
+      "mtime_ns": 1795014838743513600,
+      "sha256": "225a3d67446c121dc55469d1b4157632c839beb905e64eb0b1271638083f7efe"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/IMCELL_RNG_STREAMS.tsv",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 876189,
+      "mtime_ns": 1795015058129314900,
+      "sha256": "e50d6b3af36b6e25cc7c388f714f54842b8d80cdee75a8a2eb4a6260c60ac1d1"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/IMCELL_SEED_COVERAGE.tsv",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 45165,
+      "mtime_ns": 1795014838820504000,
+      "sha256": "ba721d52e8eb2afb81972bd4a721d22794bbf0596ce5c169a9bc08b6fdc361f0"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/IMCELL_SIGN_CONFLICTS.tsv",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 13,
+      "mtime_ns": 1795014838764504600,
+      "sha256": "5d93c612a19c12a8caa9cfb05299521745b634f8fbd10d01249b1911e7d09a9a"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/IMCELL_TARGET_PROGRAM.tsv",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 2973935,
+      "mtime_ns": 1795014840527353200,
+      "sha256": "dcc3a506f75acd9101520eb3d9b54ca894a59fd71b66226fae6c8c6f10156c21"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/NETWORK_AND_PROGRAM_AUDIT.json",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 2027,
+      "mtime_ns": 1795014840582870100,
+      "sha256": "11a48ceef8df990cf7fa26c3423a853be6c4c22147a31964bc58804dfeb7c4ad"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/PREEXISTING_ATAC_QC.tsv",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 6572,
+      "mtime_ns": 1795014689892121600,
+      "sha256": "afd0712ee5bf761954991260c15a9e567242caf857bea1688a3ae6d43d226910"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/PREEXISTING_RNA_QC.tsv",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 1536,
+      "mtime_ns": 1795014689838002300,
+      "sha256": "c6e08d4d35b953a17e7c9da491c8f7f2f56051fdf40e6e8f7e28327c32f0dd1b"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/RAW_SOURCE_POINTERS.tsv",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 9397,
+      "mtime_ns": 1795014371613110700,
+      "sha256": "608308832dc4a126482ea56a308c26df1e337936bfd5639aa751f99bec7c6094"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/REUSE_LINEAGE.tsv",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 3962,
+      "mtime_ns": 1795014620594041700,
+      "sha256": "f92fe8fc023ebead1d6c5651d203b99728c4bc0f5c5118fbccce94e46671727f"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/RNA_INPUT_CHECKS.tsv",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 631,
+      "mtime_ns": 1795014620580042300,
+      "sha256": "c607832d06fcf820abc6d6f94c1fa5e21a9c8c918bfec52a0789a3ff9bc29891"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/SAMPLES.tsv",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 21977,
+      "mtime_ns": 1795014371638123100,
+      "sha256": "2b39ae8827dcaa32bb9c36708d2954bc3fb30d09cd63bb05ac0d118bf309b0e8"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/VERIFIED_INPUTS.json",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 63913,
+      "mtime_ns": 1795014689928142400,
+      "sha256": "6414e5ced0d6d4883bae39ceb8f7c5cc743289503fc2cf337aae1752cee32f64"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/ananse/GENE_SYMBOL_MAPPING.tsv",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 1826561,
+      "mtime_ns": 1795014941376063500,
+      "sha256": "f74d47c4152a6af0836b81d4e80b52778fdf5bc02132f7bb618bf32ff1da67c2"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/ananse/M24_gene_symbols.bed",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 6016826,
+      "mtime_ns": 1795014948372783400,
+      "sha256": "4e3b0b67f1698aa1c1f0dd511cba0599963988d55dc53c12adf7470e44eb3133"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/ananse/MOUSE_MOTIF_TFS.tsv",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 10935,
+      "mtime_ns": 1795014950217785200,
+      "sha256": "5ad3b059cb5b9e9ca8dd06c030ad142d787e2f5bcfea2f2d4def58af1946dc6f"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/ananse/REGION_AND_MOTIF_PROVENANCE.json",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 16527,
+      "mtime_ns": 1795014957933033000,
+      "sha256": "774dbc03aa45ceea9620e47d232f93b87d88bdc7d0cfaff901c1d20a422d9c90"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/ananse/betapanc/DESEQ2_TARGET_V_SOURCE_gene_symbols.tsv",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 3542878,
+      "mtime_ns": 1795014957419100800,
+      "sha256": "8260ee337aaa656a9490a02eadf35665230e4a542795315d2c051f26fa535539"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/ananse/betapanc/regions_combined.bed",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 1312656,
+      "mtime_ns": 1795014955000000000,
+      "sha256": "e02ab1f469726dbcb2d74dccd84650d18d1d8cc689a5552968577e2ffb21c8f9"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/ananse/betapanc/source_mean_TPM.tsv",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 930669,
+      "mtime_ns": 1795014956507643400,
+      "sha256": "791798367eda8a169eca1b09ad7652f57b78ce5ece522b22217830e29b9b666a"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/ananse/betapanc/target_mean_TPM.tsv",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 937595,
+      "mtime_ns": 1795014956713104700,
+      "sha256": "c59f8eb4a4f425e341c53d800466d497736a519bbbe8e886649713a063f61c21"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/ananse/cardiomyocyte/DESEQ2_TARGET_V_SOURCE_gene_symbols.tsv",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 3639914,
+      "mtime_ns": 1795014955103670200,
+      "sha256": "c36f1a581c10e6d6ed08aae447d0cf3363ef3f7c468fda289f144465eb52f92f"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/ananse/cardiomyocyte/regions_combined.bed",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 504676,
+      "mtime_ns": 1795014953000000000,
+      "sha256": "92f108d302d960bfa50abdc604e2b0f3ef4a5ab60c8eb6109f9ced14bcf9c30b"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/ananse/cardiomyocyte/source_mean_TPM.tsv",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 930669,
+      "mtime_ns": 1795014954169614600,
+      "sha256": "791798367eda8a169eca1b09ad7652f57b78ce5ece522b22217830e29b9b666a"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/ananse/cardiomyocyte/target_mean_TPM.tsv",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 941349,
+      "mtime_ns": 1795014954374815400,
+      "sha256": "3a7918bc5e51bc671db130555079474dddf6edac3c65186cdbdbd3bea143af6e"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/ananse/gimme.vertebrate.v5.0.motif2factors.txt",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 371478,
+      "mtime_ns": 1795014948500812300,
+      "sha256": "2a7410fd261ba7277006584ca38565d4271af39e7cefdfabb22be9404d0c1bc2"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/ananse/gimme.vertebrate.v5.0.pfm",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 871988,
+      "mtime_ns": 1795014948469297700,
+      "sha256": "6e2805d7371e5ec9bbfe8a775e6aa029079cd9e739fde7c4d31e023e1c8eb441"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/ananse/liver/DESEQ2_TARGET_V_SOURCE_gene_symbols.tsv",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 3767389,
+      "mtime_ns": 1795014953402793300,
+      "sha256": "33e2742478577f96110f4110ef8eabc8046617e10c86c28a550ecf44fa6ff6f9"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/ananse/liver/regions_combined.bed",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 1619225,
+      "mtime_ns": 1795014951000000000,
+      "sha256": "b38f8537c1aa6584f79b258605e47a609c8c4cf83d72c06bc5f9f5121281d566"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/ananse/liver/source_mean_TPM.tsv",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 930669,
+      "mtime_ns": 1795014952337802400,
+      "sha256": "791798367eda8a169eca1b09ad7652f57b78ce5ece522b22217830e29b9b666a"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/inputs_manifest/ananse/liver/target_mean_TPM.tsv",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 987092,
+      "mtime_ns": 1795014952583663300,
+      "sha256": "0ecbd5a7ac35ae95a206bcfcb4e497ec8b411a3ada56ee11a722d35051ffd857"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/scripts/ananse_native.py",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 2252,
+      "mtime_ns": 1795015628546536400,
+      "sha256": "2f287b52415042711dbf81399d0af73163f58b9877c30f08ca11d1122b58552b"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/scripts/imcell_freeze_jobs.R",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 1161,
+      "mtime_ns": 1795015056244982300,
+      "sha256": "390a810e4fc95d21151b2c7684fb78756c3124b87ef0186e11abe1cd6a7eebbe"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/scripts/imcell_run.R",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 7840,
+      "mtime_ns": 1795015056249982800,
+      "sha256": "d1de847c9b592f90487ec47e5ee00866c9c43250f4dacbcf3a3a7468e39b7d11"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/scripts/prepare_ananse.py",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 6778,
+      "mtime_ns": 1795014827682866500,
+      "sha256": "e54ee1da58ddb312ccae1a89da7cfc9635ff49308847c01a6713f7196a871563"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/scripts/prepare_r_inputs.py",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 6396,
+      "mtime_ns": 1795014827670859600,
+      "sha256": "a942a793c5a2efe779df2c4e57ec01ecc8bde75f750496c6fba8b0c3afba8534"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/scripts/r2lib.py",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 3738,
+      "mtime_ns": 1795014827677867600,
+      "sha256": "5892a9aa708d594c09f973c6e74073c6d535440d1d09c89a8077dafd3d1582d8"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/scripts/run_ananse.py",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 8556,
+      "mtime_ns": 1795015628549535500,
+      "sha256": "841dce690774e211cf6bb9aa08901d75751cd3d34f8d8b0b1a8b0f6fee8ce580"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/sources/compatibility/CellNet_unused_AnnotationDbi_import.diff",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 171,
+      "mtime_ns": 1795014631797017500,
+      "sha256": "e47529c684e2bf9c0ae385dd485967538e9a3eebee6374769a2d69b3e417e6c8"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/sources/compatibility/CompForce_bounded_exact_pearson.diff",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 1869,
+      "mtime_ns": 1795015093239071800,
+      "sha256": "11eb5a48b68d18275109af581ff5635ee91e7b630e3d5ae7bc83861f08cc8d69"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/sources/compatibility/CompForce_optional_dependencies.diff",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 478,
+      "mtime_ns": 1795014637265829900,
+      "sha256": "c429a3344d1ea762c0ff2c37828d63241165f9be4a224ec7b9af59301079a447"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/sources/compatibility/CompForce_undefined_welch_empty_table.diff",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 948,
+      "mtime_ns": 1795015450525740100,
+      "sha256": "e9e9a5ca7683cec09b39609779b84620875fde2fb118394615e5e048315e24c4"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/sources/compatibility/IMCell_optional_dependencies.diff",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 650,
+      "mtime_ns": 1795014638326013700,
+      "sha256": "30aadd1c70707035ae182cfe005438efef07927ef289d66d22a7fa2ad7136bd5"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/sources/compatibility/pm_cellnet.R",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 11736,
+      "mtime_ns": 1795015093247072400,
+      "sha256": "814632aabd269d80485529b2a3aed7b61391638b3151f7ff772096904e3b53ec"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/sources/compatibility/pm_diffexp.R",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 6419,
+      "mtime_ns": 1795015450518740200,
+      "sha256": "8ccc8b0c0fca2ce643953c860f73d5e416a6452577d918e2f5781f941854fa9d"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/validation/COMPFORCE_COMPATIBILITY_AND_EMPTY_LIST.json",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 2183,
+      "mtime_ns": 1795015115113500100,
+      "sha256": "38cdf4dd6b804957670c4974d136c1f6d87860f872f1aa1591234da01efd68b8"
+    },
+    {
+      "path": "hammelman_round2_20261118_225515/validation/IMCELL_PREFLIGHT.json",
+      "role": "Round 2 sealed input/configuration",
+      "bytes": 774,
+      "mtime_ns": 1795015092322749300,
+      "sha256": "79e754eb71d6d1d7a028a81e7a5339638c9bf965c6a52101a4467c94089a9f2e"
+    }
+  ]
+}

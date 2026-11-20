@@ -1,0 +1,155 @@
+target	method	implementation	stable_id	reference_symbol	reference_order	in_frozen_U	candidate_status	scoreable	eligible	score	native_rank	eval_rank	rank_min	rank_max	touches_split_tie_at_10	hits_exact_top10	execution_status	interpretation_status	reason
+liver	DE	frozen_external_DESeq2_signed_Wald	ENSMUSG00000025902	Sox17	1	True	ranked_beyond_10	True	True	7.07278058223715	NA	129	129	129	False	False	exported_verified	valid	
+liver	DE	frozen_external_DESeq2_signed_Wald	ENSMUSG00000017950	Hnf4a	2	True	ranked_beyond_10	True	True	11.7093624008601	NA	48	48	48	False	False	exported_verified	valid	
+liver	DE	frozen_external_DESeq2_signed_Wald	ENSMUSG00000029556	Hnf1a	3	True	ranked_beyond_10	True	True	9.16575588808531	NA	81	81	81	False	False	exported_verified	valid	
+liver	DE	frozen_external_DESeq2_signed_Wald	ENSMUSG00000035451	Foxa1	4	True	ranked_beyond_10	True	True	2.81649676034873	NA	269	269	269	False	False	exported_verified	valid	
+liver	DE	frozen_external_DESeq2_signed_Wald	ENSMUSG00000037025	Foxa2	5	True	ranked_beyond_10	True	True	13.5547628468782	NA	32	32	32	False	False	exported_verified	valid	
+liver	DE	frozen_external_DESeq2_signed_Wald	ENSMUSG00000040891	Foxa3	6	True	ranked_beyond_10	True	True	11.0598171884224	NA	57	57	57	False	False	exported_verified	valid	
+liver	DE	frozen_external_DESeq2_signed_Wald	ENSMUSG00000034957	Cebpa	7	True	ranked_beyond_10	True	True	13.6436700125472	NA	31	31	31	False	False	exported_verified	valid	
+liver	DE	frozen_external_DESeq2_signed_Wald	ENSMUSG00000056501	Cebpb	8	True	ranked_beyond_10	True	True	13.1312459741168	NA	38	38	38	False	False	exported_verified	valid	
+liver	DE	frozen_external_DESeq2_signed_Wald	ENSMUSG00000015053	Gata2	9	True	ranked_beyond_10	True	True	-3.64583745759145	NA	776	776	776	False	False	exported_verified	valid	
+liver	DE	frozen_external_DESeq2_signed_Wald	ENSMUSG00000015619	Gata3	10	True	ranked_beyond_10	True	True	5.19210521823907	NA	177	177	177	False	False	exported_verified	valid	
+liver	DE	frozen_external_DESeq2_signed_Wald	ENSMUSG00000024986	Hhex	11	False	outside_U	False	False	NA	NA	NA	NA	NA	False	False	exported_verified	valid	Frozen reference gene is outside official candidate universe
+liver	TRIAGE	original_discordance_score	ENSMUSG00000025902	Sox17	1	True	hit_top10	True	True	0.36552566381065371	10	10	10	10	False	True	reused_verified	valid	
+liver	TRIAGE	original_discordance_score	ENSMUSG00000017950	Hnf4a	2	True	ranked_beyond_10	True	True	0.038801268654822293	80	80	80	80	False	False	reused_verified	valid	
+liver	TRIAGE	original_discordance_score	ENSMUSG00000029556	Hnf1a	3	True	ranked_beyond_10	True	True	0.0019278011609297108	294	294	294	294	False	False	reused_verified	valid	
+liver	TRIAGE	original_discordance_score	ENSMUSG00000035451	Foxa1	4	True	ranked_beyond_10	True	True	0.17242578180140089	28	28	28	28	False	False	reused_verified	valid	
+liver	TRIAGE	original_discordance_score	ENSMUSG00000037025	Foxa2	5	True	ranked_beyond_10	True	True	0.019274672701897727	118	118	118	118	False	False	reused_verified	valid	
+liver	TRIAGE	original_discordance_score	ENSMUSG00000040891	Foxa3	6	True	ranked_beyond_10	True	True	0.0022705118604029895	277	277	277	277	False	False	reused_verified	valid	
+liver	TRIAGE	original_discordance_score	ENSMUSG00000034957	Cebpa	7	True	ranked_beyond_10	True	True	0.039620627930907329	79	79	79	79	False	False	reused_verified	valid	
+liver	TRIAGE	original_discordance_score	ENSMUSG00000056501	Cebpb	8	True	ranked_beyond_10	True	True	0.0010377620553076797	362	362	362	362	False	False	reused_verified	valid	
+liver	TRIAGE	original_discordance_score	ENSMUSG00000015053	Gata2	9	True	hit_top10	True	True	0.49037246198993723	5	5	5	5	False	True	reused_verified	valid	
+liver	TRIAGE	original_discordance_score	ENSMUSG00000015619	Gata3	10	True	ranked_beyond_10	True	True	0.26063966615235956	18	18	18	18	False	False	reused_verified	valid	
+liver	TRIAGE	original_discordance_score	ENSMUSG00000024986	Hhex	11	False	outside_U	False	False	NA	NA	NA	NA	NA	False	False	reused_verified	valid	Frozen reference gene is outside official candidate universe
+liver	VIPER	VIPER_CollecTRI_mouse_adapter	ENSMUSG00000025902	Sox17	1	True	ranked_beyond_10	True	True	1.1447363519669138	70	70	70	70	False	False	reused_verified	valid	
+liver	VIPER	VIPER_CollecTRI_mouse_adapter	ENSMUSG00000017950	Hnf4a	2	True	ranked_beyond_10	True	True	2.5490990077598679	12	12	12	12	False	False	reused_verified	valid	
+liver	VIPER	VIPER_CollecTRI_mouse_adapter	ENSMUSG00000029556	Hnf1a	3	True	hit_top10	True	True	7.4668383817580732	1	1	1	1	False	True	reused_verified	valid	
+liver	VIPER	VIPER_CollecTRI_mouse_adapter	ENSMUSG00000035451	Foxa1	4	True	ranked_beyond_10	True	True	0.61338603417948323	106	106	106	106	False	False	reused_verified	valid	
+liver	VIPER	VIPER_CollecTRI_mouse_adapter	ENSMUSG00000037025	Foxa2	5	True	hit_top10	True	True	3.312025829270195	6	6	6	6	False	True	reused_verified	valid	
+liver	VIPER	VIPER_CollecTRI_mouse_adapter	ENSMUSG00000040891	Foxa3	6	True	candidate_unscoreable	False	False	NA	NA	NA	NA	NA	False	False	reused_verified	valid	regulon_input_targets_below_minsize25
+liver	VIPER	VIPER_CollecTRI_mouse_adapter	ENSMUSG00000034957	Cebpa	7	True	hit_top10	True	True	4.3776253469464752	3	3	3	3	False	True	reused_verified	valid	
+liver	VIPER	VIPER_CollecTRI_mouse_adapter	ENSMUSG00000056501	Cebpb	8	True	ranked_beyond_10	True	True	1.9794242719822628	22	22	22	22	False	False	reused_verified	valid	
+liver	VIPER	VIPER_CollecTRI_mouse_adapter	ENSMUSG00000015053	Gata2	9	True	hit_top10	True	True	2.9452413572857514	9	9	9	9	False	True	reused_verified	valid	
+liver	VIPER	VIPER_CollecTRI_mouse_adapter	ENSMUSG00000015619	Gata3	10	True	ranked_beyond_10	True	True	0.1698250406944366	134	134	134	134	False	False	reused_verified	valid	
+liver	VIPER	VIPER_CollecTRI_mouse_adapter	ENSMUSG00000024986	Hhex	11	False	outside_U	False	False	NA	NA	NA	NA	NA	False	False	reused_verified	valid	Frozen reference gene is outside official candidate universe
+liver	Taiji	Taiji_1.3.0_bilateral_PageRank_ratio	ENSMUSG00000025902	Sox17	1	True	ranked_beyond_10	True	True	7.6909860956938143	57	57	57	57	False	False	reused_verified	conditional	
+liver	Taiji	Taiji_1.3.0_bilateral_PageRank_ratio	ENSMUSG00000017950	Hnf4a	2	True	hit_top10	True	True	62.157388543707398	5	5	5	5	False	True	reused_verified	conditional	
+liver	Taiji	Taiji_1.3.0_bilateral_PageRank_ratio	ENSMUSG00000029556	Hnf1a	3	True	ranked_beyond_10	True	True	27.191251328585533	16	16	16	16	False	False	reused_verified	conditional	
+liver	Taiji	Taiji_1.3.0_bilateral_PageRank_ratio	ENSMUSG00000035451	Foxa1	4	True	ranked_beyond_10	True	True	6.620521664449269	73	73	73	73	False	False	reused_verified	conditional	
+liver	Taiji	Taiji_1.3.0_bilateral_PageRank_ratio	ENSMUSG00000037025	Foxa2	5	True	ranked_beyond_10	True	True	44.806111972020375	11	11	11	11	False	False	reused_verified	conditional	
+liver	Taiji	Taiji_1.3.0_bilateral_PageRank_ratio	ENSMUSG00000040891	Foxa3	6	True	candidate_unscoreable	False	False	NA	NA	NA	NA	NA	False	False	reused_verified	conditional	not_in_method_prior
+liver	Taiji	Taiji_1.3.0_bilateral_PageRank_ratio	ENSMUSG00000034957	Cebpa	7	True	ranked_beyond_10	True	True	8.7963671582874525	51	51	51	51	False	False	reused_verified	conditional	
+liver	Taiji	Taiji_1.3.0_bilateral_PageRank_ratio	ENSMUSG00000056501	Cebpb	8	True	ranked_beyond_10	True	True	7.6329480396068528	59	59	59	59	False	False	reused_verified	conditional	
+liver	Taiji	Taiji_1.3.0_bilateral_PageRank_ratio	ENSMUSG00000015053	Gata2	9	True	ranked_beyond_10	True	True	4.133464659046898	134	134	134	134	False	False	reused_verified	conditional	
+liver	Taiji	Taiji_1.3.0_bilateral_PageRank_ratio	ENSMUSG00000015619	Gata3	10	True	ranked_beyond_10	True	True	6.8654299928474396	70	70	70	70	False	False	reused_verified	conditional	
+liver	Taiji	Taiji_1.3.0_bilateral_PageRank_ratio	ENSMUSG00000024986	Hhex	11	False	outside_U	False	False	NA	NA	NA	NA	NA	False	False	reused_verified	conditional	Frozen reference gene is outside official candidate universe
+liver	ANANSE	ANANSE_v0.5.1_influence	ENSMUSG00000025902	Sox17	1	True	ranked_beyond_10	True	True	0.8313253012048193	15	15	15	15	False	False	completed	conditional	
+liver	ANANSE	ANANSE_v0.5.1_influence	ENSMUSG00000017950	Hnf4a	2	True	candidate_unscoreable	False	False	NA	NA	NA	NA	NA	False	False	completed	conditional	no_out_edges_after_native_differential_graph_gate
+liver	ANANSE	ANANSE_v0.5.1_influence	ENSMUSG00000029556	Hnf1a	3	True	candidate_unscoreable	False	False	NA	NA	NA	NA	NA	False	False	completed	conditional	no_out_edges_after_native_differential_graph_gate
+liver	ANANSE	ANANSE_v0.5.1_influence	ENSMUSG00000035451	Foxa1	4	True	ranked_beyond_10	True	True	0.48192771084337355	44	44	44	44	False	False	completed	conditional	
+liver	ANANSE	ANANSE_v0.5.1_influence	ENSMUSG00000037025	Foxa2	5	True	candidate_unscoreable	False	False	NA	NA	NA	NA	NA	False	False	completed	conditional	no_out_edges_after_native_differential_graph_gate
+liver	ANANSE	ANANSE_v0.5.1_influence	ENSMUSG00000040891	Foxa3	6	True	hit_top10	True	True	1.0000000000000002	1	1	1	1	False	True	completed	conditional	
+liver	ANANSE	ANANSE_v0.5.1_influence	ENSMUSG00000034957	Cebpa	7	True	candidate_unscoreable	False	False	NA	NA	NA	NA	NA	False	False	completed	conditional	no_out_edges_after_native_differential_graph_gate
+liver	ANANSE	ANANSE_v0.5.1_influence	ENSMUSG00000056501	Cebpb	8	True	ranked_beyond_10	True	True	0.7108433734939759	25	25	25	25	False	False	completed	conditional	
+liver	ANANSE	ANANSE_v0.5.1_influence	ENSMUSG00000015053	Gata2	9	True	candidate_unscoreable	False	False	NA	NA	NA	NA	NA	False	False	completed	conditional	native_own_log2FoldChange_not_positive
+liver	ANANSE	ANANSE_v0.5.1_influence	ENSMUSG00000015619	Gata3	10	True	candidate_unscoreable	False	False	NA	NA	NA	NA	NA	False	False	completed	conditional	no_out_edges_after_native_differential_graph_gate
+liver	ANANSE	ANANSE_v0.5.1_influence	ENSMUSG00000024986	Hhex	11	False	outside_U	False	False	NA	NA	NA	NA	NA	False	False	completed	conditional	Frozen reference gene is outside official candidate universe
+liver	CompForce RRA	CompForce_RRA5_archived	ENSMUSG00000025902	Sox17	1	True	ranked_beyond_10	True	True	0.119757607707972	95	95	95	95	False	False	completed	valid	
+liver	CompForce RRA	CompForce_RRA5_archived	ENSMUSG00000017950	Hnf4a	2	True	ranked_beyond_10	True	True	0.0100235309820408	28	28	28	28	False	False	completed	valid	
+liver	CompForce RRA	CompForce_RRA5_archived	ENSMUSG00000029556	Hnf1a	3	True	ranked_beyond_10	True	True	0.0422079673566892	56	56	56	56	False	False	completed	valid	
+liver	CompForce RRA	CompForce_RRA5_archived	ENSMUSG00000035451	Foxa1	4	True	ranked_beyond_10	True	True	1	402	712	282	1226	False	False	completed	valid	
+liver	CompForce RRA	CompForce_RRA5_archived	ENSMUSG00000037025	Foxa2	5	True	ranked_beyond_10	True	True	0.0171055823973917	36	36	36	36	False	False	completed	valid	
+liver	CompForce RRA	CompForce_RRA5_archived	ENSMUSG00000040891	Foxa3	6	True	ranked_beyond_10	True	True	0.0149782349537347	34	34	34	34	False	False	completed	valid	
+liver	CompForce RRA	CompForce_RRA5_archived	ENSMUSG00000034957	Cebpa	7	True	ranked_beyond_10	True	True	0.421663381215568	188	189	188	189	False	False	completed	valid	
+liver	CompForce RRA	CompForce_RRA5_archived	ENSMUSG00000056501	Cebpb	8	True	ranked_beyond_10	True	True	0.601930901339342	224	224	224	224	False	False	completed	valid	
+liver	CompForce RRA	CompForce_RRA5_archived	ENSMUSG00000015053	Gata2	9	True	ranked_beyond_10	True	True	1	868	367	282	1226	False	False	completed	valid	
+liver	CompForce RRA	CompForce_RRA5_archived	ENSMUSG00000015619	Gata3	10	True	ranked_beyond_10	True	True	0.247051513026219	141	140	140	141	False	False	completed	valid	
+liver	CompForce RRA	CompForce_RRA5_archived	ENSMUSG00000024986	Hhex	11	False	outside_U	False	False	NA	NA	NA	NA	NA	False	False	completed	valid	Frozen reference gene is outside official candidate universe
+liver	IMCell	IMCell_v0.1.0_signed_singleton_3x1000	ENSMUSG00000025902	Sox17	1	True	ranked_beyond_10	True	True	11.75833333333333333333333333	NA	201	201	201	False	False	completed	valid	
+liver	IMCell	IMCell_v0.1.0_signed_singleton_3x1000	ENSMUSG00000017950	Hnf4a	2	True	ranked_beyond_10	True	True	67.872	NA	20	20	20	False	False	completed	valid	
+liver	IMCell	IMCell_v0.1.0_signed_singleton_3x1000	ENSMUSG00000029556	Hnf1a	3	True	ranked_beyond_10	True	True	41.232	NA	51	51	51	False	False	completed	valid	
+liver	IMCell	IMCell_v0.1.0_signed_singleton_3x1000	ENSMUSG00000035451	Foxa1	4	True	ranked_beyond_10	True	True	25.72366666666666666666666667	NA	88	88	88	False	False	completed	valid	
+liver	IMCell	IMCell_v0.1.0_signed_singleton_3x1000	ENSMUSG00000037025	Foxa2	5	True	ranked_beyond_10	True	True	43.96	NA	43	43	43	False	False	completed	valid	
+liver	IMCell	IMCell_v0.1.0_signed_singleton_3x1000	ENSMUSG00000040891	Foxa3	6	True	ranked_beyond_10	True	True	2.242666666666666666666666667	NA	516	516	516	False	False	completed	valid	
+liver	IMCell	IMCell_v0.1.0_signed_singleton_3x1000	ENSMUSG00000034957	Cebpa	7	True	ranked_beyond_10	True	True	53.624	NA	31	31	31	False	False	completed	valid	
+liver	IMCell	IMCell_v0.1.0_signed_singleton_3x1000	ENSMUSG00000056501	Cebpb	8	True	hit_top10	True	True	121.3863333333333333333333333	NA	6	6	6	False	True	completed	valid	
+liver	IMCell	IMCell_v0.1.0_signed_singleton_3x1000	ENSMUSG00000015053	Gata2	9	True	ranked_beyond_10	True	True	38.733	NA	56	56	56	False	False	completed	valid	
+liver	IMCell	IMCell_v0.1.0_signed_singleton_3x1000	ENSMUSG00000015619	Gata3	10	True	ranked_beyond_10	True	True	56.449	NA	27	27	27	False	False	completed	valid	
+liver	IMCell	IMCell_v0.1.0_signed_singleton_3x1000	ENSMUSG00000024986	Hhex	11	False	outside_U	False	False	NA	NA	NA	NA	NA	False	False	completed	valid	Frozen reference gene is outside official candidate universe
+cardiomyocyte	DE	frozen_external_DESeq2_signed_Wald	ENSMUSG00000021944	Gata4	1	True	ranked_beyond_10	True	True	12.5337641690343	NA	128	128	128	False	False	exported_verified	conditional	
+cardiomyocyte	DE	frozen_external_DESeq2_signed_Wald	ENSMUSG00000005583	Mef2c	2	True	ranked_beyond_10	True	True	18.7113655745077	NA	60	60	60	False	False	exported_verified	conditional	
+cardiomyocyte	DE	frozen_external_DESeq2_signed_Wald	ENSMUSG00000042258	Isl1	3	True	ranked_beyond_10	True	True	0.451183832057895	NA	617	611	625	False	False	exported_verified	conditional	
+cardiomyocyte	DE	frozen_external_DESeq2_signed_Wald	ENSMUSG00000018263	Tbx5	4	True	ranked_beyond_10	True	True	15.5354762552018	NA	84	84	84	False	False	exported_verified	conditional	
+cardiomyocyte	DE	frozen_external_DESeq2_signed_Wald	ENSMUSG00000026610	Esrrg	5	True	ranked_beyond_10	True	True	5.8814552392288	NA	287	287	287	False	False	exported_verified	conditional	
+cardiomyocyte	DE	frozen_external_DESeq2_signed_Wald	ENSMUSG00000030544	Mesp1	6	True	candidate_unscoreable	False	False	NA	NA	NA	NA	NA	False	False	exported_verified	conditional	no_finite_Wald_statistic
+cardiomyocyte	TRIAGE	original_discordance_score	ENSMUSG00000021944	Gata4	1	True	hit_top10	True	True	3.7061358048720763	1	1	1	1	False	True	reused_verified	conditional	
+cardiomyocyte	TRIAGE	original_discordance_score	ENSMUSG00000005583	Mef2c	2	True	ranked_beyond_10	True	True	0.0082397795243914738	182	182	182	182	False	False	reused_verified	conditional	
+cardiomyocyte	TRIAGE	original_discordance_score	ENSMUSG00000042258	Isl1	3	True	ranked_beyond_10	True	True	0.0065132538258949923	204	204	204	204	False	False	reused_verified	conditional	
+cardiomyocyte	TRIAGE	original_discordance_score	ENSMUSG00000018263	Tbx5	4	True	hit_top10	True	True	1.3774764254826768	3	3	3	3	False	True	reused_verified	conditional	
+cardiomyocyte	TRIAGE	original_discordance_score	ENSMUSG00000026610	Esrrg	5	True	ranked_beyond_10	True	True	0.19857726037570397	32	32	32	32	False	False	reused_verified	conditional	
+cardiomyocyte	TRIAGE	original_discordance_score	ENSMUSG00000030544	Mesp1	6	True	ranked_beyond_10	True	True	0	1083	1083	990	1216	False	False	reused_verified	conditional	
+cardiomyocyte	VIPER	VIPER_CollecTRI_mouse_adapter	ENSMUSG00000021944	Gata4	1	True	ranked_beyond_10	True	True	0.52416898489042185	77	77	77	77	False	False	reused_verified	conditional	
+cardiomyocyte	VIPER	VIPER_CollecTRI_mouse_adapter	ENSMUSG00000005583	Mef2c	2	True	hit_top10	True	True	4.191388954579593	1	1	1	1	False	True	reused_verified	conditional	
+cardiomyocyte	VIPER	VIPER_CollecTRI_mouse_adapter	ENSMUSG00000042258	Isl1	3	True	candidate_unscoreable	False	False	NA	NA	NA	NA	NA	False	False	reused_verified	conditional	regulon_input_targets_below_minsize25
+cardiomyocyte	VIPER	VIPER_CollecTRI_mouse_adapter	ENSMUSG00000018263	Tbx5	4	True	hit_top10	True	True	2.0491497801437362	6	6	6	6	False	True	reused_verified	conditional	
+cardiomyocyte	VIPER	VIPER_CollecTRI_mouse_adapter	ENSMUSG00000026610	Esrrg	5	True	candidate_unscoreable	False	False	NA	NA	NA	NA	NA	False	False	reused_verified	conditional	regulon_input_targets_below_minsize25
+cardiomyocyte	VIPER	VIPER_CollecTRI_mouse_adapter	ENSMUSG00000030544	Mesp1	6	True	candidate_unscoreable	False	False	NA	NA	NA	NA	NA	False	False	reused_verified	conditional	regulon_input_targets_below_minsize25
+cardiomyocyte	Taiji	Taiji_1.3.0_bilateral_PageRank_ratio	ENSMUSG00000021944	Gata4	1	True	hit_top10	True	True	654.0705240452977	2	2	2	2	False	True	reused_verified	conditional	
+cardiomyocyte	Taiji	Taiji_1.3.0_bilateral_PageRank_ratio	ENSMUSG00000005583	Mef2c	2	True	candidate_unscoreable	False	False	NA	NA	NA	NA	NA	False	False	reused_verified	conditional	native_PageRank_absent_zero_or_nonfinite
+cardiomyocyte	Taiji	Taiji_1.3.0_bilateral_PageRank_ratio	ENSMUSG00000042258	Isl1	3	True	hit_top10	True	True	88.88746416858298	9	9	9	9	False	True	reused_verified	conditional	
+cardiomyocyte	Taiji	Taiji_1.3.0_bilateral_PageRank_ratio	ENSMUSG00000018263	Tbx5	4	True	candidate_unscoreable	False	False	NA	NA	NA	NA	NA	False	False	reused_verified	conditional	native_PageRank_absent_zero_or_nonfinite
+cardiomyocyte	Taiji	Taiji_1.3.0_bilateral_PageRank_ratio	ENSMUSG00000026610	Esrrg	5	True	candidate_unscoreable	False	False	NA	NA	NA	NA	NA	False	False	reused_verified	conditional	native_PageRank_absent_zero_or_nonfinite
+cardiomyocyte	Taiji	Taiji_1.3.0_bilateral_PageRank_ratio	ENSMUSG00000030544	Mesp1	6	True	candidate_unscoreable	False	False	NA	NA	NA	NA	NA	False	False	reused_verified	conditional	native_PageRank_absent_zero_or_nonfinite
+cardiomyocyte	ANANSE	ANANSE_v0.5.1_influence	ENSMUSG00000021944	Gata4	1	True	hit_top10	True	True	0.980952380952381	3	3	3	3	False	True	completed	conditional	
+cardiomyocyte	ANANSE	ANANSE_v0.5.1_influence	ENSMUSG00000005583	Mef2c	2	True	ranked_beyond_10	True	True	0.5523809523809524	48	48	48	48	False	False	completed	conditional	
+cardiomyocyte	ANANSE	ANANSE_v0.5.1_influence	ENSMUSG00000042258	Isl1	3	True	candidate_unscoreable	False	False	NA	NA	NA	NA	NA	False	False	completed	conditional	no_out_edges_after_native_differential_graph_gate
+cardiomyocyte	ANANSE	ANANSE_v0.5.1_influence	ENSMUSG00000018263	Tbx5	4	True	hit_top10	True	True	0.9523809523809526	6	6	6	6	False	True	completed	conditional	
+cardiomyocyte	ANANSE	ANANSE_v0.5.1_influence	ENSMUSG00000026610	Esrrg	5	True	ranked_beyond_10	True	True	0.8857142857142858	13	13	13	13	False	False	completed	conditional	
+cardiomyocyte	ANANSE	ANANSE_v0.5.1_influence	ENSMUSG00000030544	Mesp1	6	True	candidate_unscoreable	False	False	NA	NA	NA	NA	NA	False	False	completed	conditional	no_out_edges_after_native_differential_graph_gate
+cardiomyocyte	CompForce RRA	CompForce_RRA5_archived	ENSMUSG00000021944	Gata4	1	True	hit_top10	True	True	2.07020912902009e-05	1	1	1	1	False	True	completed	conditional	
+cardiomyocyte	CompForce RRA	CompForce_RRA5_archived	ENSMUSG00000005583	Mef2c	2	True	ranked_beyond_10	True	True	0.671828743323931	192	192	192	192	False	False	completed	conditional	
+cardiomyocyte	CompForce RRA	CompForce_RRA5_archived	ENSMUSG00000042258	Isl1	3	True	ranked_beyond_10	True	True	0.143786567523061	76	75	74	76	False	False	completed	conditional	
+cardiomyocyte	CompForce RRA	CompForce_RRA5_archived	ENSMUSG00000018263	Tbx5	4	True	ranked_beyond_10	True	True	0.0163642539039614	11	11	11	11	False	False	completed	conditional	
+cardiomyocyte	CompForce RRA	CompForce_RRA5_archived	ENSMUSG00000026610	Esrrg	5	True	ranked_beyond_10	True	True	0.14244939076908	72	71	71	72	False	False	completed	conditional	
+cardiomyocyte	CompForce RRA	CompForce_RRA5_archived	ENSMUSG00000030544	Mesp1	6	True	candidate_unscoreable	False	False	NA	NA	NA	NA	NA	False	False	completed	conditional	all_five_sample_counts_zero
+cardiomyocyte	IMCell	IMCell_v0.1.0_signed_singleton_3x1000	ENSMUSG00000021944	Gata4	1	True	ranked_beyond_10	True	True	35.752	NA	50	50	50	False	False	completed	conditional	
+cardiomyocyte	IMCell	IMCell_v0.1.0_signed_singleton_3x1000	ENSMUSG00000005583	Mef2c	2	True	ranked_beyond_10	True	True	27.43766666666666666666666667	NA	73	73	73	False	False	completed	conditional	
+cardiomyocyte	IMCell	IMCell_v0.1.0_signed_singleton_3x1000	ENSMUSG00000042258	Isl1	3	True	ranked_beyond_10	True	True	16.424	NA	146	146	146	False	False	completed	conditional	
+cardiomyocyte	IMCell	IMCell_v0.1.0_signed_singleton_3x1000	ENSMUSG00000018263	Tbx5	4	True	ranked_beyond_10	True	True	6.496666666666666666666666667	NA	297	297	297	False	False	completed	conditional	
+cardiomyocyte	IMCell	IMCell_v0.1.0_signed_singleton_3x1000	ENSMUSG00000026610	Esrrg	5	True	ranked_beyond_10	True	True	18.446	NA	120	120	120	False	False	completed	conditional	
+cardiomyocyte	IMCell	IMCell_v0.1.0_signed_singleton_3x1000	ENSMUSG00000030544	Mesp1	6	True	ranked_beyond_10	True	True	0.02733333333333333333333333333	NA	810	810	810	False	False	completed	conditional	
+betapanc	DE	frozen_external_DESeq2_signed_Wald	ENSMUSG00000029706	Pax4	1	True	ranked_beyond_10	True	True	6.42859954347069	NA	131	131	131	False	False	exported_verified	valid	
+betapanc	DE	frozen_external_DESeq2_signed_Wald	ENSMUSG00000029644	Pdx1	2	True	ranked_beyond_10	True	True	12.7319597678698	NA	28	28	28	False	False	exported_verified	valid	
+betapanc	DE	frozen_external_DESeq2_signed_Wald	ENSMUSG00000044312	Neurog3	3	True	candidate_unscoreable	False	False	NA	NA	NA	NA	NA	False	False	exported_verified	valid	no_finite_Wald_statistic
+betapanc	DE	frozen_external_DESeq2_signed_Wald	ENSMUSG00000027434	Nkx2-2	4	True	ranked_beyond_10	True	True	11.3858730457901	NA	42	42	42	False	False	exported_verified	valid	
+betapanc	DE	frozen_external_DESeq2_signed_Wald	ENSMUSG00000035187	Nkx6-1	5	True	ranked_beyond_10	True	True	10.4996117813773	NA	50	50	50	False	False	exported_verified	valid	
+betapanc	TRIAGE	original_discordance_score	ENSMUSG00000029706	Pax4	1	True	ranked_beyond_10	True	True	0.021126378205176048	155	155	155	155	False	False	reused_verified	valid	
+betapanc	TRIAGE	original_discordance_score	ENSMUSG00000029644	Pdx1	2	True	hit_top10	True	True	2.7616766312766798	1	1	1	1	False	True	reused_verified	valid	
+betapanc	TRIAGE	original_discordance_score	ENSMUSG00000044312	Neurog3	3	True	ranked_beyond_10	True	True	0	1163	1163	1056	1216	False	False	reused_verified	valid	
+betapanc	TRIAGE	original_discordance_score	ENSMUSG00000027434	Nkx2-2	4	True	hit_top10	True	True	2.2791039184072961	3	3	3	3	False	True	reused_verified	valid	
+betapanc	TRIAGE	original_discordance_score	ENSMUSG00000035187	Nkx6-1	5	True	hit_top10	True	True	1.6192001758198153	6	6	6	6	False	True	reused_verified	valid	
+betapanc	VIPER	VIPER_CollecTRI_mouse_adapter	ENSMUSG00000029706	Pax4	1	True	candidate_unscoreable	False	False	NA	NA	NA	NA	NA	False	False	reused_verified	valid	regulon_input_targets_below_minsize25
+betapanc	VIPER	VIPER_CollecTRI_mouse_adapter	ENSMUSG00000029644	Pdx1	2	True	ranked_beyond_10	True	True	1.8143533916838079	13	13	13	13	False	False	reused_verified	valid	
+betapanc	VIPER	VIPER_CollecTRI_mouse_adapter	ENSMUSG00000044312	Neurog3	3	True	ranked_beyond_10	True	True	0.75581554284452857	60	60	60	60	False	False	reused_verified	valid	
+betapanc	VIPER	VIPER_CollecTRI_mouse_adapter	ENSMUSG00000027434	Nkx2-2	4	True	ranked_beyond_10	True	True	0.74547662495709288	63	63	63	63	False	False	reused_verified	valid	
+betapanc	VIPER	VIPER_CollecTRI_mouse_adapter	ENSMUSG00000035187	Nkx6-1	5	True	candidate_unscoreable	False	False	NA	NA	NA	NA	NA	False	False	reused_verified	valid	regulon_input_targets_below_minsize25
+betapanc	Taiji	Taiji_1.3.0_bilateral_PageRank_ratio	ENSMUSG00000029706	Pax4	1	True	ranked_beyond_10	True	True	11.488723328871194	53	53	53	53	False	False	reused_verified	conditional	
+betapanc	Taiji	Taiji_1.3.0_bilateral_PageRank_ratio	ENSMUSG00000029644	Pdx1	2	True	hit_top10	True	True	430.24231300745157	1	1	1	1	False	True	reused_verified	conditional	
+betapanc	Taiji	Taiji_1.3.0_bilateral_PageRank_ratio	ENSMUSG00000044312	Neurog3	3	True	ranked_beyond_10	True	True	2.0454819913402189	315	315	315	315	False	False	reused_verified	conditional	
+betapanc	Taiji	Taiji_1.3.0_bilateral_PageRank_ratio	ENSMUSG00000027434	Nkx2-2	4	True	ranked_beyond_10	True	True	70.707720719727973	11	11	11	11	False	False	reused_verified	conditional	
+betapanc	Taiji	Taiji_1.3.0_bilateral_PageRank_ratio	ENSMUSG00000035187	Nkx6-1	5	True	hit_top10	True	True	92.183445888137399	10	10	10	10	False	True	reused_verified	conditional	
+betapanc	ANANSE	ANANSE_v0.5.1_influence	ENSMUSG00000029706	Pax4	1	True	candidate_unscoreable	False	False	NA	NA	NA	NA	NA	False	False	completed	conditional	no_out_edges_after_native_differential_graph_gate
+betapanc	ANANSE	ANANSE_v0.5.1_influence	ENSMUSG00000029644	Pdx1	2	True	candidate_unscoreable	False	False	NA	NA	NA	NA	NA	False	False	completed	conditional	no_out_edges_after_native_differential_graph_gate
+betapanc	ANANSE	ANANSE_v0.5.1_influence	ENSMUSG00000044312	Neurog3	3	True	candidate_unscoreable	False	False	NA	NA	NA	NA	NA	False	False	completed	conditional	no_out_edges_after_native_differential_graph_gate
+betapanc	ANANSE	ANANSE_v0.5.1_influence	ENSMUSG00000027434	Nkx2-2	4	True	ranked_beyond_10	True	True	0.8690476190476191	12	12	12	12	False	False	completed	conditional	
+betapanc	ANANSE	ANANSE_v0.5.1_influence	ENSMUSG00000035187	Nkx6-1	5	True	candidate_unscoreable	False	False	NA	NA	NA	NA	NA	False	False	completed	conditional	no_out_edges_after_native_differential_graph_gate
+betapanc	CompForce RRA	CompForce_RRA5_archived	ENSMUSG00000029706	Pax4	1	True	ranked_beyond_10	True	True	0.0055444860334197	25	25	25	25	False	False	completed	valid	
+betapanc	CompForce RRA	CompForce_RRA5_archived	ENSMUSG00000029644	Pdx1	2	True	hit_top10	True	True	0.000729363023925913	8	8	8	8	False	True	completed	valid	
+betapanc	CompForce RRA	CompForce_RRA5_archived	ENSMUSG00000044312	Neurog3	3	True	candidate_unscoreable	False	False	NA	NA	NA	NA	NA	False	False	completed	valid	all_five_sample_counts_zero
+betapanc	CompForce RRA	CompForce_RRA5_archived	ENSMUSG00000027434	Nkx2-2	4	True	ranked_beyond_10	True	True	0.00191819912440945	13	13	13	13	False	False	completed	valid	
+betapanc	CompForce RRA	CompForce_RRA5_archived	ENSMUSG00000035187	Nkx6-1	5	True	ranked_beyond_10	True	True	0.0762944650697673	81	81	81	81	False	False	completed	valid	
+betapanc	IMCell	IMCell_v0.1.0_signed_singleton_3x1000	ENSMUSG00000029706	Pax4	1	True	ranked_beyond_10	True	True	3.589666666666666666666666667	NA	373	373	373	False	False	completed	valid	
+betapanc	IMCell	IMCell_v0.1.0_signed_singleton_3x1000	ENSMUSG00000029644	Pdx1	2	True	ranked_beyond_10	True	True	22.519	NA	67	67	67	False	False	completed	valid	
+betapanc	IMCell	IMCell_v0.1.0_signed_singleton_3x1000	ENSMUSG00000044312	Neurog3	3	True	ranked_beyond_10	True	True	9.321333333333333333333333333	NA	191	191	191	False	False	completed	valid	
+betapanc	IMCell	IMCell_v0.1.0_signed_singleton_3x1000	ENSMUSG00000027434	Nkx2-2	4	True	ranked_beyond_10	True	True	4.934333333333333333333333333	NA	311	311	311	False	False	completed	valid	
+betapanc	IMCell	IMCell_v0.1.0_signed_singleton_3x1000	ENSMUSG00000035187	Nkx6-1	5	True	ranked_beyond_10	True	True	5.876	NA	277	277	277	False	False	completed	valid	

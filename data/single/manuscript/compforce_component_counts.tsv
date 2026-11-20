@@ -1,0 +1,16 @@
+target	component	native_list_n	actual_recommendations_n	reference_total_n	Hits_at_10	exact_hits_with_ranks	rank_10_11_equal_reported_native_value
+liver	DiffExp_ttest	125	10	11	0		1
+liver	DiffExp_deseq	428	10	11	0		0
+liver	CellNet	7	7	11	0		NA
+liver	Mogrify	308	10	11	0		0
+liver	dAlessio	1226	10	11	0		1
+cardiomyocyte	DiffExp_ttest	41	10	6	0		0
+cardiomyocyte	DiffExp_deseq	410	10	6	0		0
+cardiomyocyte	CellNet	1	1	6	1	Gata4 (1)	NA
+cardiomyocyte	Mogrify	280	10	6	2	Gata4 (3);Isl1 (7)	0
+cardiomyocyte	dAlessio	1203	10	6	1	Gata4 (9)	0
+betapanc	DiffExp_ttest	184	10	5	0		0
+betapanc	DiffExp_deseq	388	10	5	0		0
+betapanc	CellNet	2	2	5	0		NA
+betapanc	Mogrify	332	10	5	0		0
+betapanc	dAlessio	1253	10	5	0		1

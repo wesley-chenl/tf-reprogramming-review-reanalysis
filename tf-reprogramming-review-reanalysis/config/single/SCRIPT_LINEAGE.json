@@ -1,0 +1,250 @@
+[
+  {
+    "source_project": "hammelman_toy_benchmark_20261117_214025",
+    "source_file": "common.py",
+    "original_sha256": "50916124e9ec56a23949787d9bac4bae5dc9b54d7d94f8a7790d339512224566",
+    "public_file": "scripts/single/base/common.py",
+    "public_sha256": "29aa5b99b569f9680eb92df6fdad6666b16e460c68125daade09fbc6dd81f5e8",
+    "portability_edit": true
+  },
+  {
+    "source_project": "hammelman_toy_benchmark_20261117_214025",
+    "source_file": "method_io.py",
+    "original_sha256": "54f644b8333f4704a37f121d24ad9366b4c1eb5ee250e2b504812d18b29856a5",
+    "public_file": "scripts/single/base/method_io.py",
+    "public_sha256": "54f644b8333f4704a37f121d24ad9366b4c1eb5ee250e2b504812d18b29856a5",
+    "portability_edit": false
+  },
+  {
+    "source_project": "hammelman_toy_benchmark_20261117_214025",
+    "source_file": "score_A.py",
+    "original_sha256": "2555a803c6fd24186341e78568321987b9b5f916bb8590644f943f99d4d6c0b1",
+    "public_file": "scripts/single/base/score_A.py",
+    "public_sha256": "2555a803c6fd24186341e78568321987b9b5f916bb8590644f943f99d4d6c0b1",
+    "portability_edit": false
+  },
+  {
+    "source_project": "hammelman_toy_benchmark_20261117_214025",
+    "source_file": "score_R.py",
+    "original_sha256": "3eb4984fd8ff71c85904d4aa2ce41c17e180426b004bc6d0da0ca0d2c6d1bc31",
+    "public_file": "scripts/single/base/score_R.py",
+    "public_sha256": "3eb4984fd8ff71c85904d4aa2ce41c17e180426b004bc6d0da0ca0d2c6d1bc31",
+    "portability_edit": false
+  },
+  {
+    "source_project": "hammelman_toy_benchmark_20261117_214025",
+    "source_file": "score_R.R",
+    "original_sha256": "66ab1b046cf1b514f9feed8bb1fcbf54b5607c6cc3374e07abf58c034d78dc15",
+    "public_file": "scripts/single/base/score_R.R",
+    "public_sha256": "6d088ad3febae829b54229b082507256ffa2383699cef9c5130943594b08629c",
+    "portability_edit": true
+  },
+  {
+    "source_project": "hammelman_toy_benchmark_20261117_214025",
+    "source_file": "score_C.py",
+    "original_sha256": "4f76a8a9622b6df4c6cd2e222c126eeb154cf2faa88b99ec3d360f951c5264a9",
+    "public_file": "scripts/single/base/score_C.py",
+    "public_sha256": "7847da582ad5e0cd8da3712065690b7766f74d1c3facdc77588d71f56e5edbe4",
+    "portability_edit": true
+  },
+  {
+    "source_project": "hammelman_toy_benchmark_20261117_214025",
+    "source_file": "quantify_rna.py",
+    "original_sha256": "f4dd3702b47f9d9aa01844f156235968eb18079c0362fac40cf23ddbf4546d62",
+    "public_file": "scripts/single/base/quantify_rna.py",
+    "public_sha256": "f4dd3702b47f9d9aa01844f156235968eb18079c0362fac40cf23ddbf4546d62",
+    "portability_edit": false
+  },
+  {
+    "source_project": "hammelman_toy_benchmark_20261117_214025",
+    "source_file": "quantify_sra_stream.py",
+    "original_sha256": "758214a3a7a442c80e6a5267f0156f2369bbc9f971a50e6d5336d34f2dc1d860",
+    "public_file": "scripts/single/base/quantify_sra_stream.py",
+    "public_sha256": "758214a3a7a442c80e6a5267f0156f2369bbc9f971a50e6d5336d34f2dc1d860",
+    "portability_edit": false
+  },
+  {
+    "source_project": "hammelman_toy_benchmark_20261117_214025",
+    "source_file": "stream_sra.py",
+    "original_sha256": "3382859597181f2ddd69df92177944cd6424d33567c984352b5af2c5900aae82",
+    "public_file": "scripts/single/base/stream_sra.py",
+    "public_sha256": "3382859597181f2ddd69df92177944cd6424d33567c984352b5af2c5900aae82",
+    "portability_edit": false
+  },
+  {
+    "source_project": "hammelman_toy_benchmark_20261117_214025",
+    "source_file": "prepare_rna.R",
+    "original_sha256": "273f3092b7ac79b262fb85cbc2e6e850cccf6e256cdd33f248f238422cb6b748",
+    "public_file": "scripts/single/base/prepare_rna.R",
+    "public_sha256": "273f3092b7ac79b262fb85cbc2e6e850cccf6e256cdd33f248f238422cb6b748",
+    "portability_edit": false
+  },
+  {
+    "source_project": "hammelman_toy_benchmark_20261117_214025",
+    "source_file": "preprocess_atac.py",
+    "original_sha256": "4ff0c8610947ccf9904e46213d61b313dbcefbb829725d9146dc293471cc9539",
+    "public_file": "scripts/single/base/preprocess_atac.py",
+    "public_sha256": "fc540674b116a4151880abc222df5b5c0ca7af2a88bfe673e7ef628fc4612711",
+    "portability_edit": true
+  },
+  {
+    "source_project": "hammelman_toy_benchmark_20261117_214025",
+    "source_file": "prepare_atac_condition_peaks.py",
+    "original_sha256": "d80a44bac66117e197ca6ff1f2a051c308253f6023a22442287968a8a6d9d176",
+    "public_file": "scripts/single/base/prepare_atac_condition_peaks.py",
+    "public_sha256": "d80a44bac66117e197ca6ff1f2a051c308253f6023a22442287968a8a6d9d176",
+    "portability_edit": false
+  },
+  {
+    "source_project": "hammelman_toy_benchmark_20261117_214025",
+    "source_file": "prepare_taiji_genome_index.py",
+    "original_sha256": "6cb2da349fd8add54de21a4fc9521f91bf9d6486206aff0b3108197acddda47a",
+    "public_file": "scripts/single/base/prepare_taiji_genome_index.py",
+    "public_sha256": "6cb2da349fd8add54de21a4fc9521f91bf9d6486206aff0b3108197acddda47a",
+    "portability_edit": false
+  },
+  {
+    "source_project": "hammelman_toy_benchmark_20261117_214025",
+    "source_file": "validate_atac_cache.py",
+    "original_sha256": "bfbccb2183725a8f34e6daa79ba5fc47ed4d0d08edb798d2dd4fcfedbc8d709d",
+    "public_file": "scripts/single/base/validate_atac_cache.py",
+    "public_sha256": "bfbccb2183725a8f34e6daa79ba5fc47ed4d0d08edb798d2dd4fcfedbc8d709d",
+    "portability_edit": false
+  },
+  {
+    "source_project": "code",
+    "source_file": "VIPER_dimension_safe.R",
+    "original_sha256": "8490f2d81df0d875490c455e252c4a6950384adf5a7f543caa125b3790af71c7",
+    "public_file": "scripts/single/base/upstream/VIPER_dimension_safe.R",
+    "public_sha256": "8490f2d81df0d875490c455e252c4a6950384adf5a7f543caa125b3790af71c7",
+    "portability_edit": false
+  },
+  {
+    "source_project": "hammelman_round2_20261118_225515",
+    "source_file": "r2lib.py",
+    "original_sha256": "5892a9aa708d594c09f973c6e74073c6d535440d1d09c89a8077dafd3d1582d8",
+    "public_file": "scripts/single/round2/r2lib.py",
+    "public_sha256": "128cedfa3189baf8389a877f40fb7a3f1e9573ba97e1ac7938a9b844b6cc1b5d",
+    "portability_edit": true
+  },
+  {
+    "source_project": "hammelman_round2_20261118_225515",
+    "source_file": "prepare_ananse.py",
+    "original_sha256": "e54ee1da58ddb312ccae1a89da7cfc9635ff49308847c01a6713f7196a871563",
+    "public_file": "scripts/single/round2/prepare_ananse.py",
+    "public_sha256": "e54ee1da58ddb312ccae1a89da7cfc9635ff49308847c01a6713f7196a871563",
+    "portability_edit": false
+  },
+  {
+    "source_project": "hammelman_round2_20261118_225515",
+    "source_file": "run_ananse.py",
+    "original_sha256": "f4f3579f132d6fa8873061eb8750d693265a8da4979c2ed5ead405a1832fdc13",
+    "public_file": "scripts/single/round2/run_ananse.py",
+    "public_sha256": "f4f3579f132d6fa8873061eb8750d693265a8da4979c2ed5ead405a1832fdc13",
+    "portability_edit": false
+  },
+  {
+    "source_project": "hammelman_round2_20261118_225515",
+    "source_file": "ananse_native.py",
+    "original_sha256": "393adfa0199992ab7dcec5ffb5e0e68f6bf99c8f99d51a34a0464654b0b3c203",
+    "public_file": "scripts/single/round2/ananse_native.py",
+    "public_sha256": "393adfa0199992ab7dcec5ffb5e0e68f6bf99c8f99d51a34a0464654b0b3c203",
+    "portability_edit": false
+  },
+  {
+    "source_project": "hammelman_round2_20261118_225515",
+    "source_file": "ananse_motif_cache.py",
+    "original_sha256": "984a40ddbcb83ffa27d0b23e26e0c17bb7d0eda5951a2112a289d1c62e698c9d",
+    "public_file": "scripts/single/round2/ananse_motif_cache.py",
+    "public_sha256": "984a40ddbcb83ffa27d0b23e26e0c17bb7d0eda5951a2112a289d1c62e698c9d",
+    "portability_edit": false
+  },
+  {
+    "source_project": "hammelman_round2_20261118_225515",
+    "source_file": "ananse_partitioned_network.py",
+    "original_sha256": "b6ebec992c3bc11fcf3fa09f953cc0f9f875dd04f3755b47340d5312a0ebb859",
+    "public_file": "scripts/single/round2/ananse_partitioned_network.py",
+    "public_sha256": "b6ebec992c3bc11fcf3fa09f953cc0f9f875dd04f3755b47340d5312a0ebb859",
+    "portability_edit": false
+  },
+  {
+    "source_project": "hammelman_round2_20261118_225515",
+    "source_file": "ananse_compact_binding_rank.py",
+    "original_sha256": "6b8e269d54df6731443adc9c5c5f6afc390e03d776ca42d05175377d995ef686",
+    "public_file": "scripts/single/round2/ananse_compact_binding_rank.py",
+    "public_sha256": "6b8e269d54df6731443adc9c5c5f6afc390e03d776ca42d05175377d995ef686",
+    "portability_edit": false
+  },
+  {
+    "source_project": "hammelman_round2_20261118_225515",
+    "source_file": "compforce_run.R",
+    "original_sha256": "dbf76023d3d8019e8e2f7f1497515938b27b8513f572023aab99883256460f8a",
+    "public_file": "scripts/single/round2/compforce_run.R",
+    "public_sha256": "dbf76023d3d8019e8e2f7f1497515938b27b8513f572023aab99883256460f8a",
+    "portability_edit": false
+  },
+  {
+    "source_project": "hammelman_round2_20261118_225515",
+    "source_file": "prepare_r_inputs.py",
+    "original_sha256": "a942a793c5a2efe779df2c4e57ec01ecc8bde75f750496c6fba8b0c3afba8534",
+    "public_file": "scripts/single/round2/prepare_r_inputs.py",
+    "public_sha256": "a942a793c5a2efe779df2c4e57ec01ecc8bde75f750496c6fba8b0c3afba8534",
+    "portability_edit": false
+  },
+  {
+    "source_project": "hammelman_round2_20261118_225515",
+    "source_file": "export_chipx.R",
+    "original_sha256": "5a867971b089d44313967813c6470edb64fbf0f63bf448c0b2741cc7a258f14a",
+    "public_file": "scripts/single/round2/export_chipx.R",
+    "public_sha256": "5a867971b089d44313967813c6470edb64fbf0f63bf448c0b2741cc7a258f14a",
+    "portability_edit": false
+  },
+  {
+    "source_project": "hammelman_round2_20261118_225515",
+    "source_file": "imcell_run.R",
+    "original_sha256": "c8a4eccd7d2984cc6644b17cf509d2b7e8da09ac934d1f4558603fad21d5a68b",
+    "public_file": "scripts/single/round2/imcell_run.R",
+    "public_sha256": "c8a4eccd7d2984cc6644b17cf509d2b7e8da09ac934d1f4558603fad21d5a68b",
+    "portability_edit": false
+  },
+  {
+    "source_project": "hammelman_round2_20261118_225515",
+    "source_file": "imcell_indexed_cpu.R",
+    "original_sha256": "965a80c1209e290635929f33b0751ade174b2aa38f3bb0c69db3566fe402b61f",
+    "public_file": "scripts/single/round2/imcell_indexed_cpu.R",
+    "public_sha256": "965a80c1209e290635929f33b0751ade174b2aa38f3bb0c69db3566fe402b61f",
+    "portability_edit": false
+  },
+  {
+    "source_project": "hammelman_round2_20261118_225515",
+    "source_file": "imcell_freeze_jobs.R",
+    "original_sha256": "390a810e4fc95d21151b2c7684fb78756c3124b87ef0186e11abe1cd6a7eebbe",
+    "public_file": "scripts/single/round2/imcell_freeze_jobs.R",
+    "public_sha256": "390a810e4fc95d21151b2c7684fb78756c3124b87ef0186e11abe1cd6a7eebbe",
+    "portability_edit": false
+  },
+  {
+    "source_project": "hammelman_round2_20261118_225515",
+    "source_file": "authorize_imcell_indexed_cpu.py",
+    "original_sha256": "cd16beb7115ab6f6e97284671c504624f350e999bd5b1210f15ca94b03c556ec",
+    "public_file": "scripts/single/round2/authorize_imcell_indexed_cpu.py",
+    "public_sha256": "cd16beb7115ab6f6e97284671c504624f350e999bd5b1210f15ca94b03c556ec",
+    "portability_edit": false
+  },
+  {
+    "source_project": "hammelman_round2_20261118_225515",
+    "source_file": "rank_round2.py",
+    "original_sha256": "53a51f63f52d13f7a51a081923c00fd3a60ff2a49fe3bb0812fffdc0129d612f",
+    "public_file": "scripts/single/round2/rank_round2.py",
+    "public_sha256": "0c138469cf511e4f7c5c23bac9b6eedf6cd2b4c8a489a1845aedc57107f1e2f8",
+    "portability_edit": true
+  },
+  {
+    "source_project": "hammelman_round2_20261118_225515",
+    "source_file": "evaluate_round2.py",
+    "original_sha256": "7820715e5f90801468ab4126d998ff19260ab6f9e5a53295947fbc284b8f1be2",
+    "public_file": "scripts/single/round2/evaluate_round2.py",
+    "public_sha256": "7820715e5f90801468ab4126d998ff19260ab6f9e5a53295947fbc284b8f1be2",
+    "portability_edit": false
+  }
+]

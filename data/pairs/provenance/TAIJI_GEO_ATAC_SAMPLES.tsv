@@ -1,0 +1,41 @@
+GSE101397_gsm	SOFT_field	value
+GSM2701947	!Sample_title	MEF
+GSM2701947	!Sample_source_name_ch1	MEF 48hr
+GSM2701947	!Sample_characteristics_ch1	genotype: Tau::EGFP+/-
+GSM2701947	!Sample_characteristics_ch1	cell type: E13.5 fibroblast
+GSM2701947	!Sample_characteristics_ch1	time post dox: 48 hours
+GSM2701947	!Sample_treatment_protocol_ch1	MEFs were infected with rtTA alone or with Ascl1+rtTA. Doxycycline (dox) was added one day post infection. For cells harvested after 48 hours, MEF media was replaced neuronal media (DMEM-F12 + N2 supplement + B27 supplement + insulin + dox), and media was refreshed every 2-3 days.
+GSM2701947	!Sample_growth_protocol_ch1	Homozygous TauEGFP knock-in mice (Tucker et al., 2001) were bred with C57B/6 mice (Taconic) to generate heterozygous embryos. MEFs were isolated from E13.5 embryos and cultured in MEF media (5% cosmic calf serum + sodium pyruvate + pen/strep + MEM NEAA + 0.8% 2-Mercaptoethanol in DMEM). Cortical neurons were isolated by dissecting cortical tissue from E15.5 embryos and sorting for TauEGFP+ cells.
+GSM2701947	!Sample_extract_protocol_ch1	Cells were trypsinzed in 0.05% trypsin and processed at different time points post-dox. From day 5, cells were FAC sorted by TauEGFP. ATAC-seq protocol outlined by Buenrostro, et al (Nat. Methods, 2013)
+GSM2701982	!Sample_title	E15.5_Neurons_B1_rep1
+GSM2701982	!Sample_source_name_ch1	E15.5 neurons, Tau::EGFP+
+GSM2701982	!Sample_characteristics_ch1	genotype: Tau::EGFP+/-
+GSM2701982	!Sample_characteristics_ch1	cell type: E15.5 cortex
+GSM2701982	!Sample_characteristics_ch1	time post dox: NA
+GSM2701982	!Sample_treatment_protocol_ch1	MEFs were infected with rtTA alone or with Ascl1+rtTA. Doxycycline (dox) was added one day post infection. For cells harvested after 48 hours, MEF media was replaced neuronal media (DMEM-F12 + N2 supplement + B27 supplement + insulin + dox), and media was refreshed every 2-3 days.
+GSM2701982	!Sample_growth_protocol_ch1	Homozygous TauEGFP knock-in mice (Tucker et al., 2001) were bred with C57B/6 mice (Taconic) to generate heterozygous embryos. MEFs were isolated from E13.5 embryos and cultured in MEF media (5% cosmic calf serum + sodium pyruvate + pen/strep + MEM NEAA + 0.8% 2-Mercaptoethanol in DMEM). Cortical neurons were isolated by dissecting cortical tissue from E15.5 embryos and sorting for TauEGFP+ cells.
+GSM2701982	!Sample_extract_protocol_ch1	Cells were trypsinzed in 0.05% trypsin and processed at different time points post-dox. From day 5, cells were FAC sorted by TauEGFP. ATAC-seq protocol outlined by Buenrostro, et al (Nat. Methods, 2013)
+GSM2701983	!Sample_title	E15.5_Neurons_B1_rep2
+GSM2701983	!Sample_source_name_ch1	E15.5 neurons, Tau::EGFP+
+GSM2701983	!Sample_characteristics_ch1	genotype: Tau::EGFP+/-
+GSM2701983	!Sample_characteristics_ch1	cell type: E15.5 cortex
+GSM2701983	!Sample_characteristics_ch1	time post dox: NA
+GSM2701983	!Sample_treatment_protocol_ch1	MEFs were infected with rtTA alone or with Ascl1+rtTA. Doxycycline (dox) was added one day post infection. For cells harvested after 48 hours, MEF media was replaced neuronal media (DMEM-F12 + N2 supplement + B27 supplement + insulin + dox), and media was refreshed every 2-3 days.
+GSM2701983	!Sample_growth_protocol_ch1	Homozygous TauEGFP knock-in mice (Tucker et al., 2001) were bred with C57B/6 mice (Taconic) to generate heterozygous embryos. MEFs were isolated from E13.5 embryos and cultured in MEF media (5% cosmic calf serum + sodium pyruvate + pen/strep + MEM NEAA + 0.8% 2-Mercaptoethanol in DMEM). Cortical neurons were isolated by dissecting cortical tissue from E15.5 embryos and sorting for TauEGFP+ cells.
+GSM2701983	!Sample_extract_protocol_ch1	Cells were trypsinzed in 0.05% trypsin and processed at different time points post-dox. From day 5, cells were FAC sorted by TauEGFP. ATAC-seq protocol outlined by Buenrostro, et al (Nat. Methods, 2013)
+GSM2701984	!Sample_title	E15.5_Neurons_B2_rep1
+GSM2701984	!Sample_source_name_ch1	E15.5 neurons, Tau::EGFP+
+GSM2701984	!Sample_characteristics_ch1	genotype: Tau::EGFP+/-
+GSM2701984	!Sample_characteristics_ch1	cell type: E15.5 cortex
+GSM2701984	!Sample_characteristics_ch1	time post dox: NA
+GSM2701984	!Sample_treatment_protocol_ch1	MEFs were infected with rtTA alone or with Ascl1+rtTA. Doxycycline (dox) was added one day post infection. For cells harvested after 48 hours, MEF media was replaced neuronal media (DMEM-F12 + N2 supplement + B27 supplement + insulin + dox), and media was refreshed every 2-3 days.
+GSM2701984	!Sample_growth_protocol_ch1	Homozygous TauEGFP knock-in mice (Tucker et al., 2001) were bred with C57B/6 mice (Taconic) to generate heterozygous embryos. MEFs were isolated from E13.5 embryos and cultured in MEF media (5% cosmic calf serum + sodium pyruvate + pen/strep + MEM NEAA + 0.8% 2-Mercaptoethanol in DMEM). Cortical neurons were isolated by dissecting cortical tissue from E15.5 embryos and sorting for TauEGFP+ cells.
+GSM2701984	!Sample_extract_protocol_ch1	Cells were trypsinzed in 0.05% trypsin and processed at different time points post-dox. From day 5, cells were FAC sorted by TauEGFP. ATAC-seq protocol outlined by Buenrostro, et al (Nat. Methods, 2013)
+GSM2701985	!Sample_title	E15.5_Neurons_B2_rep2
+GSM2701985	!Sample_source_name_ch1	E15.5 neurons, Tau::EGFP+
+GSM2701985	!Sample_characteristics_ch1	genotype: Tau::EGFP+/-
+GSM2701985	!Sample_characteristics_ch1	cell type: E15.5 cortex
+GSM2701985	!Sample_characteristics_ch1	time post dox: NA
+GSM2701985	!Sample_treatment_protocol_ch1	MEFs were infected with rtTA alone or with Ascl1+rtTA. Doxycycline (dox) was added one day post infection. For cells harvested after 48 hours, MEF media was replaced neuronal media (DMEM-F12 + N2 supplement + B27 supplement + insulin + dox), and media was refreshed every 2-3 days.
+GSM2701985	!Sample_growth_protocol_ch1	Homozygous TauEGFP knock-in mice (Tucker et al., 2001) were bred with C57B/6 mice (Taconic) to generate heterozygous embryos. MEFs were isolated from E13.5 embryos and cultured in MEF media (5% cosmic calf serum + sodium pyruvate + pen/strep + MEM NEAA + 0.8% 2-Mercaptoethanol in DMEM). Cortical neurons were isolated by dissecting cortical tissue from E15.5 embryos and sorting for TauEGFP+ cells.
+GSM2701985	!Sample_extract_protocol_ch1	Cells were trypsinzed in 0.05% trypsin and processed at different time points post-dox. From day 5, cells were FAC sorted by TauEGFP. ATAC-seq protocol outlined by Buenrostro, et al (Nat. Methods, 2013)

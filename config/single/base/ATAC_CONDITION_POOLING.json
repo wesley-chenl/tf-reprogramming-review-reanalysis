@@ -1,0 +1,11 @@
+{
+ "decision_before_any_C_score_or_reference_evaluation": true,
+ "source_biological_samples": ["GSM1867737", "GSM1867738"],
+ "source_BAMs": "two independently deduplicated q30 mm10 biological libraries, both retained in native input",
+ "source_condition_peak": "one MACS3 BAMPE q.01 peak call over both filtered BAMs; keep-dup all retains independent-library observations",
+ "target_condition_peak": "one selected target biological library, same predeclared MACS3 rules",
+ "native_networks": "exactly one source and one target group; no repeated group paths",
+ "regions_for_motif_scan": "native Taiji union of current task source-condition and target-condition peaks only",
+ "primary_code_evidence": "Taiji_ATAC/Taiji-ATAC-seq-master/src/Taiji/Pipeline/ATACSeq.hs: Get_Bed -> Merge_Bed -> Call_Peak; Taiji_pipeline/Taiji-master/src/Taiji/Core.hs aggregate; Core/Network/DeNovo.hs saveAssociations output directory keyed by group",
+ "no_biological_replicates_created_or_discarded": true
+}

@@ -1,0 +1,25 @@
+{
+  "original": {
+    "path": "hammelman_round2_20261118_225515/sources/CompForce/R/pm_cellnet.R",
+    "role": "fixed archive",
+    "bytes": 10650,
+    "mtime_ns": 1795013992091435600,
+    "sha256": "ad43fd7f76e8f837e9811b5d49a76eba30de9a8737d213790b0c4b42ea1fef3a"
+  },
+  "working": {
+    "path": "hammelman_round2_20261118_225515/sources/compatibility/pm_cellnet.R",
+    "role": "blocked exact Pearson lookup",
+    "bytes": 11736,
+    "mtime_ns": 1795015093247072400,
+    "sha256": "814632aabd269d80485529b2a3aed7b61391638b3151f7ff772096904e3b53ec"
+  },
+  "patch": {
+    "path": "hammelman_round2_20261118_225515/sources/compatibility/CompForce_bounded_exact_pearson.diff",
+    "role": "memory-only compatibility",
+    "bytes": 1869,
+    "mtime_ns": 1795015093239071800,
+    "sha256": "11eb5a48b68d18275109af581ff5635ee91e7b630e3d5ae7bc83861f08cc8d69"
+  },
+  "change": "Compute the same edge-specific Pearson entries as the native full transcriptome correlation. The complete expression matrix, all prior network targets, native sign assignment, NIS and zero variance behavior are retained.",
+  "old_Mogrify_early_export_adapter_used": false
+}

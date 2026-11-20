@@ -1,0 +1,543 @@
+comparison	endpoint	variant	left	right	scope	N	K	left_native_n	right_native_n	reference_N	spearman	median_abs_midrank_change	exact_scores_identical
+joint_vs_additive	GSE114809	figure_ascl3_swapped_axes	imcell_p005_joint	imcell_p005_additive	pairwise	260	47	260	260		0.9389552018957884	5.0	False
+joint_vs_additive	GSE114809	figure_ascl3_swapped_axes	imcell_p010_joint	imcell_p010_additive	pairwise	260	47	260	260		0.9882223547585496	4.0	False
+joint_vs_additive	GSE114809	figure_ascl3_swapped_axes	imcell_p020_joint	imcell_p020_additive	pairwise	260	47	260	260		0.994096086740681	3.5	False
+joint_vs_additive	GSE114809	figure_ascl3_swapped_axes	imcell_weight_in_degree_joint	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.9962266103006465	1.5	False
+joint_vs_additive	GSE114809	figure_ascl3_swapped_axes	imcell_weight_mean_joint	imcell_weight_mean_additive	pairwise	260	47	260	260		0.996951248955978	2.5	False
+joint_vs_additive	GSE114809	figure_ascl3_swapped_axes	imcell_weight_p010_joint	imcell_weight_p010_additive	pairwise	260	47	260	260		0.9943390741262024	3.0	False
+weight_sensitivity	GSE114809	figure_ascl3_swapped_axes	imcell_weight_p010_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.9078707877273144	19.5	False
+weight_sensitivity	GSE114809	figure_ascl3_swapped_axes	imcell_weight_mean_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.6957402550060168	39.0	False
+weight_sensitivity	GSE114809	figure_ascl3_swapped_axes	imcell_weight_p010_joint	imcell_weight_mean_joint	pairwise	260	47	260	260		0.8248456158560993	34.0	False
+weight_sensitivity	GSE114809	figure_ascl3_swapped_axes	imcell_weight_p010_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.9085824370101933	21.0	False
+weight_sensitivity	GSE114809	figure_ascl3_swapped_axes	imcell_weight_mean_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.7001992560901129	41.0	False
+weight_sensitivity	GSE114809	figure_ascl3_swapped_axes	imcell_weight_p010_additive	imcell_weight_mean_additive	pairwise	260	47	260	260		0.823481994173596	32.0	False
+prior_replacement	GSE114809	figure_ascl3_swapped_axes	msviper	collectri_modern_msviper	pairwise	0	0	0	23				False
+prior_replacement	GSE114809	figure_ascl3_swapped_axes	msviper_both_positive	collectri_modern_msviper_both_positive	pairwise	0	0	0	2				False
+prior_replacement	GSE114809	figure_ascl3_swapped_axes	network_add	collectri_modern_network_add	pairwise	198	33	230	468		0.6124383152055595	31.5	False
+prior_replacement	GSE114809	figure_ascl3_swapped_axes	network_union	collectri_modern_network_union	pairwise	198	33	230	468		0.6092126245670475	31.5	False
+prior_replacement	GSE114809	figure_ascl3_swapped_axes	two_add	collectri_modern_two_add	pairwise	216	40	250	480		0.418555470130699	40.5	False
+prior_replacement	GSE114809	figure_ascl3_swapped_axes	two_union	collectri_modern_two_union	pairwise	216	40	250	480		0.4246672136950261	41.5	False
+prior_replacement	GSE114809	figure_ascl3_swapped_axes	msviper	collectri_through2015_msviper	pairwise	0	0	0	0				False
+prior_replacement	GSE114809	figure_ascl3_swapped_axes	msviper_both_positive	collectri_through2015_msviper_both_positive	pairwise	0	0	0	0				False
+prior_replacement	GSE114809	figure_ascl3_swapped_axes	network_add	collectri_through2015_network_add	pairwise	176	30	230	252		0.4726170155061449	30.0	False
+prior_replacement	GSE114809	figure_ascl3_swapped_axes	network_union	collectri_through2015_network_union	pairwise	176	30	230	252		0.47020373074625094	30.0	False
+prior_replacement	GSE114809	figure_ascl3_swapped_axes	two_add	collectri_through2015_two_add	pairwise	192	36	250	270		0.17955002738228923	45.0	False
+prior_replacement	GSE114809	figure_ascl3_swapped_axes	two_union	collectri_through2015_two_union	pairwise	192	36	250	270		0.17962861915412245	45.0	False
+joint_vs_additive	GSE114809	figure_ascl3_swapped_axes_mxd3_hypothesis	imcell_p005_joint	imcell_p005_additive	pairwise	260	47	260	260		0.9389552018957884	5.0	False
+joint_vs_additive	GSE114809	figure_ascl3_swapped_axes_mxd3_hypothesis	imcell_p010_joint	imcell_p010_additive	pairwise	260	47	260	260		0.9882223547585496	4.0	False
+joint_vs_additive	GSE114809	figure_ascl3_swapped_axes_mxd3_hypothesis	imcell_p020_joint	imcell_p020_additive	pairwise	260	47	260	260		0.994096086740681	3.5	False
+joint_vs_additive	GSE114809	figure_ascl3_swapped_axes_mxd3_hypothesis	imcell_weight_in_degree_joint	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.9962266103006465	1.5	False
+joint_vs_additive	GSE114809	figure_ascl3_swapped_axes_mxd3_hypothesis	imcell_weight_mean_joint	imcell_weight_mean_additive	pairwise	260	47	260	260		0.996951248955978	2.5	False
+joint_vs_additive	GSE114809	figure_ascl3_swapped_axes_mxd3_hypothesis	imcell_weight_p010_joint	imcell_weight_p010_additive	pairwise	260	47	260	260		0.9943390741262024	3.0	False
+weight_sensitivity	GSE114809	figure_ascl3_swapped_axes_mxd3_hypothesis	imcell_weight_p010_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.9078707877273144	19.5	False
+weight_sensitivity	GSE114809	figure_ascl3_swapped_axes_mxd3_hypothesis	imcell_weight_mean_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.6957402550060168	39.0	False
+weight_sensitivity	GSE114809	figure_ascl3_swapped_axes_mxd3_hypothesis	imcell_weight_p010_joint	imcell_weight_mean_joint	pairwise	260	47	260	260		0.8248456158560993	34.0	False
+weight_sensitivity	GSE114809	figure_ascl3_swapped_axes_mxd3_hypothesis	imcell_weight_p010_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.9085824370101933	21.0	False
+weight_sensitivity	GSE114809	figure_ascl3_swapped_axes_mxd3_hypothesis	imcell_weight_mean_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.7001992560901129	41.0	False
+weight_sensitivity	GSE114809	figure_ascl3_swapped_axes_mxd3_hypothesis	imcell_weight_p010_additive	imcell_weight_mean_additive	pairwise	260	47	260	260		0.823481994173596	32.0	False
+prior_replacement	GSE114809	figure_ascl3_swapped_axes_mxd3_hypothesis	msviper	collectri_modern_msviper	pairwise	0	0	0	23				False
+prior_replacement	GSE114809	figure_ascl3_swapped_axes_mxd3_hypothesis	msviper_both_positive	collectri_modern_msviper_both_positive	pairwise	0	0	0	2				False
+prior_replacement	GSE114809	figure_ascl3_swapped_axes_mxd3_hypothesis	network_add	collectri_modern_network_add	pairwise	198	33	230	468		0.6124383152055595	31.5	False
+prior_replacement	GSE114809	figure_ascl3_swapped_axes_mxd3_hypothesis	network_union	collectri_modern_network_union	pairwise	198	33	230	468		0.6092126245670475	31.5	False
+prior_replacement	GSE114809	figure_ascl3_swapped_axes_mxd3_hypothesis	two_add	collectri_modern_two_add	pairwise	216	40	250	480		0.418555470130699	40.5	False
+prior_replacement	GSE114809	figure_ascl3_swapped_axes_mxd3_hypothesis	two_union	collectri_modern_two_union	pairwise	216	40	250	480		0.4246672136950261	41.5	False
+prior_replacement	GSE114809	figure_ascl3_swapped_axes_mxd3_hypothesis	msviper	collectri_through2015_msviper	pairwise	0	0	0	0				False
+prior_replacement	GSE114809	figure_ascl3_swapped_axes_mxd3_hypothesis	msviper_both_positive	collectri_through2015_msviper_both_positive	pairwise	0	0	0	0				False
+prior_replacement	GSE114809	figure_ascl3_swapped_axes_mxd3_hypothesis	network_add	collectri_through2015_network_add	pairwise	176	30	230	252		0.4726170155061449	30.0	False
+prior_replacement	GSE114809	figure_ascl3_swapped_axes_mxd3_hypothesis	network_union	collectri_through2015_network_union	pairwise	176	30	230	252		0.47020373074625094	30.0	False
+prior_replacement	GSE114809	figure_ascl3_swapped_axes_mxd3_hypothesis	two_add	collectri_through2015_two_add	pairwise	192	36	250	270		0.17955002738228923	45.0	False
+prior_replacement	GSE114809	figure_ascl3_swapped_axes_mxd3_hypothesis	two_union	collectri_through2015_two_union	pairwise	192	36	250	270		0.17962861915412245	45.0	False
+joint_vs_additive	GSE114809	figure_literal	imcell_p005_joint	imcell_p005_additive	pairwise	260	47	260	260		0.9389552018957884	5.0	False
+joint_vs_additive	GSE114809	figure_literal	imcell_p010_joint	imcell_p010_additive	pairwise	260	47	260	260		0.9882223547585496	4.0	False
+joint_vs_additive	GSE114809	figure_literal	imcell_p020_joint	imcell_p020_additive	pairwise	260	47	260	260		0.994096086740681	3.5	False
+joint_vs_additive	GSE114809	figure_literal	imcell_weight_in_degree_joint	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.9962266103006465	1.5	False
+joint_vs_additive	GSE114809	figure_literal	imcell_weight_mean_joint	imcell_weight_mean_additive	pairwise	260	47	260	260		0.996951248955978	2.5	False
+joint_vs_additive	GSE114809	figure_literal	imcell_weight_p010_joint	imcell_weight_p010_additive	pairwise	260	47	260	260		0.9943390741262024	3.0	False
+weight_sensitivity	GSE114809	figure_literal	imcell_weight_p010_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.9078707877273144	19.5	False
+weight_sensitivity	GSE114809	figure_literal	imcell_weight_mean_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.6957402550060168	39.0	False
+weight_sensitivity	GSE114809	figure_literal	imcell_weight_p010_joint	imcell_weight_mean_joint	pairwise	260	47	260	260		0.8248456158560993	34.0	False
+weight_sensitivity	GSE114809	figure_literal	imcell_weight_p010_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.9085824370101933	21.0	False
+weight_sensitivity	GSE114809	figure_literal	imcell_weight_mean_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.7001992560901129	41.0	False
+weight_sensitivity	GSE114809	figure_literal	imcell_weight_p010_additive	imcell_weight_mean_additive	pairwise	260	47	260	260		0.823481994173596	32.0	False
+prior_replacement	GSE114809	figure_literal	msviper	collectri_modern_msviper	pairwise	0	0	0	23				False
+prior_replacement	GSE114809	figure_literal	msviper_both_positive	collectri_modern_msviper_both_positive	pairwise	0	0	0	2				False
+prior_replacement	GSE114809	figure_literal	network_add	collectri_modern_network_add	pairwise	198	33	230	468		0.6124383152055595	31.5	False
+prior_replacement	GSE114809	figure_literal	network_union	collectri_modern_network_union	pairwise	198	33	230	468		0.6092126245670475	31.5	False
+prior_replacement	GSE114809	figure_literal	two_add	collectri_modern_two_add	pairwise	216	40	250	480		0.418555470130699	40.5	False
+prior_replacement	GSE114809	figure_literal	two_union	collectri_modern_two_union	pairwise	216	40	250	480		0.4246672136950261	41.5	False
+prior_replacement	GSE114809	figure_literal	msviper	collectri_through2015_msviper	pairwise	0	0	0	0				False
+prior_replacement	GSE114809	figure_literal	msviper_both_positive	collectri_through2015_msviper_both_positive	pairwise	0	0	0	0				False
+prior_replacement	GSE114809	figure_literal	network_add	collectri_through2015_network_add	pairwise	176	30	230	252		0.4726170155061449	30.0	False
+prior_replacement	GSE114809	figure_literal	network_union	collectri_through2015_network_union	pairwise	176	30	230	252		0.47020373074625094	30.0	False
+prior_replacement	GSE114809	figure_literal	two_add	collectri_through2015_two_add	pairwise	192	36	250	270		0.17955002738228923	45.0	False
+prior_replacement	GSE114809	figure_literal	two_union	collectri_through2015_two_union	pairwise	192	36	250	270		0.17962861915412245	45.0	False
+joint_vs_additive	GSE114809	figure_literal_mxd3_hypothesis	imcell_p005_joint	imcell_p005_additive	pairwise	260	47	260	260		0.9389552018957884	5.0	False
+joint_vs_additive	GSE114809	figure_literal_mxd3_hypothesis	imcell_p010_joint	imcell_p010_additive	pairwise	260	47	260	260		0.9882223547585496	4.0	False
+joint_vs_additive	GSE114809	figure_literal_mxd3_hypothesis	imcell_p020_joint	imcell_p020_additive	pairwise	260	47	260	260		0.994096086740681	3.5	False
+joint_vs_additive	GSE114809	figure_literal_mxd3_hypothesis	imcell_weight_in_degree_joint	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.9962266103006465	1.5	False
+joint_vs_additive	GSE114809	figure_literal_mxd3_hypothesis	imcell_weight_mean_joint	imcell_weight_mean_additive	pairwise	260	47	260	260		0.996951248955978	2.5	False
+joint_vs_additive	GSE114809	figure_literal_mxd3_hypothesis	imcell_weight_p010_joint	imcell_weight_p010_additive	pairwise	260	47	260	260		0.9943390741262024	3.0	False
+weight_sensitivity	GSE114809	figure_literal_mxd3_hypothesis	imcell_weight_p010_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.9078707877273144	19.5	False
+weight_sensitivity	GSE114809	figure_literal_mxd3_hypothesis	imcell_weight_mean_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.6957402550060168	39.0	False
+weight_sensitivity	GSE114809	figure_literal_mxd3_hypothesis	imcell_weight_p010_joint	imcell_weight_mean_joint	pairwise	260	47	260	260		0.8248456158560993	34.0	False
+weight_sensitivity	GSE114809	figure_literal_mxd3_hypothesis	imcell_weight_p010_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.9085824370101933	21.0	False
+weight_sensitivity	GSE114809	figure_literal_mxd3_hypothesis	imcell_weight_mean_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.7001992560901129	41.0	False
+weight_sensitivity	GSE114809	figure_literal_mxd3_hypothesis	imcell_weight_p010_additive	imcell_weight_mean_additive	pairwise	260	47	260	260		0.823481994173596	32.0	False
+prior_replacement	GSE114809	figure_literal_mxd3_hypothesis	msviper	collectri_modern_msviper	pairwise	0	0	0	23				False
+prior_replacement	GSE114809	figure_literal_mxd3_hypothesis	msviper_both_positive	collectri_modern_msviper_both_positive	pairwise	0	0	0	2				False
+prior_replacement	GSE114809	figure_literal_mxd3_hypothesis	network_add	collectri_modern_network_add	pairwise	198	33	230	468		0.6124383152055595	31.5	False
+prior_replacement	GSE114809	figure_literal_mxd3_hypothesis	network_union	collectri_modern_network_union	pairwise	198	33	230	468		0.6092126245670475	31.5	False
+prior_replacement	GSE114809	figure_literal_mxd3_hypothesis	two_add	collectri_modern_two_add	pairwise	216	40	250	480		0.418555470130699	40.5	False
+prior_replacement	GSE114809	figure_literal_mxd3_hypothesis	two_union	collectri_modern_two_union	pairwise	216	40	250	480		0.4246672136950261	41.5	False
+prior_replacement	GSE114809	figure_literal_mxd3_hypothesis	msviper	collectri_through2015_msviper	pairwise	0	0	0	0				False
+prior_replacement	GSE114809	figure_literal_mxd3_hypothesis	msviper_both_positive	collectri_through2015_msviper_both_positive	pairwise	0	0	0	0				False
+prior_replacement	GSE114809	figure_literal_mxd3_hypothesis	network_add	collectri_through2015_network_add	pairwise	176	30	230	252		0.4726170155061449	30.0	False
+prior_replacement	GSE114809	figure_literal_mxd3_hypothesis	network_union	collectri_through2015_network_union	pairwise	176	30	230	252		0.47020373074625094	30.0	False
+prior_replacement	GSE114809	figure_literal_mxd3_hypothesis	two_add	collectri_through2015_two_add	pairwise	192	36	250	270		0.17955002738228923	45.0	False
+prior_replacement	GSE114809	figure_literal_mxd3_hypothesis	two_union	collectri_through2015_two_union	pairwise	192	36	250	270		0.17962861915412245	45.0	False
+joint_vs_additive	GSE114809	main	imcell_p005_joint	imcell_p005_additive	pairwise	240	45	240	240		0.9518982905840739	6.5	False
+joint_vs_additive	GSE114809	main	imcell_p005_joint	imcell_p005_additive	pairwise_old_common	220	37	240	240	220	0.95622499923049	6.0	False
+joint_vs_additive	GSE114809	main	imcell_p010_joint	imcell_p010_additive	pairwise	240	45	240	240		0.987839729609132	4.0	False
+joint_vs_additive	GSE114809	main	imcell_p010_joint	imcell_p010_additive	pairwise_old_common	220	37	240	240	220	0.9891171615375163	3.5	False
+joint_vs_additive	GSE114809	main	imcell_p020_joint	imcell_p020_additive	pairwise	240	45	240	240		0.9946194690532413	3.0	False
+joint_vs_additive	GSE114809	main	imcell_p020_joint	imcell_p020_additive	pairwise_old_common	220	37	240	240	220	0.9954938666821265	2.5	False
+joint_vs_additive	GSE114809	main	imcell_weight_in_degree_joint	imcell_weight_in_degree_additive	pairwise	240	45	240	240		0.9966687123997697	1.0	False
+joint_vs_additive	GSE114809	main	imcell_weight_in_degree_joint	imcell_weight_in_degree_additive	pairwise_old_common	220	37	240	240	220	0.9975315371081559	1.0	False
+joint_vs_additive	GSE114809	main	imcell_weight_mean_joint	imcell_weight_mean_additive	pairwise	240	45	240	240		0.9974773414744785	2.0	False
+joint_vs_additive	GSE114809	main	imcell_weight_mean_joint	imcell_weight_mean_additive	pairwise_old_common	220	37	240	240	220	0.9975726863199289	2.0	False
+joint_vs_additive	GSE114809	main	imcell_weight_p010_joint	imcell_weight_p010_additive	pairwise	240	45	240	240		0.994385616852257	3.0	False
+joint_vs_additive	GSE114809	main	imcell_weight_p010_joint	imcell_weight_p010_additive	pairwise_old_common	220	37	240	240	220	0.995182520684266	2.5	False
+weight_sensitivity	GSE114809	main	imcell_weight_p010_joint	imcell_weight_in_degree_joint	pairwise	240	45	240	240		0.9053846998843633	19.0	False
+weight_sensitivity	GSE114809	main	imcell_weight_p010_joint	imcell_weight_in_degree_joint	pairwise_old_common	220	37	240	240	220	0.9003475331396892	17.0	False
+weight_sensitivity	GSE114809	main	imcell_weight_mean_joint	imcell_weight_in_degree_joint	pairwise	240	45	240	240		0.7079805428745474	35.5	False
+weight_sensitivity	GSE114809	main	imcell_weight_mean_joint	imcell_weight_in_degree_joint	pairwise_old_common	220	37	240	240	220	0.6861159989130766	34.0	False
+weight_sensitivity	GSE114809	main	imcell_weight_p010_joint	imcell_weight_mean_joint	pairwise	240	45	240	240		0.8374734162450401	31.0	False
+weight_sensitivity	GSE114809	main	imcell_weight_p010_joint	imcell_weight_mean_joint	pairwise_old_common	220	37	240	240	220	0.8266113795197407	29.0	False
+weight_sensitivity	GSE114809	main	imcell_weight_p010_additive	imcell_weight_in_degree_additive	pairwise	240	45	240	240		0.9055405132545397	21.0	False
+weight_sensitivity	GSE114809	main	imcell_weight_p010_additive	imcell_weight_in_degree_additive	pairwise_old_common	220	37	240	240	220	0.900195970956194	19.0	False
+weight_sensitivity	GSE114809	main	imcell_weight_mean_additive	imcell_weight_in_degree_additive	pairwise	240	45	240	240		0.7125064514987514	34.5	False
+weight_sensitivity	GSE114809	main	imcell_weight_mean_additive	imcell_weight_in_degree_additive	pairwise_old_common	220	37	240	240	220	0.6893732317166432	34.0	False
+weight_sensitivity	GSE114809	main	imcell_weight_p010_additive	imcell_weight_mean_additive	pairwise	240	45	240	240		0.8391041451348488	29.5	False
+weight_sensitivity	GSE114809	main	imcell_weight_p010_additive	imcell_weight_mean_additive	pairwise_old_common	220	37	240	240	220	0.8265381172485334	29.0	False
+prior_replacement	GSE114809	main	msviper	collectri_modern_msviper	pairwise	0	0	0	23				False
+prior_replacement	GSE114809	main	msviper	collectri_modern_msviper	pairwise_old_common	0	0	0	23	220			False
+prior_replacement	GSE114809	main	msviper_both_positive	collectri_modern_msviper_both_positive	pairwise	0	0	0	2				False
+prior_replacement	GSE114809	main	msviper_both_positive	collectri_modern_msviper_both_positive	pairwise_old_common	0	0	0	2	220			False
+prior_replacement	GSE114809	main	network_add	collectri_modern_network_add	pairwise	189	32	220	444		0.6080129757506562	27.5	False
+prior_replacement	GSE114809	main	network_add	collectri_modern_network_add	pairwise_old_common	189	32	220	444	220	0.6080129757506562	27.5	False
+prior_replacement	GSE114809	main	network_union	collectri_modern_network_union	pairwise	189	32	220	444		0.6045037353513317	27.5	False
+prior_replacement	GSE114809	main	network_union	collectri_modern_network_union	pairwise_old_common	189	32	220	444	220	0.6045037353513317	27.5	False
+prior_replacement	GSE114809	main	two_add	collectri_modern_two_add	pairwise	207	39	240	456		0.4034497072722239	40.0	False
+prior_replacement	GSE114809	main	two_add	collectri_modern_two_add	pairwise_old_common	189	32	240	456	220	0.394735808579891	36.5	False
+prior_replacement	GSE114809	main	two_union	collectri_modern_two_union	pairwise	207	39	240	456		0.4098057981736573	38.0	False
+prior_replacement	GSE114809	main	two_union	collectri_modern_two_union	pairwise_old_common	189	32	240	456	220	0.4029628385433277	35.5	False
+prior_replacement	GSE114809	main	msviper	collectri_through2015_msviper	pairwise	0	0	0	0				False
+prior_replacement	GSE114809	main	msviper	collectri_through2015_msviper	pairwise_old_common	0	0	0	0	220			False
+prior_replacement	GSE114809	main	msviper_both_positive	collectri_through2015_msviper_both_positive	pairwise	0	0	0	0				False
+prior_replacement	GSE114809	main	msviper_both_positive	collectri_through2015_msviper_both_positive	pairwise_old_common	0	0	0	0	220			False
+prior_replacement	GSE114809	main	network_add	collectri_through2015_network_add	pairwise	168	29	220	243		0.47931119467945865	29.0	False
+prior_replacement	GSE114809	main	network_add	collectri_through2015_network_add	pairwise_old_common	168	29	220	243	220	0.47931119467945865	29.0	False
+prior_replacement	GSE114809	main	network_union	collectri_through2015_network_union	pairwise	168	29	220	243		0.476656473556459	29.0	False
+prior_replacement	GSE114809	main	network_union	collectri_through2015_network_union	pairwise_old_common	168	29	220	243	220	0.476656473556459	29.0	False
+prior_replacement	GSE114809	main	two_add	collectri_through2015_two_add	pairwise	184	35	240	261		0.1713712939093744	43.0	False
+prior_replacement	GSE114809	main	two_add	collectri_through2015_two_add	pairwise_old_common	168	29	240	261	220	0.16373385746076233	38.0	False
+prior_replacement	GSE114809	main	two_union	collectri_through2015_two_union	pairwise	184	35	240	261		0.17072707335990508	42.0	False
+prior_replacement	GSE114809	main	two_union	collectri_through2015_two_union	pairwise_old_common	168	29	240	261	220	0.16330636693764822	40.5	False
+joint_vs_additive	GSE114809	s1_named_axes	imcell_p005_joint	imcell_p005_additive	pairwise	260	47	260	260		0.9389552018957884	5.0	False
+joint_vs_additive	GSE114809	s1_named_axes	imcell_p010_joint	imcell_p010_additive	pairwise	260	47	260	260		0.9882223547585496	4.0	False
+joint_vs_additive	GSE114809	s1_named_axes	imcell_p020_joint	imcell_p020_additive	pairwise	260	47	260	260		0.994096086740681	3.5	False
+joint_vs_additive	GSE114809	s1_named_axes	imcell_weight_in_degree_joint	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.9962266103006465	1.5	False
+joint_vs_additive	GSE114809	s1_named_axes	imcell_weight_mean_joint	imcell_weight_mean_additive	pairwise	260	47	260	260		0.996951248955978	2.5	False
+joint_vs_additive	GSE114809	s1_named_axes	imcell_weight_p010_joint	imcell_weight_p010_additive	pairwise	260	47	260	260		0.9943390741262024	3.0	False
+weight_sensitivity	GSE114809	s1_named_axes	imcell_weight_p010_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.9078707877273144	19.5	False
+weight_sensitivity	GSE114809	s1_named_axes	imcell_weight_mean_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.6957402550060168	39.0	False
+weight_sensitivity	GSE114809	s1_named_axes	imcell_weight_p010_joint	imcell_weight_mean_joint	pairwise	260	47	260	260		0.8248456158560993	34.0	False
+weight_sensitivity	GSE114809	s1_named_axes	imcell_weight_p010_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.9085824370101933	21.0	False
+weight_sensitivity	GSE114809	s1_named_axes	imcell_weight_mean_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.7001992560901129	41.0	False
+weight_sensitivity	GSE114809	s1_named_axes	imcell_weight_p010_additive	imcell_weight_mean_additive	pairwise	260	47	260	260		0.823481994173596	32.0	False
+prior_replacement	GSE114809	s1_named_axes	msviper	collectri_modern_msviper	pairwise	0	0	0	23				False
+prior_replacement	GSE114809	s1_named_axes	msviper_both_positive	collectri_modern_msviper_both_positive	pairwise	0	0	0	2				False
+prior_replacement	GSE114809	s1_named_axes	network_add	collectri_modern_network_add	pairwise	198	33	230	480		0.6124383152055595	31.5	False
+prior_replacement	GSE114809	s1_named_axes	network_union	collectri_modern_network_union	pairwise	198	33	230	480		0.6092126245670475	31.5	False
+prior_replacement	GSE114809	s1_named_axes	two_add	collectri_modern_two_add	pairwise	216	40	250	492		0.418555470130699	40.5	False
+prior_replacement	GSE114809	s1_named_axes	two_union	collectri_modern_two_union	pairwise	216	40	250	492		0.4246672136950261	41.5	False
+prior_replacement	GSE114809	s1_named_axes	msviper	collectri_through2015_msviper	pairwise	0	0	0	0				False
+prior_replacement	GSE114809	s1_named_axes	msviper_both_positive	collectri_through2015_msviper_both_positive	pairwise	0	0	0	0				False
+prior_replacement	GSE114809	s1_named_axes	network_add	collectri_through2015_network_add	pairwise	176	30	230	252		0.4726170155061449	30.0	False
+prior_replacement	GSE114809	s1_named_axes	network_union	collectri_through2015_network_union	pairwise	176	30	230	252		0.47020373074625094	30.0	False
+prior_replacement	GSE114809	s1_named_axes	two_add	collectri_through2015_two_add	pairwise	192	36	250	270		0.17955002738228923	45.0	False
+prior_replacement	GSE114809	s1_named_axes	two_union	collectri_through2015_two_union	pairwise	192	36	250	270		0.17962861915412245	45.0	False
+joint_vs_additive	GSE114809	s1_named_axes_mxd3_hypothesis	imcell_p005_joint	imcell_p005_additive	pairwise	260	47	260	260		0.9389552018957884	5.0	False
+joint_vs_additive	GSE114809	s1_named_axes_mxd3_hypothesis	imcell_p010_joint	imcell_p010_additive	pairwise	260	47	260	260		0.9882223547585496	4.0	False
+joint_vs_additive	GSE114809	s1_named_axes_mxd3_hypothesis	imcell_p020_joint	imcell_p020_additive	pairwise	260	47	260	260		0.994096086740681	3.5	False
+joint_vs_additive	GSE114809	s1_named_axes_mxd3_hypothesis	imcell_weight_in_degree_joint	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.9962266103006465	1.5	False
+joint_vs_additive	GSE114809	s1_named_axes_mxd3_hypothesis	imcell_weight_mean_joint	imcell_weight_mean_additive	pairwise	260	47	260	260		0.996951248955978	2.5	False
+joint_vs_additive	GSE114809	s1_named_axes_mxd3_hypothesis	imcell_weight_p010_joint	imcell_weight_p010_additive	pairwise	260	47	260	260		0.9943390741262024	3.0	False
+weight_sensitivity	GSE114809	s1_named_axes_mxd3_hypothesis	imcell_weight_p010_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.9078707877273144	19.5	False
+weight_sensitivity	GSE114809	s1_named_axes_mxd3_hypothesis	imcell_weight_mean_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.6957402550060168	39.0	False
+weight_sensitivity	GSE114809	s1_named_axes_mxd3_hypothesis	imcell_weight_p010_joint	imcell_weight_mean_joint	pairwise	260	47	260	260		0.8248456158560993	34.0	False
+weight_sensitivity	GSE114809	s1_named_axes_mxd3_hypothesis	imcell_weight_p010_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.9085824370101933	21.0	False
+weight_sensitivity	GSE114809	s1_named_axes_mxd3_hypothesis	imcell_weight_mean_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.7001992560901129	41.0	False
+weight_sensitivity	GSE114809	s1_named_axes_mxd3_hypothesis	imcell_weight_p010_additive	imcell_weight_mean_additive	pairwise	260	47	260	260		0.823481994173596	32.0	False
+prior_replacement	GSE114809	s1_named_axes_mxd3_hypothesis	msviper	collectri_modern_msviper	pairwise	0	0	0	23				False
+prior_replacement	GSE114809	s1_named_axes_mxd3_hypothesis	msviper_both_positive	collectri_modern_msviper_both_positive	pairwise	0	0	0	2				False
+prior_replacement	GSE114809	s1_named_axes_mxd3_hypothesis	network_add	collectri_modern_network_add	pairwise	198	33	230	480		0.6124383152055595	31.5	False
+prior_replacement	GSE114809	s1_named_axes_mxd3_hypothesis	network_union	collectri_modern_network_union	pairwise	198	33	230	480		0.6092126245670475	31.5	False
+prior_replacement	GSE114809	s1_named_axes_mxd3_hypothesis	two_add	collectri_modern_two_add	pairwise	216	40	250	492		0.418555470130699	40.5	False
+prior_replacement	GSE114809	s1_named_axes_mxd3_hypothesis	two_union	collectri_modern_two_union	pairwise	216	40	250	492		0.4246672136950261	41.5	False
+prior_replacement	GSE114809	s1_named_axes_mxd3_hypothesis	msviper	collectri_through2015_msviper	pairwise	0	0	0	0				False
+prior_replacement	GSE114809	s1_named_axes_mxd3_hypothesis	msviper_both_positive	collectri_through2015_msviper_both_positive	pairwise	0	0	0	0				False
+prior_replacement	GSE114809	s1_named_axes_mxd3_hypothesis	network_add	collectri_through2015_network_add	pairwise	176	30	230	252		0.4726170155061449	30.0	False
+prior_replacement	GSE114809	s1_named_axes_mxd3_hypothesis	network_union	collectri_through2015_network_union	pairwise	176	30	230	252		0.47020373074625094	30.0	False
+prior_replacement	GSE114809	s1_named_axes_mxd3_hypothesis	two_add	collectri_through2015_two_add	pairwise	192	36	250	270		0.17955002738228923	45.0	False
+prior_replacement	GSE114809	s1_named_axes_mxd3_hypothesis	two_union	collectri_through2015_two_union	pairwise	192	36	250	270		0.17962861915412245	45.0	False
+joint_vs_additive	GSE114809	s1_thesis	imcell_p005_joint	imcell_p005_additive	pairwise	260	47	260	260		0.9389552018957884	5.0	False
+joint_vs_additive	GSE114809	s1_thesis	imcell_p010_joint	imcell_p010_additive	pairwise	260	47	260	260		0.9882223547585496	4.0	False
+joint_vs_additive	GSE114809	s1_thesis	imcell_p020_joint	imcell_p020_additive	pairwise	260	47	260	260		0.994096086740681	3.5	False
+joint_vs_additive	GSE114809	s1_thesis	imcell_weight_in_degree_joint	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.9962266103006465	1.5	False
+joint_vs_additive	GSE114809	s1_thesis	imcell_weight_mean_joint	imcell_weight_mean_additive	pairwise	260	47	260	260		0.996951248955978	2.5	False
+joint_vs_additive	GSE114809	s1_thesis	imcell_weight_p010_joint	imcell_weight_p010_additive	pairwise	260	47	260	260		0.9943390741262024	3.0	False
+weight_sensitivity	GSE114809	s1_thesis	imcell_weight_p010_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.9078707877273144	19.5	False
+weight_sensitivity	GSE114809	s1_thesis	imcell_weight_mean_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.6957402550060168	39.0	False
+weight_sensitivity	GSE114809	s1_thesis	imcell_weight_p010_joint	imcell_weight_mean_joint	pairwise	260	47	260	260		0.8248456158560993	34.0	False
+weight_sensitivity	GSE114809	s1_thesis	imcell_weight_p010_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.9085824370101933	21.0	False
+weight_sensitivity	GSE114809	s1_thesis	imcell_weight_mean_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.7001992560901129	41.0	False
+weight_sensitivity	GSE114809	s1_thesis	imcell_weight_p010_additive	imcell_weight_mean_additive	pairwise	260	47	260	260		0.823481994173596	32.0	False
+prior_replacement	GSE114809	s1_thesis	msviper	collectri_modern_msviper	pairwise	0	0	0	23				False
+prior_replacement	GSE114809	s1_thesis	msviper_both_positive	collectri_modern_msviper_both_positive	pairwise	0	0	0	2				False
+prior_replacement	GSE114809	s1_thesis	network_add	collectri_modern_network_add	pairwise	198	33	230	480		0.6124383152055595	31.5	False
+prior_replacement	GSE114809	s1_thesis	network_union	collectri_modern_network_union	pairwise	198	33	230	480		0.6092126245670475	31.5	False
+prior_replacement	GSE114809	s1_thesis	two_add	collectri_modern_two_add	pairwise	216	40	250	492		0.418555470130699	40.5	False
+prior_replacement	GSE114809	s1_thesis	two_union	collectri_modern_two_union	pairwise	216	40	250	492		0.4246672136950261	41.5	False
+prior_replacement	GSE114809	s1_thesis	msviper	collectri_through2015_msviper	pairwise	0	0	0	0				False
+prior_replacement	GSE114809	s1_thesis	msviper_both_positive	collectri_through2015_msviper_both_positive	pairwise	0	0	0	0				False
+prior_replacement	GSE114809	s1_thesis	network_add	collectri_through2015_network_add	pairwise	176	30	230	252		0.4726170155061449	30.0	False
+prior_replacement	GSE114809	s1_thesis	network_union	collectri_through2015_network_union	pairwise	176	30	230	252		0.47020373074625094	30.0	False
+prior_replacement	GSE114809	s1_thesis	two_add	collectri_through2015_two_add	pairwise	192	36	250	270		0.17955002738228923	45.0	False
+prior_replacement	GSE114809	s1_thesis	two_union	collectri_through2015_two_union	pairwise	192	36	250	270		0.17962861915412245	45.0	False
+joint_vs_additive	GSE114809	s1_thesis_mxd3_hypothesis	imcell_p005_joint	imcell_p005_additive	pairwise	260	47	260	260		0.9389552018957884	5.0	False
+joint_vs_additive	GSE114809	s1_thesis_mxd3_hypothesis	imcell_p010_joint	imcell_p010_additive	pairwise	260	47	260	260		0.9882223547585496	4.0	False
+joint_vs_additive	GSE114809	s1_thesis_mxd3_hypothesis	imcell_p020_joint	imcell_p020_additive	pairwise	260	47	260	260		0.994096086740681	3.5	False
+joint_vs_additive	GSE114809	s1_thesis_mxd3_hypothesis	imcell_weight_in_degree_joint	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.9962266103006465	1.5	False
+joint_vs_additive	GSE114809	s1_thesis_mxd3_hypothesis	imcell_weight_mean_joint	imcell_weight_mean_additive	pairwise	260	47	260	260		0.996951248955978	2.5	False
+joint_vs_additive	GSE114809	s1_thesis_mxd3_hypothesis	imcell_weight_p010_joint	imcell_weight_p010_additive	pairwise	260	47	260	260		0.9943390741262024	3.0	False
+weight_sensitivity	GSE114809	s1_thesis_mxd3_hypothesis	imcell_weight_p010_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.9078707877273144	19.5	False
+weight_sensitivity	GSE114809	s1_thesis_mxd3_hypothesis	imcell_weight_mean_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.6957402550060168	39.0	False
+weight_sensitivity	GSE114809	s1_thesis_mxd3_hypothesis	imcell_weight_p010_joint	imcell_weight_mean_joint	pairwise	260	47	260	260		0.8248456158560993	34.0	False
+weight_sensitivity	GSE114809	s1_thesis_mxd3_hypothesis	imcell_weight_p010_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.9085824370101933	21.0	False
+weight_sensitivity	GSE114809	s1_thesis_mxd3_hypothesis	imcell_weight_mean_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.7001992560901129	41.0	False
+weight_sensitivity	GSE114809	s1_thesis_mxd3_hypothesis	imcell_weight_p010_additive	imcell_weight_mean_additive	pairwise	260	47	260	260		0.823481994173596	32.0	False
+prior_replacement	GSE114809	s1_thesis_mxd3_hypothesis	msviper	collectri_modern_msviper	pairwise	0	0	0	23				False
+prior_replacement	GSE114809	s1_thesis_mxd3_hypothesis	msviper_both_positive	collectri_modern_msviper_both_positive	pairwise	0	0	0	2				False
+prior_replacement	GSE114809	s1_thesis_mxd3_hypothesis	network_add	collectri_modern_network_add	pairwise	198	33	230	480		0.6124383152055595	31.5	False
+prior_replacement	GSE114809	s1_thesis_mxd3_hypothesis	network_union	collectri_modern_network_union	pairwise	198	33	230	480		0.6092126245670475	31.5	False
+prior_replacement	GSE114809	s1_thesis_mxd3_hypothesis	two_add	collectri_modern_two_add	pairwise	216	40	250	492		0.418555470130699	40.5	False
+prior_replacement	GSE114809	s1_thesis_mxd3_hypothesis	two_union	collectri_modern_two_union	pairwise	216	40	250	492		0.4246672136950261	41.5	False
+prior_replacement	GSE114809	s1_thesis_mxd3_hypothesis	msviper	collectri_through2015_msviper	pairwise	0	0	0	0				False
+prior_replacement	GSE114809	s1_thesis_mxd3_hypothesis	msviper_both_positive	collectri_through2015_msviper_both_positive	pairwise	0	0	0	0				False
+prior_replacement	GSE114809	s1_thesis_mxd3_hypothesis	network_add	collectri_through2015_network_add	pairwise	176	30	230	252		0.4726170155061449	30.0	False
+prior_replacement	GSE114809	s1_thesis_mxd3_hypothesis	network_union	collectri_through2015_network_union	pairwise	176	30	230	252		0.47020373074625094	30.0	False
+prior_replacement	GSE114809	s1_thesis_mxd3_hypothesis	two_add	collectri_through2015_two_add	pairwise	192	36	250	270		0.17955002738228923	45.0	False
+prior_replacement	GSE114809	s1_thesis_mxd3_hypothesis	two_union	collectri_through2015_two_union	pairwise	192	36	250	270		0.17962861915412245	45.0	False
+taiji_vs_reference	GSE43916	figure_ascl3_swapped_axes	taiji_pair	expression_GSE43916	pairwise	90	7	90	572		0.42384656541959914	19.0	False
+taiji_vs_reference	GSE43916	figure_ascl3_swapped_axes	taiji_pair	expression_gse53951	pairwise	90	7	90	572		0.12749722187924434	24.0	False
+taiji_vs_reference	GSE43916	figure_ascl3_swapped_axes	taiji_pair	integration_gse53951	pairwise	55	5	90	260		0.013456716652999351	18.0	False
+taiji_vs_reference	GSE43916	figure_ascl3_swapped_axes_mxd3_hypothesis	taiji_pair	expression_GSE43916	pairwise	90	7	90	585		0.4277318187430547	19.0	False
+taiji_vs_reference	GSE43916	figure_ascl3_swapped_axes_mxd3_hypothesis	taiji_pair	expression_gse53951	pairwise	90	7	90	585		0.1227065069761699	24.0	False
+taiji_vs_reference	GSE43916	figure_ascl3_swapped_axes_mxd3_hypothesis	taiji_pair	integration_gse53951	pairwise	55	5	90	260		0.0070712172779502725	18.0	False
+taiji_vs_reference	GSE43916	figure_literal	taiji_pair	expression_GSE43916	pairwise	90	7	90	572		0.42384656541959914	19.0	False
+taiji_vs_reference	GSE43916	figure_literal	taiji_pair	expression_gse53951	pairwise	90	7	90	572		0.12749722187924434	24.0	False
+taiji_vs_reference	GSE43916	figure_literal	taiji_pair	integration_gse53951	pairwise	55	5	90	260		0.013456716652999351	18.0	False
+taiji_vs_reference	GSE43916	figure_literal_mxd3_hypothesis	taiji_pair	expression_GSE43916	pairwise	90	7	90	585		0.4277318187430547	19.0	False
+taiji_vs_reference	GSE43916	figure_literal_mxd3_hypothesis	taiji_pair	expression_gse53951	pairwise	90	7	90	585		0.1227065069761699	24.0	False
+taiji_vs_reference	GSE43916	figure_literal_mxd3_hypothesis	taiji_pair	integration_gse53951	pairwise	55	5	90	260		0.0070712172779502725	18.0	False
+taiji_vs_reference	GSE43916	main	taiji_pair	expression_GSE43916	pairwise	90	7	90	533		0.4326048483351854	19.0	False
+taiji_vs_reference	GSE43916	main	taiji_pair	expression_GSE43916	pairwise_old_common	45	1	90	533	210	0.6462450592885376	8.0	False
+taiji_vs_reference	GSE43916	main	taiji_pair	expression_gse53951	pairwise	90	7	90	533		0.11883771659052558	24.0	False
+taiji_vs_reference	GSE43916	main	taiji_pair	expression_gse53951	pairwise_old_common	45	1	90	533	210	0.026745718050065877	12.0	False
+taiji_vs_reference	GSE43916	main	taiji_pair	integration_gse53951	pairwise	55	5	90	240		0.00833378430788968	18.0	False
+taiji_vs_reference	GSE43916	main	taiji_pair	integration_gse53951	pairwise_old_common	45	1	90	240	210	0.14605705282371403	13.0	False
+taiji_vs_reference	GSE43916	s1_named_axes	taiji_pair	expression_GSE43916	pairwise	90	7	90	572		0.44040828085771905	19.0	False
+taiji_vs_reference	GSE43916	s1_named_axes	taiji_pair	expression_gse53951	pairwise	90	7	90	559		0.11883771659052558	24.0	False
+taiji_vs_reference	GSE43916	s1_named_axes	taiji_pair	integration_gse53951	pairwise	55	5	90	260		0.00833378430788968	18.0	False
+taiji_vs_reference	GSE43916	s1_named_axes_mxd3_hypothesis	taiji_pair	expression_GSE43916	pairwise	90	7	90	585		0.44358562785529076	18.5	False
+taiji_vs_reference	GSE43916	s1_named_axes_mxd3_hypothesis	taiji_pair	expression_gse53951	pairwise	90	7	90	572		0.11984195579701197	23.5	False
+taiji_vs_reference	GSE43916	s1_named_axes_mxd3_hypothesis	taiji_pair	integration_gse53951	pairwise	55	5	90	260		-0.0014430274718702457	18.0	False
+taiji_vs_reference	GSE43916	s1_thesis	taiji_pair	expression_GSE43916	pairwise	90	7	90	572		0.44040828085771905	19.0	False
+taiji_vs_reference	GSE43916	s1_thesis	taiji_pair	expression_gse53951	pairwise	90	7	90	559		0.11883771659052558	24.0	False
+taiji_vs_reference	GSE43916	s1_thesis	taiji_pair	integration_gse53951	pairwise	55	5	90	260		0.00833378430788968	18.0	False
+taiji_vs_reference	GSE43916	s1_thesis_mxd3_hypothesis	taiji_pair	expression_GSE43916	pairwise	90	7	90	585		0.44358562785529076	18.5	False
+taiji_vs_reference	GSE43916	s1_thesis_mxd3_hypothesis	taiji_pair	expression_gse53951	pairwise	90	7	90	572		0.11984195579701197	23.5	False
+taiji_vs_reference	GSE43916	s1_thesis_mxd3_hypothesis	taiji_pair	integration_gse53951	pairwise	55	5	90	260		-0.0014430274718702457	18.0	False
+joint_vs_additive	GSE53951	figure_ascl3_swapped_axes	imcell_p005_joint	imcell_p005_additive	pairwise	260	47	260	260		0.9570591039039559	2.0	False
+joint_vs_additive	GSE53951	figure_ascl3_swapped_axes	imcell_p010_joint	imcell_p010_additive	pairwise	260	47	260	260		0.9746243606352402	11.0	False
+joint_vs_additive	GSE53951	figure_ascl3_swapped_axes	imcell_p020_joint	imcell_p020_additive	pairwise	260	47	260	260		0.9899693855443524	4.0	False
+joint_vs_additive	GSE53951	figure_ascl3_swapped_axes	imcell_weight_in_degree_joint	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.9971037975115813	2.0	False
+joint_vs_additive	GSE53951	figure_ascl3_swapped_axes	imcell_weight_mean_joint	imcell_weight_mean_additive	pairwise	260	47	260	260		0.995851129635696	2.5	False
+joint_vs_additive	GSE53951	figure_ascl3_swapped_axes	imcell_weight_p010_joint	imcell_weight_p010_additive	pairwise	260	47	260	260		0.9643214779584084	6.5	False
+weight_sensitivity	GSE53951	figure_ascl3_swapped_axes	imcell_weight_p010_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.9541052205326805	12.0	False
+weight_sensitivity	GSE53951	figure_ascl3_swapped_axes	imcell_weight_mean_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.7938812376080716	29.0	False
+weight_sensitivity	GSE53951	figure_ascl3_swapped_axes	imcell_weight_p010_joint	imcell_weight_mean_joint	pairwise	260	47	260	260		0.8417816401053145	25.25	False
+weight_sensitivity	GSE53951	figure_ascl3_swapped_axes	imcell_weight_p010_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.935251388930178	14.0	False
+weight_sensitivity	GSE53951	figure_ascl3_swapped_axes	imcell_weight_mean_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.7893918528719293	33.0	False
+weight_sensitivity	GSE53951	figure_ascl3_swapped_axes	imcell_weight_p010_additive	imcell_weight_mean_additive	pairwise	260	47	260	260		0.8194579767620277	23.5	False
+prior_replacement	GSE53951	figure_ascl3_swapped_axes	msviper	collectri_modern_msviper	pairwise	0	0	0	23				False
+prior_replacement	GSE53951	figure_ascl3_swapped_axes	msviper_both_positive	collectri_modern_msviper_both_positive	pairwise	0	0	0	1				False
+prior_replacement	GSE53951	figure_ascl3_swapped_axes	network_add	collectri_modern_network_add	pairwise	189	33	220	468		0.609031905305738	30.5	False
+prior_replacement	GSE53951	figure_ascl3_swapped_axes	network_union	collectri_modern_network_union	pairwise	189	33	220	468		0.5941454341338858	31.5	False
+prior_replacement	GSE53951	figure_ascl3_swapped_axes	two_add	collectri_modern_two_add	pairwise	207	40	240	480		0.20565515531367992	46.0	False
+prior_replacement	GSE53951	figure_ascl3_swapped_axes	two_union	collectri_modern_two_union	pairwise	207	40	240	480		0.21523645003739258	49.0	False
+prior_replacement	GSE53951	figure_ascl3_swapped_axes	msviper	collectri_through2015_msviper	pairwise	0	0	0	0				False
+prior_replacement	GSE53951	figure_ascl3_swapped_axes	msviper_both_positive	collectri_through2015_msviper_both_positive	pairwise	0	0	0	0				False
+prior_replacement	GSE53951	figure_ascl3_swapped_axes	network_add	collectri_through2015_network_add	pairwise	168	30	220	252		0.6893141095963494	27.5	False
+prior_replacement	GSE53951	figure_ascl3_swapped_axes	network_union	collectri_through2015_network_union	pairwise	168	30	220	252		0.6882281102976081	27.5	False
+prior_replacement	GSE53951	figure_ascl3_swapped_axes	two_add	collectri_through2015_two_add	pairwise	184	36	240	270		0.21966174270351055	43.75	False
+prior_replacement	GSE53951	figure_ascl3_swapped_axes	two_union	collectri_through2015_two_union	pairwise	184	36	240	270		0.218583262851868	43.25	False
+joint_vs_additive	GSE53951	figure_ascl3_swapped_axes_mxd3_hypothesis	imcell_p005_joint	imcell_p005_additive	pairwise	260	47	260	260		0.9570591039039559	2.0	False
+joint_vs_additive	GSE53951	figure_ascl3_swapped_axes_mxd3_hypothesis	imcell_p010_joint	imcell_p010_additive	pairwise	260	47	260	260		0.9746243606352402	11.0	False
+joint_vs_additive	GSE53951	figure_ascl3_swapped_axes_mxd3_hypothesis	imcell_p020_joint	imcell_p020_additive	pairwise	260	47	260	260		0.9899693855443524	4.0	False
+joint_vs_additive	GSE53951	figure_ascl3_swapped_axes_mxd3_hypothesis	imcell_weight_in_degree_joint	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.9971037975115813	2.0	False
+joint_vs_additive	GSE53951	figure_ascl3_swapped_axes_mxd3_hypothesis	imcell_weight_mean_joint	imcell_weight_mean_additive	pairwise	260	47	260	260		0.995851129635696	2.5	False
+joint_vs_additive	GSE53951	figure_ascl3_swapped_axes_mxd3_hypothesis	imcell_weight_p010_joint	imcell_weight_p010_additive	pairwise	260	47	260	260		0.9643214779584084	6.5	False
+weight_sensitivity	GSE53951	figure_ascl3_swapped_axes_mxd3_hypothesis	imcell_weight_p010_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.9541052205326805	12.0	False
+weight_sensitivity	GSE53951	figure_ascl3_swapped_axes_mxd3_hypothesis	imcell_weight_mean_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.7938812376080716	29.0	False
+weight_sensitivity	GSE53951	figure_ascl3_swapped_axes_mxd3_hypothesis	imcell_weight_p010_joint	imcell_weight_mean_joint	pairwise	260	47	260	260		0.8417816401053145	25.25	False
+weight_sensitivity	GSE53951	figure_ascl3_swapped_axes_mxd3_hypothesis	imcell_weight_p010_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.935251388930178	14.0	False
+weight_sensitivity	GSE53951	figure_ascl3_swapped_axes_mxd3_hypothesis	imcell_weight_mean_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.7893918528719293	33.0	False
+weight_sensitivity	GSE53951	figure_ascl3_swapped_axes_mxd3_hypothesis	imcell_weight_p010_additive	imcell_weight_mean_additive	pairwise	260	47	260	260		0.8194579767620277	23.5	False
+prior_replacement	GSE53951	figure_ascl3_swapped_axes_mxd3_hypothesis	msviper	collectri_modern_msviper	pairwise	0	0	0	23				False
+prior_replacement	GSE53951	figure_ascl3_swapped_axes_mxd3_hypothesis	msviper_both_positive	collectri_modern_msviper_both_positive	pairwise	0	0	0	1				False
+prior_replacement	GSE53951	figure_ascl3_swapped_axes_mxd3_hypothesis	network_add	collectri_modern_network_add	pairwise	189	33	220	468		0.609031905305738	30.5	False
+prior_replacement	GSE53951	figure_ascl3_swapped_axes_mxd3_hypothesis	network_union	collectri_modern_network_union	pairwise	189	33	220	468		0.5941454341338858	31.5	False
+prior_replacement	GSE53951	figure_ascl3_swapped_axes_mxd3_hypothesis	two_add	collectri_modern_two_add	pairwise	207	40	240	480		0.20565515531367992	46.0	False
+prior_replacement	GSE53951	figure_ascl3_swapped_axes_mxd3_hypothesis	two_union	collectri_modern_two_union	pairwise	207	40	240	480		0.21523645003739258	49.0	False
+prior_replacement	GSE53951	figure_ascl3_swapped_axes_mxd3_hypothesis	msviper	collectri_through2015_msviper	pairwise	0	0	0	0				False
+prior_replacement	GSE53951	figure_ascl3_swapped_axes_mxd3_hypothesis	msviper_both_positive	collectri_through2015_msviper_both_positive	pairwise	0	0	0	0				False
+prior_replacement	GSE53951	figure_ascl3_swapped_axes_mxd3_hypothesis	network_add	collectri_through2015_network_add	pairwise	168	30	220	252		0.6893141095963494	27.5	False
+prior_replacement	GSE53951	figure_ascl3_swapped_axes_mxd3_hypothesis	network_union	collectri_through2015_network_union	pairwise	168	30	220	252		0.6882281102976081	27.5	False
+prior_replacement	GSE53951	figure_ascl3_swapped_axes_mxd3_hypothesis	two_add	collectri_through2015_two_add	pairwise	184	36	240	270		0.21966174270351055	43.75	False
+prior_replacement	GSE53951	figure_ascl3_swapped_axes_mxd3_hypothesis	two_union	collectri_through2015_two_union	pairwise	184	36	240	270		0.218583262851868	43.25	False
+joint_vs_additive	GSE53951	figure_literal	imcell_p005_joint	imcell_p005_additive	pairwise	260	47	260	260		0.9570591039039559	2.0	False
+joint_vs_additive	GSE53951	figure_literal	imcell_p010_joint	imcell_p010_additive	pairwise	260	47	260	260		0.9746243606352402	11.0	False
+joint_vs_additive	GSE53951	figure_literal	imcell_p020_joint	imcell_p020_additive	pairwise	260	47	260	260		0.9899693855443524	4.0	False
+joint_vs_additive	GSE53951	figure_literal	imcell_weight_in_degree_joint	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.9971037975115813	2.0	False
+joint_vs_additive	GSE53951	figure_literal	imcell_weight_mean_joint	imcell_weight_mean_additive	pairwise	260	47	260	260		0.995851129635696	2.5	False
+joint_vs_additive	GSE53951	figure_literal	imcell_weight_p010_joint	imcell_weight_p010_additive	pairwise	260	47	260	260		0.9643214779584084	6.5	False
+weight_sensitivity	GSE53951	figure_literal	imcell_weight_p010_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.9541052205326805	12.0	False
+weight_sensitivity	GSE53951	figure_literal	imcell_weight_mean_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.7938812376080716	29.0	False
+weight_sensitivity	GSE53951	figure_literal	imcell_weight_p010_joint	imcell_weight_mean_joint	pairwise	260	47	260	260		0.8417816401053145	25.25	False
+weight_sensitivity	GSE53951	figure_literal	imcell_weight_p010_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.935251388930178	14.0	False
+weight_sensitivity	GSE53951	figure_literal	imcell_weight_mean_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.7893918528719293	33.0	False
+weight_sensitivity	GSE53951	figure_literal	imcell_weight_p010_additive	imcell_weight_mean_additive	pairwise	260	47	260	260		0.8194579767620277	23.5	False
+prior_replacement	GSE53951	figure_literal	msviper	collectri_modern_msviper	pairwise	0	0	0	23				False
+prior_replacement	GSE53951	figure_literal	msviper_both_positive	collectri_modern_msviper_both_positive	pairwise	0	0	0	1				False
+prior_replacement	GSE53951	figure_literal	network_add	collectri_modern_network_add	pairwise	189	33	220	468		0.609031905305738	30.5	False
+prior_replacement	GSE53951	figure_literal	network_union	collectri_modern_network_union	pairwise	189	33	220	468		0.5941454341338858	31.5	False
+prior_replacement	GSE53951	figure_literal	two_add	collectri_modern_two_add	pairwise	207	40	240	480		0.20565515531367992	46.0	False
+prior_replacement	GSE53951	figure_literal	two_union	collectri_modern_two_union	pairwise	207	40	240	480		0.21523645003739258	49.0	False
+prior_replacement	GSE53951	figure_literal	msviper	collectri_through2015_msviper	pairwise	0	0	0	0				False
+prior_replacement	GSE53951	figure_literal	msviper_both_positive	collectri_through2015_msviper_both_positive	pairwise	0	0	0	0				False
+prior_replacement	GSE53951	figure_literal	network_add	collectri_through2015_network_add	pairwise	168	30	220	252		0.6893141095963494	27.5	False
+prior_replacement	GSE53951	figure_literal	network_union	collectri_through2015_network_union	pairwise	168	30	220	252		0.6882281102976081	27.5	False
+prior_replacement	GSE53951	figure_literal	two_add	collectri_through2015_two_add	pairwise	184	36	240	270		0.21966174270351055	43.75	False
+prior_replacement	GSE53951	figure_literal	two_union	collectri_through2015_two_union	pairwise	184	36	240	270		0.218583262851868	43.25	False
+joint_vs_additive	GSE53951	figure_literal_mxd3_hypothesis	imcell_p005_joint	imcell_p005_additive	pairwise	260	47	260	260		0.9570591039039559	2.0	False
+joint_vs_additive	GSE53951	figure_literal_mxd3_hypothesis	imcell_p010_joint	imcell_p010_additive	pairwise	260	47	260	260		0.9746243606352402	11.0	False
+joint_vs_additive	GSE53951	figure_literal_mxd3_hypothesis	imcell_p020_joint	imcell_p020_additive	pairwise	260	47	260	260		0.9899693855443524	4.0	False
+joint_vs_additive	GSE53951	figure_literal_mxd3_hypothesis	imcell_weight_in_degree_joint	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.9971037975115813	2.0	False
+joint_vs_additive	GSE53951	figure_literal_mxd3_hypothesis	imcell_weight_mean_joint	imcell_weight_mean_additive	pairwise	260	47	260	260		0.995851129635696	2.5	False
+joint_vs_additive	GSE53951	figure_literal_mxd3_hypothesis	imcell_weight_p010_joint	imcell_weight_p010_additive	pairwise	260	47	260	260		0.9643214779584084	6.5	False
+weight_sensitivity	GSE53951	figure_literal_mxd3_hypothesis	imcell_weight_p010_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.9541052205326805	12.0	False
+weight_sensitivity	GSE53951	figure_literal_mxd3_hypothesis	imcell_weight_mean_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.7938812376080716	29.0	False
+weight_sensitivity	GSE53951	figure_literal_mxd3_hypothesis	imcell_weight_p010_joint	imcell_weight_mean_joint	pairwise	260	47	260	260		0.8417816401053145	25.25	False
+weight_sensitivity	GSE53951	figure_literal_mxd3_hypothesis	imcell_weight_p010_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.935251388930178	14.0	False
+weight_sensitivity	GSE53951	figure_literal_mxd3_hypothesis	imcell_weight_mean_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.7893918528719293	33.0	False
+weight_sensitivity	GSE53951	figure_literal_mxd3_hypothesis	imcell_weight_p010_additive	imcell_weight_mean_additive	pairwise	260	47	260	260		0.8194579767620277	23.5	False
+prior_replacement	GSE53951	figure_literal_mxd3_hypothesis	msviper	collectri_modern_msviper	pairwise	0	0	0	23				False
+prior_replacement	GSE53951	figure_literal_mxd3_hypothesis	msviper_both_positive	collectri_modern_msviper_both_positive	pairwise	0	0	0	1				False
+prior_replacement	GSE53951	figure_literal_mxd3_hypothesis	network_add	collectri_modern_network_add	pairwise	189	33	220	468		0.609031905305738	30.5	False
+prior_replacement	GSE53951	figure_literal_mxd3_hypothesis	network_union	collectri_modern_network_union	pairwise	189	33	220	468		0.5941454341338858	31.5	False
+prior_replacement	GSE53951	figure_literal_mxd3_hypothesis	two_add	collectri_modern_two_add	pairwise	207	40	240	480		0.20565515531367992	46.0	False
+prior_replacement	GSE53951	figure_literal_mxd3_hypothesis	two_union	collectri_modern_two_union	pairwise	207	40	240	480		0.21523645003739258	49.0	False
+prior_replacement	GSE53951	figure_literal_mxd3_hypothesis	msviper	collectri_through2015_msviper	pairwise	0	0	0	0				False
+prior_replacement	GSE53951	figure_literal_mxd3_hypothesis	msviper_both_positive	collectri_through2015_msviper_both_positive	pairwise	0	0	0	0				False
+prior_replacement	GSE53951	figure_literal_mxd3_hypothesis	network_add	collectri_through2015_network_add	pairwise	168	30	220	252		0.6893141095963494	27.5	False
+prior_replacement	GSE53951	figure_literal_mxd3_hypothesis	network_union	collectri_through2015_network_union	pairwise	168	30	220	252		0.6882281102976081	27.5	False
+prior_replacement	GSE53951	figure_literal_mxd3_hypothesis	two_add	collectri_through2015_two_add	pairwise	184	36	240	270		0.21966174270351055	43.75	False
+prior_replacement	GSE53951	figure_literal_mxd3_hypothesis	two_union	collectri_through2015_two_union	pairwise	184	36	240	270		0.218583262851868	43.25	False
+joint_vs_additive	GSE53951	main	imcell_p005_joint	imcell_p005_additive	pairwise	240	45	240	240		0.9596348384639372	1.75	False
+joint_vs_additive	GSE53951	main	imcell_p005_joint	imcell_p005_additive	pairwise_old_common	210	37	240	240	210	0.9602676261185031	3.0	False
+joint_vs_additive	GSE53951	main	imcell_p010_joint	imcell_p010_additive	pairwise	240	45	240	240		0.973555298570844	11.0	False
+joint_vs_additive	GSE53951	main	imcell_p010_joint	imcell_p010_additive	pairwise_old_common	210	37	240	240	210	0.9823250269413648	7.5	False
+joint_vs_additive	GSE53951	main	imcell_p020_joint	imcell_p020_additive	pairwise	240	45	240	240		0.9909687017053456	3.5	False
+joint_vs_additive	GSE53951	main	imcell_p020_joint	imcell_p020_additive	pairwise_old_common	210	37	240	240	210	0.9938013600745083	3.0	False
+joint_vs_additive	GSE53951	main	imcell_weight_in_degree_joint	imcell_weight_in_degree_additive	pairwise	240	45	240	240		0.9972583544881306	2.0	False
+joint_vs_additive	GSE53951	main	imcell_weight_in_degree_joint	imcell_weight_in_degree_additive	pairwise_old_common	210	37	240	240	210	0.9982148641327975	1.5	False
+joint_vs_additive	GSE53951	main	imcell_weight_mean_joint	imcell_weight_mean_additive	pairwise	240	45	240	240		0.9964886383947558	2.0	False
+joint_vs_additive	GSE53951	main	imcell_weight_mean_joint	imcell_weight_mean_additive	pairwise_old_common	210	37	240	240	210	0.9973616682394443	2.0	False
+joint_vs_additive	GSE53951	main	imcell_weight_p010_joint	imcell_weight_p010_additive	pairwise	240	45	240	240		0.9636312267121845	6.5	False
+joint_vs_additive	GSE53951	main	imcell_weight_p010_joint	imcell_weight_p010_additive	pairwise_old_common	210	37	240	240	210	0.9776886246341739	4.5	False
+weight_sensitivity	GSE53951	main	imcell_weight_p010_joint	imcell_weight_in_degree_joint	pairwise	240	45	240	240		0.9525315850576523	11.75	False
+weight_sensitivity	GSE53951	main	imcell_weight_p010_joint	imcell_weight_in_degree_joint	pairwise_old_common	210	37	240	240	210	0.9469124714717421	10.0	False
+weight_sensitivity	GSE53951	main	imcell_weight_mean_joint	imcell_weight_in_degree_joint	pairwise	240	45	240	240		0.7910502474674016	28.0	False
+weight_sensitivity	GSE53951	main	imcell_weight_mean_joint	imcell_weight_in_degree_joint	pairwise_old_common	210	37	240	240	210	0.7426584500411748	25.5	False
+weight_sensitivity	GSE53951	main	imcell_weight_p010_joint	imcell_weight_mean_joint	pairwise	240	45	240	240		0.8464089871621342	22.0	False
+weight_sensitivity	GSE53951	main	imcell_weight_p010_joint	imcell_weight_mean_joint	pairwise_old_common	210	37	240	240	210	0.8121653564006055	22.0	False
+weight_sensitivity	GSE53951	main	imcell_weight_p010_additive	imcell_weight_in_degree_additive	pairwise	240	45	240	240		0.9307713055657559	13.25	False
+weight_sensitivity	GSE53951	main	imcell_weight_p010_additive	imcell_weight_in_degree_additive	pairwise_old_common	210	37	240	240	210	0.9339356284091611	12.0	False
+weight_sensitivity	GSE53951	main	imcell_weight_mean_additive	imcell_weight_in_degree_additive	pairwise	240	45	240	240		0.7870620742388433	31.0	False
+weight_sensitivity	GSE53951	main	imcell_weight_mean_additive	imcell_weight_in_degree_additive	pairwise_old_common	210	37	240	240	210	0.7373723361153878	24.0	False
+weight_sensitivity	GSE53951	main	imcell_weight_p010_additive	imcell_weight_mean_additive	pairwise	240	45	240	240		0.8240125506925436	22.75	False
+weight_sensitivity	GSE53951	main	imcell_weight_p010_additive	imcell_weight_mean_additive	pairwise_old_common	210	37	240	240	210	0.7938843135944169	24.0	False
+prior_replacement	GSE53951	main	msviper	collectri_modern_msviper	pairwise	0	0	0	23				False
+prior_replacement	GSE53951	main	msviper	collectri_modern_msviper	pairwise_old_common	0	0	0	23	210			False
+prior_replacement	GSE53951	main	msviper_both_positive	collectri_modern_msviper_both_positive	pairwise	0	0	0	1				False
+prior_replacement	GSE53951	main	msviper_both_positive	collectri_modern_msviper_both_positive	pairwise_old_common	0	0	0	1	210			False
+prior_replacement	GSE53951	main	network_add	collectri_modern_network_add	pairwise	180	32	210	444		0.6087423116029179	26.5	False
+prior_replacement	GSE53951	main	network_add	collectri_modern_network_add	pairwise_old_common	180	32	210	444	210	0.6087423116029179	26.5	False
+prior_replacement	GSE53951	main	network_union	collectri_modern_network_union	pairwise	180	32	210	444		0.5933676399813698	27.5	False
+prior_replacement	GSE53951	main	network_union	collectri_modern_network_union	pairwise_old_common	180	32	210	444	210	0.5933676399813698	27.5	False
+prior_replacement	GSE53951	main	two_add	collectri_modern_two_add	pairwise	198	39	230	456		0.18065642451128366	45.5	False
+prior_replacement	GSE53951	main	two_add	collectri_modern_two_add	pairwise_old_common	180	32	230	456	210	0.17294578585125892	41.5	False
+prior_replacement	GSE53951	main	two_union	collectri_modern_two_union	pairwise	198	39	230	456		0.19187850973358694	46.75	False
+prior_replacement	GSE53951	main	two_union	collectri_modern_two_union	pairwise_old_common	180	32	230	456	210	0.18440878568496144	44.5	False
+prior_replacement	GSE53951	main	msviper	collectri_through2015_msviper	pairwise	0	0	0	0				False
+prior_replacement	GSE53951	main	msviper	collectri_through2015_msviper	pairwise_old_common	0	0	0	0	210			False
+prior_replacement	GSE53951	main	msviper_both_positive	collectri_through2015_msviper_both_positive	pairwise	0	0	0	0				False
+prior_replacement	GSE53951	main	msviper_both_positive	collectri_through2015_msviper_both_positive	pairwise_old_common	0	0	0	0	210			False
+prior_replacement	GSE53951	main	network_add	collectri_through2015_network_add	pairwise	160	29	210	243		0.6927312151708425	26.0	False
+prior_replacement	GSE53951	main	network_add	collectri_through2015_network_add	pairwise_old_common	160	29	210	243	210	0.6927312151708425	26.0	False
+prior_replacement	GSE53951	main	network_union	collectri_through2015_network_union	pairwise	160	29	210	243		0.691558080467551	26.0	False
+prior_replacement	GSE53951	main	network_union	collectri_through2015_network_union	pairwise_old_common	160	29	210	243	210	0.691558080467551	26.0	False
+prior_replacement	GSE53951	main	two_add	collectri_through2015_two_add	pairwise	176	35	230	261		0.19226236202083685	42.0	False
+prior_replacement	GSE53951	main	two_add	collectri_through2015_two_add	pairwise_old_common	160	29	230	261	210	0.1491128469734234	37.0	False
+prior_replacement	GSE53951	main	two_union	collectri_through2015_two_union	pairwise	176	35	230	261		0.191043496095894	42.0	False
+prior_replacement	GSE53951	main	two_union	collectri_through2015_two_union	pairwise_old_common	160	29	230	261	210	0.1459718612723589	37.5	False
+joint_vs_additive	GSE53951	s1_named_axes	imcell_p005_joint	imcell_p005_additive	pairwise	260	47	260	260		0.9570591039039559	2.0	False
+joint_vs_additive	GSE53951	s1_named_axes	imcell_p010_joint	imcell_p010_additive	pairwise	260	47	260	260		0.9746243606352402	11.0	False
+joint_vs_additive	GSE53951	s1_named_axes	imcell_p020_joint	imcell_p020_additive	pairwise	260	47	260	260		0.9899693855443524	4.0	False
+joint_vs_additive	GSE53951	s1_named_axes	imcell_weight_in_degree_joint	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.9971037975115813	2.0	False
+joint_vs_additive	GSE53951	s1_named_axes	imcell_weight_mean_joint	imcell_weight_mean_additive	pairwise	260	47	260	260		0.995851129635696	2.5	False
+joint_vs_additive	GSE53951	s1_named_axes	imcell_weight_p010_joint	imcell_weight_p010_additive	pairwise	260	47	260	260		0.9643214779584084	6.5	False
+weight_sensitivity	GSE53951	s1_named_axes	imcell_weight_p010_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.9541052205326805	12.0	False
+weight_sensitivity	GSE53951	s1_named_axes	imcell_weight_mean_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.7938812376080716	29.0	False
+weight_sensitivity	GSE53951	s1_named_axes	imcell_weight_p010_joint	imcell_weight_mean_joint	pairwise	260	47	260	260		0.8417816401053145	25.25	False
+weight_sensitivity	GSE53951	s1_named_axes	imcell_weight_p010_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.935251388930178	14.0	False
+weight_sensitivity	GSE53951	s1_named_axes	imcell_weight_mean_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.7893918528719293	33.0	False
+weight_sensitivity	GSE53951	s1_named_axes	imcell_weight_p010_additive	imcell_weight_mean_additive	pairwise	260	47	260	260		0.8194579767620277	23.5	False
+prior_replacement	GSE53951	s1_named_axes	msviper	collectri_modern_msviper	pairwise	0	0	0	23				False
+prior_replacement	GSE53951	s1_named_axes	msviper_both_positive	collectri_modern_msviper_both_positive	pairwise	0	0	0	1				False
+prior_replacement	GSE53951	s1_named_axes	network_add	collectri_modern_network_add	pairwise	189	33	220	480		0.609031905305738	30.5	False
+prior_replacement	GSE53951	s1_named_axes	network_union	collectri_modern_network_union	pairwise	189	33	220	480		0.5941454341338858	31.5	False
+prior_replacement	GSE53951	s1_named_axes	two_add	collectri_modern_two_add	pairwise	207	40	240	492		0.20565515531367992	46.0	False
+prior_replacement	GSE53951	s1_named_axes	two_union	collectri_modern_two_union	pairwise	207	40	240	492		0.21523645003739258	49.0	False
+prior_replacement	GSE53951	s1_named_axes	msviper	collectri_through2015_msviper	pairwise	0	0	0	0				False
+prior_replacement	GSE53951	s1_named_axes	msviper_both_positive	collectri_through2015_msviper_both_positive	pairwise	0	0	0	0				False
+prior_replacement	GSE53951	s1_named_axes	network_add	collectri_through2015_network_add	pairwise	168	30	220	252		0.6893141095963494	27.5	False
+prior_replacement	GSE53951	s1_named_axes	network_union	collectri_through2015_network_union	pairwise	168	30	220	252		0.6882281102976081	27.5	False
+prior_replacement	GSE53951	s1_named_axes	two_add	collectri_through2015_two_add	pairwise	184	36	240	270		0.21966174270351055	43.75	False
+prior_replacement	GSE53951	s1_named_axes	two_union	collectri_through2015_two_union	pairwise	184	36	240	270		0.218583262851868	43.25	False
+joint_vs_additive	GSE53951	s1_named_axes_mxd3_hypothesis	imcell_p005_joint	imcell_p005_additive	pairwise	260	47	260	260		0.9570591039039559	2.0	False
+joint_vs_additive	GSE53951	s1_named_axes_mxd3_hypothesis	imcell_p010_joint	imcell_p010_additive	pairwise	260	47	260	260		0.9746243606352402	11.0	False
+joint_vs_additive	GSE53951	s1_named_axes_mxd3_hypothesis	imcell_p020_joint	imcell_p020_additive	pairwise	260	47	260	260		0.9899693855443524	4.0	False
+joint_vs_additive	GSE53951	s1_named_axes_mxd3_hypothesis	imcell_weight_in_degree_joint	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.9971037975115813	2.0	False
+joint_vs_additive	GSE53951	s1_named_axes_mxd3_hypothesis	imcell_weight_mean_joint	imcell_weight_mean_additive	pairwise	260	47	260	260		0.995851129635696	2.5	False
+joint_vs_additive	GSE53951	s1_named_axes_mxd3_hypothesis	imcell_weight_p010_joint	imcell_weight_p010_additive	pairwise	260	47	260	260		0.9643214779584084	6.5	False
+weight_sensitivity	GSE53951	s1_named_axes_mxd3_hypothesis	imcell_weight_p010_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.9541052205326805	12.0	False
+weight_sensitivity	GSE53951	s1_named_axes_mxd3_hypothesis	imcell_weight_mean_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.7938812376080716	29.0	False
+weight_sensitivity	GSE53951	s1_named_axes_mxd3_hypothesis	imcell_weight_p010_joint	imcell_weight_mean_joint	pairwise	260	47	260	260		0.8417816401053145	25.25	False
+weight_sensitivity	GSE53951	s1_named_axes_mxd3_hypothesis	imcell_weight_p010_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.935251388930178	14.0	False
+weight_sensitivity	GSE53951	s1_named_axes_mxd3_hypothesis	imcell_weight_mean_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.7893918528719293	33.0	False
+weight_sensitivity	GSE53951	s1_named_axes_mxd3_hypothesis	imcell_weight_p010_additive	imcell_weight_mean_additive	pairwise	260	47	260	260		0.8194579767620277	23.5	False
+prior_replacement	GSE53951	s1_named_axes_mxd3_hypothesis	msviper	collectri_modern_msviper	pairwise	0	0	0	23				False
+prior_replacement	GSE53951	s1_named_axes_mxd3_hypothesis	msviper_both_positive	collectri_modern_msviper_both_positive	pairwise	0	0	0	1				False
+prior_replacement	GSE53951	s1_named_axes_mxd3_hypothesis	network_add	collectri_modern_network_add	pairwise	189	33	220	480		0.609031905305738	30.5	False
+prior_replacement	GSE53951	s1_named_axes_mxd3_hypothesis	network_union	collectri_modern_network_union	pairwise	189	33	220	480		0.5941454341338858	31.5	False
+prior_replacement	GSE53951	s1_named_axes_mxd3_hypothesis	two_add	collectri_modern_two_add	pairwise	207	40	240	492		0.20565515531367992	46.0	False
+prior_replacement	GSE53951	s1_named_axes_mxd3_hypothesis	two_union	collectri_modern_two_union	pairwise	207	40	240	492		0.21523645003739258	49.0	False
+prior_replacement	GSE53951	s1_named_axes_mxd3_hypothesis	msviper	collectri_through2015_msviper	pairwise	0	0	0	0				False
+prior_replacement	GSE53951	s1_named_axes_mxd3_hypothesis	msviper_both_positive	collectri_through2015_msviper_both_positive	pairwise	0	0	0	0				False
+prior_replacement	GSE53951	s1_named_axes_mxd3_hypothesis	network_add	collectri_through2015_network_add	pairwise	168	30	220	252		0.6893141095963494	27.5	False
+prior_replacement	GSE53951	s1_named_axes_mxd3_hypothesis	network_union	collectri_through2015_network_union	pairwise	168	30	220	252		0.6882281102976081	27.5	False
+prior_replacement	GSE53951	s1_named_axes_mxd3_hypothesis	two_add	collectri_through2015_two_add	pairwise	184	36	240	270		0.21966174270351055	43.75	False
+prior_replacement	GSE53951	s1_named_axes_mxd3_hypothesis	two_union	collectri_through2015_two_union	pairwise	184	36	240	270		0.218583262851868	43.25	False
+joint_vs_additive	GSE53951	s1_thesis	imcell_p005_joint	imcell_p005_additive	pairwise	260	47	260	260		0.9570591039039559	2.0	False
+joint_vs_additive	GSE53951	s1_thesis	imcell_p010_joint	imcell_p010_additive	pairwise	260	47	260	260		0.9746243606352402	11.0	False
+joint_vs_additive	GSE53951	s1_thesis	imcell_p020_joint	imcell_p020_additive	pairwise	260	47	260	260		0.9899693855443524	4.0	False
+joint_vs_additive	GSE53951	s1_thesis	imcell_weight_in_degree_joint	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.9971037975115813	2.0	False
+joint_vs_additive	GSE53951	s1_thesis	imcell_weight_mean_joint	imcell_weight_mean_additive	pairwise	260	47	260	260		0.995851129635696	2.5	False
+joint_vs_additive	GSE53951	s1_thesis	imcell_weight_p010_joint	imcell_weight_p010_additive	pairwise	260	47	260	260		0.9643214779584084	6.5	False
+weight_sensitivity	GSE53951	s1_thesis	imcell_weight_p010_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.9541052205326805	12.0	False
+weight_sensitivity	GSE53951	s1_thesis	imcell_weight_mean_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.7938812376080716	29.0	False
+weight_sensitivity	GSE53951	s1_thesis	imcell_weight_p010_joint	imcell_weight_mean_joint	pairwise	260	47	260	260		0.8417816401053145	25.25	False
+weight_sensitivity	GSE53951	s1_thesis	imcell_weight_p010_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.935251388930178	14.0	False
+weight_sensitivity	GSE53951	s1_thesis	imcell_weight_mean_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.7893918528719293	33.0	False
+weight_sensitivity	GSE53951	s1_thesis	imcell_weight_p010_additive	imcell_weight_mean_additive	pairwise	260	47	260	260		0.8194579767620277	23.5	False
+prior_replacement	GSE53951	s1_thesis	msviper	collectri_modern_msviper	pairwise	0	0	0	23				False
+prior_replacement	GSE53951	s1_thesis	msviper_both_positive	collectri_modern_msviper_both_positive	pairwise	0	0	0	1				False
+prior_replacement	GSE53951	s1_thesis	network_add	collectri_modern_network_add	pairwise	189	33	220	480		0.609031905305738	30.5	False
+prior_replacement	GSE53951	s1_thesis	network_union	collectri_modern_network_union	pairwise	189	33	220	480		0.5941454341338858	31.5	False
+prior_replacement	GSE53951	s1_thesis	two_add	collectri_modern_two_add	pairwise	207	40	240	492		0.20565515531367992	46.0	False
+prior_replacement	GSE53951	s1_thesis	two_union	collectri_modern_two_union	pairwise	207	40	240	492		0.21523645003739258	49.0	False
+prior_replacement	GSE53951	s1_thesis	msviper	collectri_through2015_msviper	pairwise	0	0	0	0				False
+prior_replacement	GSE53951	s1_thesis	msviper_both_positive	collectri_through2015_msviper_both_positive	pairwise	0	0	0	0				False
+prior_replacement	GSE53951	s1_thesis	network_add	collectri_through2015_network_add	pairwise	168	30	220	252		0.6893141095963494	27.5	False
+prior_replacement	GSE53951	s1_thesis	network_union	collectri_through2015_network_union	pairwise	168	30	220	252		0.6882281102976081	27.5	False
+prior_replacement	GSE53951	s1_thesis	two_add	collectri_through2015_two_add	pairwise	184	36	240	270		0.21966174270351055	43.75	False
+prior_replacement	GSE53951	s1_thesis	two_union	collectri_through2015_two_union	pairwise	184	36	240	270		0.218583262851868	43.25	False
+joint_vs_additive	GSE53951	s1_thesis_mxd3_hypothesis	imcell_p005_joint	imcell_p005_additive	pairwise	260	47	260	260		0.9570591039039559	2.0	False
+joint_vs_additive	GSE53951	s1_thesis_mxd3_hypothesis	imcell_p010_joint	imcell_p010_additive	pairwise	260	47	260	260		0.9746243606352402	11.0	False
+joint_vs_additive	GSE53951	s1_thesis_mxd3_hypothesis	imcell_p020_joint	imcell_p020_additive	pairwise	260	47	260	260		0.9899693855443524	4.0	False
+joint_vs_additive	GSE53951	s1_thesis_mxd3_hypothesis	imcell_weight_in_degree_joint	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.9971037975115813	2.0	False
+joint_vs_additive	GSE53951	s1_thesis_mxd3_hypothesis	imcell_weight_mean_joint	imcell_weight_mean_additive	pairwise	260	47	260	260		0.995851129635696	2.5	False
+joint_vs_additive	GSE53951	s1_thesis_mxd3_hypothesis	imcell_weight_p010_joint	imcell_weight_p010_additive	pairwise	260	47	260	260		0.9643214779584084	6.5	False
+weight_sensitivity	GSE53951	s1_thesis_mxd3_hypothesis	imcell_weight_p010_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.9541052205326805	12.0	False
+weight_sensitivity	GSE53951	s1_thesis_mxd3_hypothesis	imcell_weight_mean_joint	imcell_weight_in_degree_joint	pairwise	260	47	260	260		0.7938812376080716	29.0	False
+weight_sensitivity	GSE53951	s1_thesis_mxd3_hypothesis	imcell_weight_p010_joint	imcell_weight_mean_joint	pairwise	260	47	260	260		0.8417816401053145	25.25	False
+weight_sensitivity	GSE53951	s1_thesis_mxd3_hypothesis	imcell_weight_p010_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.935251388930178	14.0	False
+weight_sensitivity	GSE53951	s1_thesis_mxd3_hypothesis	imcell_weight_mean_additive	imcell_weight_in_degree_additive	pairwise	260	47	260	260		0.7893918528719293	33.0	False
+weight_sensitivity	GSE53951	s1_thesis_mxd3_hypothesis	imcell_weight_p010_additive	imcell_weight_mean_additive	pairwise	260	47	260	260		0.8194579767620277	23.5	False
+prior_replacement	GSE53951	s1_thesis_mxd3_hypothesis	msviper	collectri_modern_msviper	pairwise	0	0	0	23				False
+prior_replacement	GSE53951	s1_thesis_mxd3_hypothesis	msviper_both_positive	collectri_modern_msviper_both_positive	pairwise	0	0	0	1				False
+prior_replacement	GSE53951	s1_thesis_mxd3_hypothesis	network_add	collectri_modern_network_add	pairwise	189	33	220	480		0.609031905305738	30.5	False
+prior_replacement	GSE53951	s1_thesis_mxd3_hypothesis	network_union	collectri_modern_network_union	pairwise	189	33	220	480		0.5941454341338858	31.5	False
+prior_replacement	GSE53951	s1_thesis_mxd3_hypothesis	two_add	collectri_modern_two_add	pairwise	207	40	240	492		0.20565515531367992	46.0	False
+prior_replacement	GSE53951	s1_thesis_mxd3_hypothesis	two_union	collectri_modern_two_union	pairwise	207	40	240	492		0.21523645003739258	49.0	False
+prior_replacement	GSE53951	s1_thesis_mxd3_hypothesis	msviper	collectri_through2015_msviper	pairwise	0	0	0	0				False
+prior_replacement	GSE53951	s1_thesis_mxd3_hypothesis	msviper_both_positive	collectri_through2015_msviper_both_positive	pairwise	0	0	0	0				False
+prior_replacement	GSE53951	s1_thesis_mxd3_hypothesis	network_add	collectri_through2015_network_add	pairwise	168	30	220	252		0.6893141095963494	27.5	False
+prior_replacement	GSE53951	s1_thesis_mxd3_hypothesis	network_union	collectri_through2015_network_union	pairwise	168	30	220	252		0.6882281102976081	27.5	False
+prior_replacement	GSE53951	s1_thesis_mxd3_hypothesis	two_add	collectri_through2015_two_add	pairwise	184	36	240	270		0.21966174270351055	43.75	False
+prior_replacement	GSE53951	s1_thesis_mxd3_hypothesis	two_union	collectri_through2015_two_union	pairwise	184	36	240	270		0.218583262851868	43.25	False
+cross_endpoint	GSE53951_vs_GSE114809	main	collectri_modern_msviper	collectri_modern_msviper	matched_endpoints_physical_slots	23	3	23	23		0.7954545454545454		
+cross_endpoint	GSE53951_vs_GSE114809	main	collectri_modern_msviper_both_positive	collectri_modern_msviper_both_positive	matched_endpoints_physical_slots	1	1	1	2				
+cross_endpoint	GSE53951_vs_GSE114809	main	collectri_modern_network_add	collectri_modern_network_add	matched_endpoints_physical_slots	444	61	444	444		0.8507090823823518		
+cross_endpoint	GSE53951_vs_GSE114809	main	collectri_modern_network_union	collectri_modern_network_union	matched_endpoints_physical_slots	444	61	444	444		0.8480422186475914		
+cross_endpoint	GSE53951_vs_GSE114809	main	collectri_modern_two_add	collectri_modern_two_add	matched_endpoints_physical_slots	456	61	456	456		0.9765782481196376		
+cross_endpoint	GSE53951_vs_GSE114809	main	collectri_modern_two_union	collectri_modern_two_union	matched_endpoints_physical_slots	456	61	456	456		0.9746135286651297		
+cross_endpoint	GSE53951_vs_GSE114809	main	collectri_through2015_msviper	collectri_through2015_msviper	matched_endpoints_physical_slots	0	0	0	0				
+cross_endpoint	GSE53951_vs_GSE114809	main	collectri_through2015_msviper_both_positive	collectri_through2015_msviper_both_positive	matched_endpoints_physical_slots	0	0	0	0				
+cross_endpoint	GSE53951_vs_GSE114809	main	collectri_through2015_network_add	collectri_through2015_network_add	matched_endpoints_physical_slots	243	53	243	243		0.892080490047138		
+cross_endpoint	GSE53951_vs_GSE114809	main	collectri_through2015_network_union	collectri_through2015_network_union	matched_endpoints_physical_slots	243	53	243	243		0.8917064393954802		
+cross_endpoint	GSE53951_vs_GSE114809	main	collectri_through2015_two_add	collectri_through2015_two_add	matched_endpoints_physical_slots	261	55	261	261		0.9376348243653643		
+cross_endpoint	GSE53951_vs_GSE114809	main	collectri_through2015_two_union	collectri_through2015_two_union	matched_endpoints_physical_slots	261	55	261	261		0.9375100225229858		
+cross_endpoint	GSE53951_vs_GSE114809	main	expression	expression	matched_endpoints_physical_slots	533	69	533	546		0.8712970628812412		
+cross_endpoint	GSE53951_vs_GSE114809	main	imcell_p005_additive	imcell_p005_additive	matched_endpoints_physical_slots	240	45	240	240		0.748438639082328		
+cross_endpoint	GSE53951_vs_GSE114809	main	imcell_p005_joint	imcell_p005_joint	matched_endpoints_physical_slots	240	45	240	240		0.7555252206911064		
+cross_endpoint	GSE53951_vs_GSE114809	main	imcell_p010_additive	imcell_p010_additive	matched_endpoints_physical_slots	240	45	240	240		0.7739890580859267		
+cross_endpoint	GSE53951_vs_GSE114809	main	imcell_p010_joint	imcell_p010_joint	matched_endpoints_physical_slots	240	45	240	240		0.777074068602318		
+cross_endpoint	GSE53951_vs_GSE114809	main	imcell_p020_additive	imcell_p020_additive	matched_endpoints_physical_slots	240	45	240	240		0.8984099714675607		
+cross_endpoint	GSE53951_vs_GSE114809	main	imcell_p020_joint	imcell_p020_joint	matched_endpoints_physical_slots	240	45	240	240		0.915627499804017		
+cross_endpoint	GSE53951_vs_GSE114809	main	imcell_weight_in_degree_additive	imcell_weight_in_degree_additive	matched_endpoints_physical_slots	240	45	240	240		0.7331309408168324		
+cross_endpoint	GSE53951_vs_GSE114809	main	imcell_weight_in_degree_joint	imcell_weight_in_degree_joint	matched_endpoints_physical_slots	240	45	240	240		0.7293993964707687		
+cross_endpoint	GSE53951_vs_GSE114809	main	imcell_weight_mean_additive	imcell_weight_mean_additive	matched_endpoints_physical_slots	240	45	240	240		0.9900578339006648		
+cross_endpoint	GSE53951_vs_GSE114809	main	imcell_weight_mean_joint	imcell_weight_mean_joint	matched_endpoints_physical_slots	240	45	240	240		0.9897336542797541		
+cross_endpoint	GSE53951_vs_GSE114809	main	imcell_weight_p010_additive	imcell_weight_p010_additive	matched_endpoints_physical_slots	240	45	240	240		0.7799361673599402		
+cross_endpoint	GSE53951_vs_GSE114809	main	imcell_weight_p010_joint	imcell_weight_p010_joint	matched_endpoints_physical_slots	240	45	240	240		0.794745294496639		
+cross_endpoint	GSE53951_vs_GSE114809	main	integration	integration	matched_endpoints_physical_slots	240	45	240	240		0.8047834055482347		
+cross_endpoint	GSE53951_vs_GSE114809	main	msviper	msviper	matched_endpoints_physical_slots	0	0	0	0				
+cross_endpoint	GSE53951_vs_GSE114809	main	msviper_both_positive	msviper_both_positive	matched_endpoints_physical_slots	0	0	0	0				
+cross_endpoint	GSE53951_vs_GSE114809	main	network_add	network_add	matched_endpoints_physical_slots	210	37	210	220		0.6953827779453662		
+cross_endpoint	GSE53951_vs_GSE114809	main	network_union	network_union	matched_endpoints_physical_slots	210	37	210	220		0.6954184523045734		
+cross_endpoint	GSE53951_vs_GSE114809	main	two_add	two_add	matched_endpoints_physical_slots	230	45	230	240		0.7281672000698615		
+cross_endpoint	GSE53951_vs_GSE114809	main	two_union	two_union	matched_endpoints_physical_slots	230	45	230	240		0.7282315281988325		

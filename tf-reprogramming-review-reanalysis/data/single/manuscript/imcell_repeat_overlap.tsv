@@ -1,0 +1,4 @@
+target	status	scoreable_n	median_MC_sample_sd	maximum_MC_sample_sd	rank10_minus_rank11_mean_spread	repeat12_top10_overlap_n	repeat13_top10_overlap_n	repeat23_top10_overlap_n	three_repeat_top10_intersection	three_repeat_top10_union	top10_union_n	top10_present_in_all_three_n	final_vs_rep1_top10_overlap_n	final_vs_rep2_top10_overlap_n	final_vs_rep3_top10_overlap_n
+liver	completed	906	0.46925705382381117	8.253950710619335	1.8843333333333447	10	9	9	Sp1;Trp53;Myc;Esr1;Stat3;Cebpb;Ar;Jun;Creb1	Sp1;Trp53;Myc;Esr1;Stat3;Cebpb;Ar;Jun;Nr3c1;Creb1;Rela	11	9	10	10	9
+cardiomyocyte	completed	906	0.48356605596824687	5.643973157271395	3.63033333333334	10	10	10	Sp1;Trp53;Myc;Esr1;Ar;Stat3;Cebpb;Rela;Nr3c1;Jun	Sp1;Trp53;Myc;Esr1;Ar;Stat3;Cebpb;Rela;Nr3c1;Jun	10	10	10	10	10
+betapanc	completed	906	0.36898327428470845	4.9580813829544965	0.013333333333335418	9	9	9	Sp1;Trp53;Myc;Esr1;Ar;Creb1;Stat3;Cebpb	Sp1;Trp53;Myc;Esr1;Ar;Creb1;Stat3;Cebpb;Rela;Jun;Nr3c1	11	8	9	9	10
